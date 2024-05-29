@@ -4,13 +4,12 @@ from bs4 import BeautifulSoup
 # Directory containing the batch files
 directory = 'batches'
 
-# List to store all company names
-all_company_names = []
+# List to store all company links
+all_company_links = []
 
 # Iterate over all files in the directory
 for filename in os.listdir(directory):
     #print(f"Processing file: {filename}")
-    #if filename.endswith('.html') or filename == 'all':  # Adjust the condition based on your file types
     filepath = os.path.join(directory, filename)
     
     # Load the HTML content from the file
@@ -27,12 +26,11 @@ for filename in os.listdir(directory):
     company_links = soup.find_all('a', class_='_company_99gj3_339')
     #print(f"Found {len(company_links)} company links in {filename}")
     
-    # Extract the company names from the nested spans
-    company_names = [link.find(class_='_coName_99gj3_454').text for link in company_links if link.find(class_='_coName_99gj3_454')]
+    # Extract the href attribute to get the company links
+    links = [link.get('href') for link in company_links]
     
-    # Add the company names to the list
-    all_company_names.extend(company_names)
+    # Add the company links to the list
+    all_company_links.extend(links)
 
-# Print or process the company names
-#print(f"Total company names found: {len(all_company_names)}")
-print(all_company_names)
+# Print or process the company links
+print(f"Total company links found: {len(all_company_links)}")
