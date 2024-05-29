@@ -1,2 +1,109 @@
-['ParcelBio', 'Active', 'https://bookface-images.s3.amazonaws.com/small_logos/e3f92a314584614afc78e5eb7b39af9ec261299f.png', ['Y Combinator LogoW24', 'gene-therapy', 'biotech', 'healthcare', 'drug-delivery', 'therapeutics', 'San Francisco'], 'ParcelBio is developing a programmable technology to safely and specifically deliver mRNA to diverse cell types in the body. Our proprietary (nanoparticle-free) technology, which we call ‘STAmP’, stabilizes the mRNA and utilizes an interchangeable, lock-and-key-like targeting mechanism which enables fully customizable mRNA medicines.', '2023', '3', 'San Francisco', {'LinkedIn': 'https://www.linkedin.com/company/parcelbio', 'Twitter': 'Not available', 'Facebook': 'Not available', 'Crunchbase': 'Not available', 'GitHub': 'Not available'}, [{'name': 'David Weinberg', 'socials': {'LinkedIn': 'https://linkedin.com/in/david-e-weinberg', 'Twitter': 'Not available'}}, {'name': 'Chris Carlson', 'socials': {'LinkedIn': 'https://linkedin.com/in/christopher-carlson-', 'Twitter': 'Not available'}}]]
+Navigating to https://www.ycombinator.com/companies/backtype (Attempt 1)
+Navigating to https://www.ycombinator.com/companies/deel (Attempt 1)
+Navigating to https://www.ycombinator.com/companies/poll-everywhere (Attempt 1)
+Navigating to https://www.ycombinator.com/companies/flagr (Attempt 1)
+Navigating to https://www.ycombinator.com/companies/parcelbio (Attempt 1)
+Error navigating to https://www.ycombinator.com/companies/backtype: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/backtype
+Call log:
+navigating to "https://www.ycombinator.com/companies/backtype", waiting until "load"
 
+Navigating to https://www.ycombinator.com/companies/backtype (Attempt 2)
+Error navigating to https://www.ycombinator.com/companies/deel: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/deel
+Call log:
+navigating to "https://www.ycombinator.com/companies/deel", waiting until "load"
+
+Navigating to https://www.ycombinator.com/companies/deel (Attempt 2)
+Error navigating to https://www.ycombinator.com/companies/poll-everywhere: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/poll-everywhere
+Call log:
+navigating to "https://www.ycombinator.com/companies/poll-everywhere", waiting until "load"
+
+Navigating to https://www.ycombinator.com/companies/poll-everywhere (Attempt 2)
+Error navigating to https://www.ycombinator.com/companies/flagr: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/flagr
+Call log:
+navigating to "https://www.ycombinator.com/companies/flagr", waiting until "load"
+
+Navigating to https://www.ycombinator.com/companies/flagr (Attempt 2)
+Error navigating to https://www.ycombinator.com/companies/parcelbio: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/parcelbio
+Call log:
+navigating to "https://www.ycombinator.com/companies/parcelbio", waiting until "load"
+
+Navigating to https://www.ycombinator.com/companies/parcelbio (Attempt 2)
+Error navigating to https://www.ycombinator.com/companies/backtype: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/backtype
+Call log:
+navigating to "https://www.ycombinator.com/companies/backtype", waiting until "load"
+
+Navigating to https://www.ycombinator.com/companies/backtype (Attempt 3)
+Error navigating to https://www.ycombinator.com/companies/deel: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/deel
+Call log:
+navigating to "https://www.ycombinator.com/companies/deel", waiting until "load"
+
+Navigating to https://www.ycombinator.com/companies/deel (Attempt 3)
+Error navigating to https://www.ycombinator.com/companies/poll-everywhere: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/poll-everywhere
+Call log:
+navigating to "https://www.ycombinator.com/companies/poll-everywhere", waiting until "load"
+
+Navigating to https://www.ycombinator.com/companies/poll-everywhere (Attempt 3)
+Error navigating to https://www.ycombinator.com/companies/flagr: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/flagr
+Call log:
+navigating to "https://www.ycombinator.com/companies/flagr", waiting until "load"
+
+Navigating to https://www.ycombinator.com/companies/flagr (Attempt 3)
+Error navigating to https://www.ycombinator.com/companies/parcelbio: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/parcelbio
+Call log:
+navigating to "https://www.ycombinator.com/companies/parcelbio", waiting until "load"
+
+Navigating to https://www.ycombinator.com/companies/parcelbio (Attempt 3)
+Error navigating to https://www.ycombinator.com/companies/backtype: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/backtype
+Call log:
+navigating to "https://www.ycombinator.com/companies/backtype", waiting until "load"
+
+Failed to navigate to https://www.ycombinator.com/companies/backtype after 3 attempts
+Error navigating to https://www.ycombinator.com/companies/deel: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/deel
+Call log:
+navigating to "https://www.ycombinator.com/companies/deel", waiting until "load"
+
+Failed to navigate to https://www.ycombinator.com/companies/deel after 3 attempts
+Error navigating to https://www.ycombinator.com/companies/poll-everywhere: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/poll-everywhere
+Call log:
+navigating to "https://www.ycombinator.com/companies/poll-everywhere", waiting until "load"
+
+Failed to navigate to https://www.ycombinator.com/companies/poll-everywhere after 3 attempts
+Error navigating to https://www.ycombinator.com/companies/flagr: Page.goto: net::ERR_ABORTED at https://www.ycombinator.com/companies/flagr
+Call log:
+navigating to "https://www.ycombinator.com/companies/flagr", waiting until "load"
+
+Failed to navigate to https://www.ycombinator.com/companies/flagr after 3 attempts
+Successfully navigated to https://www.ycombinator.com/companies/parcelbio
+Extracting company name...
+Company name: ParcelBio
+Checking if company is active...
+Company is Active
+Extracting profile picture...
+Profile picture URL: https://bookface-images.s3.amazonaws.com/small_logos/e3f92a314584614afc78e5eb7b39af9ec261299f.png
+Extracting tags...
+Tags: ['Y Combinator LogoW24', 'gene-therapy', 'biotech', 'healthcare', 'drug-delivery', 'therapeutics', 'San Francisco']
+Extracting description...
+Description: ParcelBio is developing a programmable technology to safely and specifically deliver mRNA to diverse cell types in the body. Our proprietary (nanoparticle-free) technology, which we call ‘STAmP’, stabilizes the mRNA and utilizes an interchangeable, lock-and-key-like targeting mechanism which enables fully customizable mRNA medicines.
+Extracting foundational details, team size, and location...
+Founded: 2023, Team Size: 3, Location: San Francisco
+Extracting social media links...
+Failed to find Twitter link: Page.wait_for_selector: Timeout 100ms exceeded.
+Call log:
+waiting for locator("a[aria-label=\"Twitter account\"]")
+
+Failed to find Facebook link: Page.wait_for_selector: Timeout 100ms exceeded.
+Call log:
+waiting for locator("a[aria-label=\"Facebook profile\"]")
+
+Failed to find Crunchbase link: Page.wait_for_selector: Timeout 100ms exceeded.
+Call log:
+waiting for locator("a[aria-label=\"Crunchbase profile\"]")
+
+Failed to find GitHub link: Page.wait_for_selector: Timeout 100ms exceeded.
+Call log:
+waiting for locator("a[aria-label=\"Github profile\"]")
+
+Social media links: {'LinkedIn': 'https://www.linkedin.com/company/parcelbio', 'Twitter': 'Not available', 'Facebook': 'Not available', 'Crunchbase': 'Not available', 'GitHub': 'Not available'}
+Extracting founders' data...
+Founders elements: [<JSHandle preview=JSHandle@<div class="flex flex-row items-center gap-x-3">…</div>>, <JSHandle preview=JSHandle@node>]
+Founders Information: [{'name': 'David Weinberg', 'socials': {'LinkedIn': 'https://linkedin.com/in/david-e-weinberg', 'Twitter': 'Not available'}}, {'name': 'Chris Carlson', 'socials': {'LinkedIn': 'https://linkedin.com/in/christopher-carlson-', 'Twitter': 'Not available'}}]

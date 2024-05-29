@@ -36,5 +36,159 @@
                 }
             }
         ]
+    ],
+    [
+        "Deel",
+        "Active",
+        "https://bookface-images.s3.amazonaws.com/small_logos/2b5c8a17f0ab4fa9a72447d94bc3194dc17fce9b.png",
+        [
+            "Y Combinator LogoW19",
+            "fintech",
+            "saas",
+            "b2b",
+            "compliance",
+            "hr-tech",
+            "San Francisco"
+        ],
+        "Deel is the all-in-one HR platform for global teams. It helps companies simplify every aspect of managing an international workforce, from culture and onboarding, to local payroll and compliance. Deel works for independent contractors and full-time employees in more than 150 countries, compliantly. And getting set up takes just a few minutes. For more information, visit Deel.com.",
+        "2019",
+        "3500",
+        "San Francisco",
+        {
+            "LinkedIn": "https://www.linkedin.com/company/deel",
+            "Twitter": "https://twitter.com/Deel",
+            "Facebook": "https://www.facebook.com/GetDeel/",
+            "Crunchbase": "https://www.crunchbase.com/organization/deel",
+            "GitHub": "Not available"
+        },
+        [
+            {
+                "name": "Alex Bouaziz",
+                "socials": {
+                    "LinkedIn": "https://linkedin.com/in/bouazizalex",
+                    "Twitter": "https://twitter.com/bouazizalex"
+                }
+            },
+            {
+                "name": "Shuo Wang",
+                "socials": {
+                    "LinkedIn": "https://www.linkedin.com/in/shuo-wang-848a8956/",
+                    "Twitter": "https://twitter.com/copernicussw"
+                }
+            }
+        ]
+    ],
+    [
+        "Poll Everywhere",
+        "Active",
+        "https://bookface-images.s3.amazonaws.com/small_logos/ecbec2f3750898b4408fbaa96c7249395a7fc445.png",
+        [
+            "Y Combinator LogoS08",
+            "saas",
+            "San Francisco"
+        ],
+        "Poll Everywhere turns any presentation into a two-way conversation - directly in your PowerPoint, Keynote, or Google Slide deck. Participants respond to questions live using mobile phones and the results appear instantly in beautiful, animated displays. Poll Everywhere engages everyone at conferences, town halls, training sessions, marketing events, and everyday meetings. Learn more about how organizations like HP, Volvo, KPMG, and over 75% of the Fortune 500 use Poll Everywhere to get results.",
+        "2008",
+        "70",
+        "San Francisco",
+        {
+            "LinkedIn": "https://www.linkedin.com/company/poll-everywhere-inc.",
+            "Twitter": "https://twitter.com/polleverywhere",
+            "Facebook": "https://www.facebook.com/polleverywhere",
+            "Crunchbase": "https://www.crunchbase.com/organization/poll-everywhere",
+            "GitHub": "https://github.com/polleverywhere"
+        },
+        [
+            {
+                "name": "Jeff Vyduna",
+                "socials": {
+                    "LinkedIn": "https://www.linkedin.com/in/jeffvyduna/",
+                    "Twitter": "Not available"
+                }
+            },
+            {
+                "name": "Sean Eby",
+                "socials": {
+                    "LinkedIn": "Not available",
+                    "Twitter": "Not available"
+                }
+            },
+            {
+                "name": "Brad Gessler",
+                "socials": {
+                    "LinkedIn": "https://www.linkedin.com/in/bradgessler/",
+                    "Twitter": "https://twitter.com/bradgessler"
+                }
+            }
+        ]
+    ],
+    [
+        "Flagr",
+        "Not Active",
+        "Not available",
+        [
+            "Y Combinator LogoW06"
+        ],
+        "Flagr enables users to share places, adding photos, video and descriptions from their mobile phone. They can then create maps and embed them on any website.",
+        "",
+        "2",
+        "Oyster Bay, NY",
+        {
+            "LinkedIn": "http://linkedin.com/in/colerise",
+            "Twitter": "http://twitter.com/colerise",
+            "Facebook": "Not available",
+            "Crunchbase": "https://www.crunchbase.com/organization/flagr",
+            "GitHub": "Not available"
+        },
+        [
+            {
+                "name": "Cole Rise",
+                "socials": {
+                    "LinkedIn": "http://linkedin.com/in/colerise",
+                    "Twitter": "http://twitter.com/colerise"
+                }
+            }
+        ]
+    ],
+    [
+        "ParcelBio",
+        "Active",
+        "https://bookface-images.s3.amazonaws.com/small_logos/e3f92a314584614afc78e5eb7b39af9ec261299f.png",
+        [
+            "Y Combinator LogoW24",
+            "gene-therapy",
+            "biotech",
+            "healthcare",
+            "drug-delivery",
+            "therapeutics",
+            "San Francisco"
+        ],
+        "ParcelBio is developing a programmable technology to safely and specifically deliver mRNA to diverse cell types in the body. Our proprietary (nanoparticle-free) technology, which we call \u2018STAmP\u2019, stabilizes the mRNA and utilizes an interchangeable, lock-and-key-like targeting mechanism which enables fully customizable mRNA medicines.",
+        "2023",
+        "3",
+        "San Francisco",
+        {
+            "LinkedIn": "https://www.linkedin.com/company/parcelbio",
+            "Twitter": "Not available",
+            "Facebook": "Not available",
+            "Crunchbase": "Not available",
+            "GitHub": "Not available"
+        },
+        [
+            {
+                "name": "David Weinberg",
+                "socials": {
+                    "LinkedIn": "https://linkedin.com/in/david-e-weinberg",
+                    "Twitter": "Not available"
+                }
+            },
+            {
+                "name": "Chris Carlson",
+                "socials": {
+                    "LinkedIn": "https://linkedin.com/in/christopher-carlson-",
+                    "Twitter": "Not available"
+                }
+            }
+        ]
     ]
 ]
