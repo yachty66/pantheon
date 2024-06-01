@@ -12,7 +12,7 @@ async function initMap() {
   });
 
   // Fetch the JSON data
-  const response = await fetch("../merged_company_data.json");
+  const response = await fetch("merged_company_data.json");
   const mergedData = await response.json();
 
   // Create features from the JSON data
@@ -37,10 +37,10 @@ function addMarker(feature) {
       position: feature.position,
       content: iconImage,
     });
-
+  
     marker.addListener("click", () => {
       const metadata = feature.metadata;
-      let infoContent = `<div><strong>${feature.title}</strong><br>`;
+      let infoContent = `<div class="info-window-content"><strong>${feature.title}</strong><br>`;
   
       for (const key in metadata) {
         if (
@@ -96,6 +96,8 @@ function addMarker(feature) {
           }
         }
       }
+      // Change here to display "url:" instead of "Company Link"
+      //infoContent += `url: <a href="${metadata.url}" target="_blank">Link</a></div>`;
   
       const infoWindow = new google.maps.InfoWindow({
         content: infoContent,

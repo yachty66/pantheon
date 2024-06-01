@@ -2,7 +2,7 @@
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
-#map {
+ #map {
   height: 100%;
 }
 
@@ -34,3 +34,6 @@ a:hover {
   text-decoration: underline;
 }
 
+.info-window-content a {
+  all: revert; /* This CSS property resets all the inherited styles to their initial values */
+}
