@@ -7,7 +7,7 @@ async function initMap() {
 
   map = new google.maps.Map(document.getElementById("map"), {
     center: new google.maps.LatLng(37.77717257607855, -122.40821649247209),
-    zoom: 12,
+    zoom: 14,
     mapId: "DEMO_MAP_ID",
   });
 
