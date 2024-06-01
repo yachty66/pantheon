@@ -2,7 +2,7 @@
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
- #map {
+#map {
   height: 100%;
 }
 
@@ -15,3 +15,22 @@ body {
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  text-align: center; /* Centers the text horizontally */
+  margin-top: 20px; /* Adds space above the header */
+  margin-bottom: 20px; /* Adds space below the header */
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
