@@ -1,3 +1,13 @@
-"scripts": {
-    "build": "node replaceApiKey.js"
-}
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "description": "Your project description",
+    "main": "index.js",
+    "scripts": {
+      "build": "node replaceApiKey.js"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+    }
+  }
