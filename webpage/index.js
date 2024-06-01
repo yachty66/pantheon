@@ -96,8 +96,6 @@ function addMarker(feature) {
           }
         }
       }
-      // Change here to display "url:" instead of "Company Link"
-      //infoContent += `url: <a href="${metadata.url}" target="_blank">Link</a></div>`;
   
       const infoWindow = new google.maps.InfoWindow({
         content: infoContent,
