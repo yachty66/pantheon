@@ -8,6 +8,5 @@
     },
     "author": "Your Name",
     "license": "ISC",
-    "dependencies": {
-    }
+    "dependencies": {}
   }
