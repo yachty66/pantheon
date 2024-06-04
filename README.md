@@ -9,3 +9,4 @@ This dataset contains detailed information about various companies that particip
 - [ ] fix some wrong addresses of YC startups
 - [ ] get all addresses from coop houses in SF and add them
 - [ ] make embedding of the YC data 
+- [ ] check how someone could use the map on his phone in google maps
