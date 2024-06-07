@@ -9,10 +9,10 @@ This dataset contains detailed information about various companies that particip
     - if above works try to add a simple description to this 
 - [ ] add all VC companies to the map
 - [ ] make a selector button
-- [ ] make button which when a user is clicking the button is than pasting the link to the user 
+- [ ] make button which when a user is clicking the button is than pasting the link to the user
 - [ ] explain how a user can import the map in his google maps
 
-how will i make this available to people - what i can do is to make a paid thing where people can select between maps and than there is a button which when clicked will contain the link
+how will i make this available to people - what i can do is to make a paid thing where people can select between maps and than there is a button which when clicked will contain the link. lets make a jupyter notebook which creates XML files based on my data.
 
 ## next steps
 
