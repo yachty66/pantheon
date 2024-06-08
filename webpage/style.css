@@ -22,15 +22,40 @@ h1 {
   margin-bottom: 20px; /* Adds space below the header */
 }
 
-a {
-  display: block;
-  text-align: center;
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds space between the buttons */
   margin: 10px 0;
+}
+
+.left-button, .right-button {
   font-size: 16px;
   color: #333;
   text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-a:hover {
+
+.left-button:hover, .right-button:hover {
+  text-decoration: underline;
+}
+
+.center-button {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 200px; /* Set a maximum width for the button */
+}
+
+.center-button:hover {
   text-decoration: underline;
 }
 
