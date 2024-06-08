@@ -8189,9 +8189,9 @@
                 }
             }
         ],
-        "address": "419 O'Farrell St, San Francisco, CA 94102, USA",
-        "latitude": 37.7858028,
-        "longitude": -122.4118402
+        "address": "312 24th St, Oakland, CA 94612",
+        "latitude": 37.81351005076363,
+        "longitude": -122.26284703998184
     },
     {
         "url": "https://www.ycombinator.com/companies/deepnight",
@@ -14298,5 +14298,56 @@
         "address": "1500 Howard St, San Francisco, CA 94103, USA",
         "latitude": 37.7729307,
         "longitude": -122.4155889
+    },
+    {
+        "url": "https://www.ycombinator.com/companies/greptile",
+        "name": "Greptile",
+        "status": "Active",
+        "profile_picture_url": "https://bookface-images.s3.amazonaws.com/small_logos/6972f19105bed048ed6f4be829b43f779ed02d87.png",
+        "tags": [
+            "Y Combinator LogoW24",
+            "artificial-intelligence",
+            "developer-tools",
+            "ai",
+            "San Francisco"
+        ],
+        "description": "Greptile is an AI-powered API that can search and understand large codebases in natural language, letting software teams easily build powerful internal dev tools. \r\n\r\nDevelopers at 300+ companies including Stripe and Amazon use Greptile for LLM-powered codebase Q&A, to automatically update their docs on new commits, automate PR reviews, automatically add codebase context to new Jira tickets, and [much, much more](https://docs.greptile.com/examples).\r\n\r\nGreptile can used via the cloud, or be hosted 100% on your AWS in an air-gapped VPC.",
+        "founded": "2023",
+        "team_size": "3",
+        "location": "San Francisco",
+        "socials": {
+            "LinkedIn": "Not available",
+            "Twitter": "https://twitter.com/greptileai",
+            "Facebook": "Not available",
+            "Crunchbase": "Not available",
+            "GitHub": "https://github.com/greptileai"
+        },
+        "founders": [
+            {
+                "name": "Daksh Gupta",
+                "socials": {
+                    "LinkedIn": "https://linkedin.com/in/dakshg",
+                    "Twitter": "https://twitter.com/dakshgup"
+                }
+            },
+            {
+                "name": "Soohoon Choi",
+                "socials": {
+                    "LinkedIn": "https://linkedin.com/in/soohoonchoi",
+                    "Twitter": "https://twitter.com/soohoonchoi"
+                }
+            },
+            {
+                "name": "Vaishant Kameswaran",
+                "socials": {
+                    "LinkedIn": "https://linkedin.com/in/vaishant",
+                    "Twitter": "https://twitter.com/vaishaaant"
+                }
+            }
+        ],
+        "address": "2001 Van Ness Ave, San Francisco, CA 94109",
+        "latitude": 37.7941609815646,
+        "longitude": -122.4233293965525
     }
+    
 ]
