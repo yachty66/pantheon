@@ -4,12 +4,16 @@ This dataset contains detailed information about various companies that particip
 
 ## practical next steps
 
-- [ ] make a kml file 
+- [x] make a kml file 
     - first create a basic kml file which contains one single marker with random image
     - if above works try to add a simple description to this 
+- [x] go through feedback from twitter 
+- [ ] Create map "Y Combinator Companies San Francisco" and make it shareable so that i can access it from my phone and also wobbert
+- [ ] add button to website via which people can access the map
+- [ ] share feature on twitter
+    - inform 3 people on twitter about adding the new feature
 - [ ] add all VC companies to the map
-- [ ] make a selector button
-- [ ] make button which when a user is clicking the button is than pasting the link to the user
+- [ ] make a selector button and adjust the button with which the map is shared 
 - [ ] explain how a user can import the map in his google maps
 
 how will i make this available to people - what i can do is to make a paid thing where people can select between maps and than there is a button which when clicked will contain the link. lets make a jupyter notebook which creates XML files based on my data.
@@ -31,3 +35,4 @@ how will i make this available to people - what i can do is to make a paid thing
 - [ ] Include Wi-Fi-enabled cafes and clubs in San Francisco.
 
 before i lock in something i want to make sure its the right thing on which i am going to lock in - thats the thing
+
