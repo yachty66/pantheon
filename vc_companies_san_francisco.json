@@ -8885,5 +8885,28 @@
             "PetTech",
             "Software"
         ]
-    }
+    },
+    {
+        "url": "https://thegp.com",
+        "name": "The General Partnership (TheGP)",
+        "logo": "", 
+        "founded": "", 
+        "investments": "", 
+        "exits": "", 
+        "about": "The General Partnership invests capital and offers a 'services-for-equity' model to build and scale durable companies. The team has expertise from Google, Stripe, Coinbase, Square, and the White House, and has a history of successful company exits.",
+        "portfolio_companies": ["PromisePay", "TurbineOne", "Inflection", "WorkOS", "Dynaboard", "WholeSail"],
+        "fund_type": "Venture Fund",
+        "investment_stage": [
+          "Early Stage", 
+          "Growth" 
+        ],
+        "investment_focus": [
+          "Technology", 
+          "Enterprise", 
+          "AI/ML", 
+          "Developer Tools", 
+          "Cloud Computing", 
+          "Blockchain"
+        ]
+      }
 ]
