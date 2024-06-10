@@ -11,8 +11,6 @@
     - [ ] setup an agent which gets the address of each VC in san francisco with source and also the url of the VC
     - [ ] make map "VC companies San Francisco"
 - [ ] make a selector button and adjust the button with which the map is shared 
-- [ ] rename to pantheon (simulation company)
-- [ ]  
 
 ## next steps
 
@@ -29,5 +27,3 @@
 - [ ] Integrate a ChatGPT-like interface into the map to enable interaction with the data.
 - [ ] Develop a website named "Pantheon," embedding Google Maps and offering pricing options.
 - [ ] Include Wi-Fi-enabled cafes and clubs in San Francisco.
-
-how i will design my website now?
