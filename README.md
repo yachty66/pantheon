@@ -1,4 +1,3 @@
-# yc_analysis
+# Pantheon
 
-This dataset contains detailed information about various companies that participated in Y Combinator, a startup accelerator. Each record includes the company's name, status, profile picture URL, tags, description, founding details, team size, location, social media links, and founder information. The data is provided in JSON format, with each record representing a single company. This dataset can be useful for analyzing the characteristics and history of Y Combinator companies
-
+This repository started out as a dataset of YC companies and became an interactive YC company San Francisco Google Map. Now, a new dataset of San Francisco-based VC companies has been added and made interactive with Google Maps.
