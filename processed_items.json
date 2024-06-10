@@ -1,0 +1,2351 @@
+[
+    {
+        "data": [
+            "415 Jackson Street, 3rd Floor, San Francisco, CA 94111",
+            "https://01a.com"
+        ],
+        "name": "01 Advisors"
+    },
+    {
+        "data": [
+            "49 Geary Street, San Francisco, CA 94108, United States",
+            "www.137ventures.com"
+        ],
+        "name": "137 Ventures"
+    },
+    {
+        "data": [
+            "100 Broadway, San Francisco, California",
+            "www.1517fund.com"
+        ],
+        "name": "1517 Fund"
+    },
+    {
+        "data": [
+            "44 Tehama Street, San Francisco, CA 94105",
+            "https://1984.vc"
+        ],
+        "name": "1984 Ventures"
+    },
+    {
+        "data": [
+            "1840 Green Street Suite 2, San Francisco, CA 94123, United States",
+            "www.1confirmation.com"
+        ],
+        "name": "1confirmation"
+    },
+    {
+        "result": [
+            "San Francisco, California, 94907",
+            "https://www.212angels.com"
+        ],
+        "name": "2.12 Angels"
+    },
+    {
+        "data": [],
+        "name": "468 Capital"
+    },
+    {
+        "data": [
+            "814 Mission St, San Francisco, CA 94103 US",
+            "https://500.co"
+        ],
+        "name": "500 Global"
+    },
+    {
+        "data": [
+            "335 Madison Ave Rm 7A, New York City, New York, 10017, United States",
+            "www.645ventures.com"
+        ],
+        "name": "645 Ventures"
+    },
+    {
+        "data": [
+            "44 Tehama Street, San Francisco, CA 94105, United States",
+            "www.7bc.vc"
+        ],
+        "name": "7BC Venture Capital"
+    },
+    {
+        "data": [
+            "2 Embarcadero Center, Floor 8, San Francisco, CA 94111, United States",
+            "https://www.9yardscapital.com"
+        ],
+        "name": "9Yards Capital"
+    },
+    {
+        "data": [
+            "44 Monterey St, San Francisco, CA",
+            "https://www.linkedin.com/company/azangels"
+        ],
+        "name": "A'Z Angels"
+    },
+    {
+        "data": [],
+        "name": "A* Capital"
+    },
+    {
+        "data": [
+            "350 Mission St Floor 25, San Francisco, CA 94105",
+            "http://www.acme.vc"
+        ],
+        "name": "ACME Capital"
+    },
+    {
+        "data": [
+            "Three Embarcadero Center, Promenade Level Suite P5, San Francisco, California 94111, US",
+            "http://www.au21.capital"
+        ],
+        "name": "AU21 Capital"
+    },
+    {
+        "data": [
+            "235 Montgomery Street, Suite 1230, San Francisco, CA 94104",
+            "https://aberdare.com"
+        ],
+        "name": "Aberdare Ventures"
+    },
+    {
+        "data": [
+            "South Park, San Francisco, California 94133, US",
+            "http://www.abstract.vc"
+        ],
+        "name": "Abstract"
+    },
+    {
+        "data": [
+            "235 Montgomery Street Suite 967, San Francisco, CA 94104, United States",
+            "https://acaciainvest.com"
+        ],
+        "name": "Acacia Venture Partners"
+    },
+    {
+        "data": [
+            "50 California Street, Suite 2050, San Francisco, CA 94111",
+            "www.activatecap.com"
+        ],
+        "name": "Activate Capital Partners"
+    },
+    {
+        "data": [
+            "170 Grant Avenue, 4th Floor, San Francisco, CA 94108",
+            "https://advanceventures.com"
+        ],
+        "name": "Advance Venture Partners"
+    },
+    {
+        "data": [
+            "650 California Street, Floor 12, San Francisco, CA, 94108, United States",
+            "https://www.affirm.com"
+        ],
+        "name": "Affirm"
+    },
+    {
+        "data": [
+            "Afore Capital\n1 Letterman Drive\nBuilding C, Suite 400\nSan Francisco, CA 94129",
+            "https://www.aforecapital.com/"
+        ],
+        "name": "Afore Capital"
+    },
+    {
+        "data": [
+            "845 Market St, Suite 450, San Francisco, CA 94103",
+            "https://agfunder.com"
+        ],
+        "name": "AgFunder"
+    },
+    {
+        "data": [
+            "74 Brady St, Suite 4, San Francisco, CA 94103",
+            "http://akkadian.vc"
+        ],
+        "name": "Akkadian Ventures"
+    },
+    {
+        "data": [
+            "149 New Montgomery St, San Francisco, CA 94105. 660 4th Street Suite 487 San Francisco, CA.",
+            "https://www.alchemistaccelerator.com"
+        ],
+        "name": "Alchemist Accelerator"
+    },
+    {
+        "data": [
+            "943 Howard Street, San Francisco, CA 94103",
+            "www.alsop-louie.com"
+        ],
+        "name": "Alsop Louie Partners"
+    },
+    {
+        "data": [
+            "490 Post Street, San Francisco, California, 94102, United States",
+            "https://www.altair.vc"
+        ],
+        "name": "AltaIR Capital"
+    },
+    {
+        "data": [
+            "415 Jackson St Suite B, San Francisco, CA 94111, United States",
+            "www.alter.global"
+        ],
+        "name": "Alter Global"
+    },
+    {
+        "data": [
+            "San Francisco, CA, USA",
+            "https://amberstone.com"
+        ],
+        "name": "Amberstone Ventures"
+    },
+    {
+        "data": [
+            "2 Embarcadero Center, 8th Floor, San Francisco, CA 94111, United States",
+            "www.amity.vc"
+        ],
+        "name": "Amity Ventures"
+    },
+    {
+        "data": [
+            "135 Main Street, Suite 850, San Francisco, CA 94105, United States",
+            "www.angelpad.org"
+        ],
+        "name": "AngelPad"
+    },
+    {
+        "data": [
+            "1770 Pine St Apt 506, San Francisco, California, 94109, United States",
+            "www.anorak.vc"
+        ],
+        "name": "Anorak Ventures"
+    },
+    {
+        "data": [
+            "122 Hudson, 3rd Floor, New York, NY 10013",
+            "https://www.anthemis.com"
+        ],
+        "name": "Anthemis Group"
+    },
+    {
+        "data": [
+            "1 Coso Avenue, San Francisco, CA 94110, United States",
+            "www.array.vc"
+        ],
+        "name": "Array Ventures"
+    },
+    {
+        "data": [
+            "499 Jackson St Suite 400, San Francisco, CA 94111",
+            "http://www.av.co"
+        ],
+        "name": "Artis Ventures (AV)"
+    },
+    {
+        "data": [],
+        "name": "Asymmetry Ventures"
+    },
+    {
+        "data": [
+            "1 Letterman Drive, San Francisco, CA, 94129, United States",
+            "https://atomic.vc"
+        ],
+        "name": "Atomic"
+    },
+    {
+        "data": [
+            "1015 Carolina Street, San Francisco, California, 94107, United States",
+            "http://www.audacious.co"
+        ],
+        "name": "Audacious Ventures"
+    },
+    {
+        "data": [
+            "720 York St Ste 116, San Francisco, California, 94110, United States",
+            "https://www.ausum.vc"
+        ],
+        "name": "Ausum Ventures"
+    },
+    {
+        "data": [
+            "10 East 40th Street, 40th Floor, New York, NY 10016",
+            "https://autismimpact.fund"
+        ],
+        "name": "Autism Impact Fund"
+    },
+    {
+        "data": [
+            "1134 Kline Street, La Jolla, CA 92037",
+            "https://www.avalon-ventures.com"
+        ],
+        "name": "Avalon Ventures"
+    },
+    {
+        "data": [
+            "505 Sansome St, Suite 1575, San Francisco, CA 94111",
+            "http://www.azurecap.com"
+        ],
+        "name": "Azure Capital Partners"
+    },
+    {
+        "data": [
+            "201 Spear Street, Suite 1100, San Francisco, CA 94105, United States",
+            "http://b37.vc"
+        ],
+        "name": "B37 Ventures"
+    },
+    {
+        "data": [],
+        "name": "BBQ Capital"
+    },
+    {
+        "data": [
+            "2 Embarcadero Ctr, San Francisco, California, 94111, United States",
+            "https://www.bitkraft.vc"
+        ],
+        "name": "BITKRAFT Ventures"
+    },
+    {
+        "data": [
+            "450 Pacific Avenue, San Francisco, CA 94133",
+            "https://baincapitalventures.com"
+        ],
+        "name": "Bain Capital Ventures"
+    },
+    {
+        "data": [
+            "101 Mission St Suite 1115, San Francisco, CA 94105",
+            "https://base10.vc"
+        ],
+        "name": "Base10 Partners"
+    },
+    {
+        "data": [
+            "50 Osgood Place, Suite 220A, San Francisco, CA 94133",
+            "https://beepartners.vc"
+        ],
+        "name": "Bee Partners"
+    },
+    {
+        "data": [
+            "140 New Montgomery Street, San Francisco, California 94105",
+            "http://www.benchmark.com"
+        ],
+        "name": "Benchmark"
+    },
+    {
+        "data": [
+            "601 California Street, Suite 620, San Francisco, CA 94108",
+            "https://beringcapital.com"
+        ],
+        "name": "Bering Capital"
+    },
+    {
+        "data": [],
+        "name": "Berkeley Catalyst Fund (BCF)"
+    },
+    {
+        "data": [
+            "13 Pearl Street, San Francisco, CA 94103, United States",
+            "www.btv.vc"
+        ],
+        "name": "Better Tomorrow Ventures"
+    },
+    {
+        "data": [
+            "1550 Bryant Street, Suite 700, San Francisco, CA 94103, United States",
+            "www.binarycap.com"
+        ],
+        "name": "Binary Capital"
+    },
+    {
+        "data": [
+            "1 Ferry Building Suite 255, San Francisco, CA 94111, United States",
+            "https://www.blockchain.capital"
+        ],
+        "name": "Blockchain Capital"
+    },
+    {
+        "data": [
+            "140 New Montgomery St, San Francisco, CA 94105",
+            "https://www.bloombergbeta.com"
+        ],
+        "name": "Bloomberg Beta"
+    },
+    {
+        "data": [
+            "999 Baker Way, Suite 150, San Mateo, CA 94404",
+            "https://www.linkedin.com/company/bluepointeventures"
+        ],
+        "name": "BluePointe Ventures"
+    },
+    {
+        "data": [
+            "432 Bryant Street, San Francisco, CA 94107",
+            "www.blumbergcapital.com"
+        ],
+        "name": "Blumberg Capital"
+    },
+    {
+        "data": [
+            "2122 Bryant St, San Francisco, California 94110, US",
+            "https://bolt.io/"
+        ],
+        "name": "Bolt"
+    },
+    {
+        "data": [
+            "100 The Embarcadero, Suite 200, San Francisco, CA 94105",
+            "https://www.bondcap.com"
+        ],
+        "name": "Bond"
+    },
+    {
+        "data": [
+            "55 E 3RD Ave, San Mateo, CA, 94401-4010, United States",
+            "https://www.boost.vc"
+        ],
+        "name": "Boost VC"
+    },
+    {
+        "data": [
+            "44 Tehama Street, San Francisco, CA 94105, USA",
+            "https://bootstraplabs.com"
+        ],
+        "name": "BootstrapLabs"
+    },
+    {
+        "data": [
+            "103 Ashbury Street, San Francisco, CA 94117, United States",
+            "http://www.bragielbrothers.com"
+        ],
+        "name": "Bragiel Brothers"
+    },
+    {
+        "data": [
+            "4 Embarcadero Center Suite 1400, San Francisco, CA 94111",
+            "http://www.brainstorm.vc"
+        ],
+        "name": "Brainstorm Ventures"
+    },
+    {
+        "data": [
+            "1 Letterman Drive Building C, Suite 400, San Francisco, CA 94129, United States",
+            "www.breakout.vc"
+        ],
+        "name": "Breakout Ventures"
+    },
+    {
+        "data": [
+            "601 California St Suite 620, San Francisco, CA 94108",
+            "https://www.buckhillcapital.com"
+        ],
+        "name": "Buckhill Capital LP"
+    },
+    {
+        "data": [
+            "601 California Street, Suite 700, San Francisco, CA 94108",
+            "https://www.builders.vc"
+        ],
+        "name": "Builders VC"
+    },
+    {
+        "data": [],
+        "name": "Cadenza Capital"
+    },
+    {
+        "data": [
+            "Undisclosed, San Francisco, CA 94105, USA",
+            "www.cadenza.vc"
+        ],
+        "name": "Cadenza Capital Management"
+    },
+    {
+        "data": [
+            "2655 Broderick Street, San Francisco, CA 94123-2969",
+            "https://caffeinatedcapital.com"
+        ],
+        "name": "Caffeinated Capital"
+    },
+    {
+        "data": [
+            "25 Taylor Street, San Francisco, California 94117, US",
+            "http://www.cantos.vc"
+        ],
+        "name": "Cantos"
+    },
+    {
+        "data": [
+            "201 3rd St, 5th Fl, San Francisco, CA 94103",
+            "https://capitaloneventures.com"
+        ],
+        "name": "Capital One Ventures"
+    },
+    {
+        "data": [
+            "1600 Amphitheatre Parkway, Mountain View, California 94043, US",
+            "https://www.capitalg.com"
+        ],
+        "name": "CapitalG"
+    },
+    {
+        "data": [
+            "3 Embarcadero Center, Suite 2360, San Francisco, CA 94111, USA",
+            "https://partners-cap.com/partners-capital-san-francisco/"
+        ],
+        "name": "CapitalX"
+    },
+    {
+        "data": [
+            "101 Mission Street, Suite 1630, San Francisco, California 94105",
+            "https://cathayinnovation.com"
+        ],
+        "name": "Cathay Innovation"
+    },
+    {
+        "data": [
+            "1 California St. #1750, San Francisco, CA, 94111",
+            "www.celesta.vc"
+        ],
+        "name": "Celesta Capital"
+    },
+    {
+        "data": [
+            "42514 Albrae Street, Fremont, CA 94538",
+            "https://celticvc.com"
+        ],
+        "name": "Celtic House Asia Partners"
+    },
+    {
+        "data": [
+            "665 3rd Street Suite 150, San Francisco, CA 94107, United States",
+            "www.cen.vc"
+        ],
+        "name": "Center Electric"
+    },
+    {
+        "data": [
+            "1 Market Street, Spear Tower, 40th floor, San Francisco, CA 94105",
+            "https://www.citi.com/ventures/"
+        ],
+        "name": "Citi Ventures"
+    },
+    {
+        "data": [
+            "595 Pacific Ave Fl 4, San Francisco, California, 94133, United States",
+            "https://www.civilizationventures.com"
+        ],
+        "name": "Civilization Ventures"
+    },
+    {
+        "data": [
+            "544 Market St, San Francisco, CA 94104",
+            "https://www.cloudappscapital.com"
+        ],
+        "name": "Cloud Apps Capital Partners"
+    },
+    {
+        "data": [],
+        "name": "Coatue"
+    },
+    {
+        "data": [],
+        "name": "Coelius Capital"
+    },
+    {
+        "data": [
+            "548 Market Street Suite 23008, San Francisco, CA 94104, United States",
+            "https://www.coinbase.com/ventures"
+        ],
+        "name": "Coinbase Ventures"
+    },
+    {
+        "data": [
+            "703 Market Street, San Francisco, CA 94103",
+            "www.cometlabs.io"
+        ],
+        "name": "Comet Labs"
+    },
+    {
+        "data": [
+            "604 Mission Street, 6th Floor, San Francisco, CA 94105, United States",
+            "www.commerce.vc"
+        ],
+        "name": "Commerce Ventures"
+    },
+    {
+        "data": [
+            "333 Bush Street, Floor 23, Ste. 2300, San Francisco, CA 94104",
+            "https://concreterosecapital.com/"
+        ],
+        "name": "Concrete Rose Capital"
+    },
+    {
+        "data": [
+            "201 Mission St Suite 650, San Francisco, CA 94105",
+            "https://www.congruentvc.com"
+        ],
+        "name": "Congruent Ventures"
+    },
+    {
+        "data": [
+            "845 Market St, San Francisco, CA 94103",
+            "http://www.continue.capital"
+        ],
+        "name": "Continue Capital"
+    },
+    {
+        "data": [
+            "995 Market St, San Francisco, California 94103, US",
+            "http://contrary.com"
+        ],
+        "name": "Contrary"
+    },
+    {
+        "data": [
+            "650 California Street, 7th Floor, San Francisco, CA 94108",
+            "https://www.correlationvc.com"
+        ],
+        "name": "Correlation Ventures"
+    },
+    {
+        "data": [
+            "555 Mission St #1800, San Francisco, CA 94105",
+            "https://www.cotacapital.com"
+        ],
+        "name": "Cota Capital"
+    },
+    {
+        "data": [
+            "500 3rd Street Suite 240, San Francisco, CA 94107",
+            "https://counterpart.vc"
+        ],
+        "name": "Counterpart Ventures"
+    },
+    {
+        "data": [
+            "185 Banks Street, San Francisco, CA 94110",
+            "http://www.coyote.ventures"
+        ],
+        "name": "Coyote Ventures"
+    },
+    {
+        "data": [
+            "855 Front St, San Francisco, CA 94111",
+            "https://www.craftventures.com"
+        ],
+        "name": "Craft Ventures"
+    },
+    {
+        "data": [
+            "1700 Montgomery Street, Suite 240, San Francisco, CA 94111",
+            "https://crescentcove.com"
+        ],
+        "name": "Crescent Cove Advisors"
+    },
+    {
+        "data": [
+            "2 Embarcadero Center, Suite 2200, San Francisco, CA 94111",
+            "www.crosslinkcapital.com"
+        ],
+        "name": "Crosslink Capital"
+    },
+    {
+        "data": [
+            "500 2nd Street, Floor 2, San Francisco, CA 94107",
+            "https://www.dcvc.com"
+        ],
+        "name": "DCVC"
+    },
+    {
+        "data": [
+            "32 Heron St, San Francisco, CA 94103",
+            "http://www.darlingventures.com"
+        ],
+        "name": "Darling Ventures"
+    },
+    {
+        "data": [],
+        "name": "Dash Fund"
+    },
+    {
+        "data": [
+            "160 Spear Street, 15th Floor, San Francisco, CA 94105",
+            "https://www.databricks.com/databricks-ventures"
+        ],
+        "name": "Databricks Ventures"
+    },
+    {
+        "data": [
+            "2055 Turk Street, San Francisco, CA 94115, United States",
+            "https://www.dayoneventures.com/"
+        ],
+        "name": "Day One Ventures"
+    },
+    {
+        "data": [
+            "267 Dorland Street, San Francisco, CA 94114, United States",
+            "www.deciens.com"
+        ],
+        "name": "Deciens Capital"
+    },
+    {
+        "data": [
+            "2973 Woodside Rd, Woodside, California, US",
+            "https://defy.vc"
+        ],
+        "name": "Defy.vc"
+    },
+    {
+        "data": [
+            "310 Shaw Rd, South San Francisco, California, USA",
+            "https://www.delphiventures.com"
+        ],
+        "name": "Delphi Ventures"
+    },
+    {
+        "data": [
+            "164 Townsend St, Suite 3, San Francisco, CA 94107, United States",
+            "http://www.designerfund.com"
+        ],
+        "name": "Designer Fund"
+    },
+    {
+        "data": [
+            "4837 17th St, San Francisco, California, 94117",
+            "https://www.diaspora.vc"
+        ],
+        "name": "Diaspora Ventures"
+    },
+    {
+        "data": [
+            "221 Main St, Suite 1550, San Francisco, CA 94105",
+            "http://www.docusign.com"
+        ],
+        "name": "DocuSign"
+    },
+    {
+        "data": [
+            "San Francisco, California, United States",
+            "https://draftvc.com"
+        ],
+        "name": "Draft Ventures"
+    },
+    {
+        "data": [
+            "1 Letterman Drive, Building D, Suite M-500, San Francisco, CA 94129",
+            "https://www.dragoneer.com"
+        ],
+        "name": "Dragoneer Investment Group"
+    },
+    {
+        "data": [
+            "One Market Street, San Francisco, California, 94105, United States",
+            "https://www.dragonfly.xyz"
+        ],
+        "name": "Dragonfly Capital Partners"
+    },
+    {
+        "data": [
+            "2555 Pulgas Avenue East, Palo Alto, CA",
+            "https://www.earthshot.vc"
+        ],
+        "name": "Earthshot Ventures"
+    },
+    {
+        "data": [
+            "275 Sacramento St, San Francisco, CA 94111, USA",
+            "https://eif.vc/"
+        ],
+        "name": "Ecosystem Integrity Fund"
+    },
+    {
+        "data": [
+            "Pier 5, Ste 102, San Francisco, California 94111, US",
+            "http://www.emcap.com"
+        ],
+        "name": "Emergence Capital"
+    },
+    {
+        "data": [
+            "25 Taylor Street, San Francisco, CA 94102, United States",
+            "www.emergent.vc"
+        ],
+        "name": "Emergent Ventures"
+    },
+    {
+        "data": [
+            "71 Stevenson Street Suite 400, San Francisco, California, United States",
+            "https://www.empactfulcapital.com"
+        ],
+        "name": "Empactful Capital LLC"
+    },
+    {
+        "data": [
+            "604 Mission Street, 10th Floor, PH Level, San Francisco, CA 94105, United States",
+            "https://www.eniac.vc"
+        ],
+        "name": "Eniac Ventures"
+    },
+    {
+        "data": [
+            "2 Embarcadero Suite 1440, San Francisco, CA 94111, United States",
+            "https://www.ethos.vc"
+        ],
+        "name": "Ethos VC"
+    },
+    {
+        "data": [
+            "660 4th Street Suite 193, San Francisco, CA 94107",
+            "https://www.expa.com"
+        ],
+        "name": "Expa"
+    },
+    {
+        "data": [
+            "600 California Street, 11th Floor, San Francisco, CA 94109, United States",
+            "https://www.xcap.vc"
+        ],
+        "name": "Expanding Capital"
+    },
+    {
+        "data": [
+            "601 California Street, Floor 19, San Francisco, CA 94108",
+            "https://ftvcapital.com"
+        ],
+        "name": "FTV Capital"
+    },
+    {
+        "data": [
+            "160 Bovet Rd, Suite 310, San Mateo, CA 94402",
+            "https://www.fall-line-capital.com"
+        ],
+        "name": "Fall Line Capital"
+    },
+    {
+        "data": [
+            "140 Geary Street, 10th Floor, San Francisco, CA 94108, USA",
+            "http://www.fathomcap.com"
+        ],
+        "name": "Fathom Capital"
+    },
+    {
+        "data": [
+            "San Francisco, CA 94104, US",
+            "https://www.fiat.vc"
+        ],
+        "name": "Fiat Ventures"
+    },
+    {
+        "data": [],
+        "name": "Fifty Years"
+    },
+    {
+        "data": [
+            "650 California Street, San Francisco, CA 94108, United States",
+            "www.finvc"
+        ],
+        "name": "Fin Capital"
+    },
+    {
+        "data": [
+            "44 Tehama Street, San Francisco, CA 94105, United States",
+            "http://www.financialventurestudio.com"
+        ],
+        "name": "Financial Venture Studio"
+    },
+    {
+        "data": [],
+        "name": "Finn Capital Partners"
+    },
+    {
+        "data": [
+            "394 Pacific Avenue, 2nd Floor, San Francisco, CA, USA",
+            "https://www.firework.vc"
+        ],
+        "name": "Firework Ventures"
+    },
+    {
+        "data": [
+            "3031 San Jose Avenue, San Francisco, California, 94112, United States",
+            "https://www.firstraysvc.com"
+        ],
+        "name": "First Rays Venture Partners"
+    },
+    {
+        "data": [
+            "36 Palm Avenue, San Francisco, CA 94118",
+            "https://www.flexcapital.com"
+        ],
+        "name": "Flex Capital"
+    },
+    {
+        "data": [
+            "310 Shaw Rd, South San Francisco, California, USA",
+            "http://www.floriventures.com"
+        ],
+        "name": "Flori Ventures"
+    },
+    {
+        "data": [
+            "1161 Mission Street Suite 300, San Francisco, CA 94103, United States",
+            "www.forerunnerventures.com"
+        ],
+        "name": "Forerunner Ventures"
+    },
+    {
+        "data": [
+            "900 Larkspur Landing Circle, Suite 150, Larkspur, CA 94939",
+            "http://www.foresitecapital.com"
+        ],
+        "name": "Foresite Capital"
+    },
+    {
+        "data": [
+            "501 Second Street, Suite 300, San Francisco, California 94107",
+            "https://formation8.com"
+        ],
+        "name": "Formation 8"
+    },
+    {
+        "data": [
+            "149 Natoma Street, 2nd Floor, San Francisco, CA 94105, US",
+            "https://www.forumvc.com"
+        ],
+        "name": "Forum Ventures"
+    },
+    {
+        "data": [
+            "27 S. Park St, #201, San Francisco, CA 94107",
+            "https://www.founderscircle.com"
+        ],
+        "name": "Founders Circle Capital"
+    },
+    {
+        "data": [
+            "One Letterman Drive, San Francisco, California 94129, US",
+            "http://foundersfund.com"
+        ],
+        "name": "Founders Fund"
+    },
+    {
+        "data": [
+            "600 California Street, San Francisco, CA 94108, United States",
+            "www.fourriversgroup.com"
+        ],
+        "name": "Four Rivers Group"
+    },
+    {
+        "data": [
+            "38 Miller Avenue Suite 490, San Francisco, CA 94941, United States",
+            "www.freestyle.vc"
+        ],
+        "name": "Freestyle Capital"
+    },
+    {
+        "data": [
+            "1355 Market St, 4/F, San Francisco, California, 94102, United States",
+            "http://www.frescocapital.com"
+        ],
+        "name": "Fresco Capital"
+    },
+    {
+        "data": [],
+        "name": "Frontures"
+    },
+    {
+        "data": [
+            "4 Embarcadero Center, Suite 3400, San Francisco, CA 94111, United States",
+            "http://www.lfvc.com"
+        ],
+        "name": "Fung Capital"
+    },
+    {
+        "data": [
+            "643 Mission St, San Francisco, CA 94105, United States",
+            "https://www.future.africa"
+        ],
+        "name": "Future Africa"
+    },
+    {
+        "data": [
+            "415 Mission St, 59th Floor, San Francisco, CA 94105, US",
+            "http://www.future.ventures"
+        ],
+        "name": "Future Ventures"
+    },
+    {
+        "data": [
+            "Pier 17, Suite 800, San Francisco, CA 94111, United States",
+            "www.fyrfly.vc"
+        ],
+        "name": "Fyrfly Venture Partners"
+    },
+    {
+        "data": [
+            "185 Berry St, San Francisco, California, 94107, United States",
+            "https://www.gfrfund.com"
+        ],
+        "name": "GFR Fund"
+    },
+    {
+        "data": [
+            "906 Broadway, San Francisco, California, 94133, United States",
+            "http://www.gva.capital"
+        ],
+        "name": "GVA Capital"
+    },
+    {
+        "data": [
+            "301 Main St, Unit 18B, San Francisco, California 94105, US",
+            "https://www.garuda.vc"
+        ],
+        "name": "Garuda Ventures"
+    },
+    {
+        "data": [
+            "1405 Gough St, San Francisco, CA 94109, United States of America",
+            "https://genblock.capital"
+        ],
+        "name": "Genblock Capital"
+    },
+    {
+        "data": [
+            "43 South Park, San Francisco, CA 94107, United States",
+            "www.genoavc.com"
+        ],
+        "name": "Genoa Ventures"
+    },
+    {
+        "data": [
+            "2261 Market Street #311, San Francisco, CA 94114",
+            "www.goat.vc"
+        ],
+        "name": "Goat Capital"
+    },
+    {
+        "data": [
+            "240 Lorton Avenue, Burlingame, CA, 94010-4245, United States",
+            "https://www.goodwatercap.com"
+        ],
+        "name": "Goodwater Capital"
+    },
+    {
+        "data": [
+            "744 Montgomery St, San Francisco, California, United States",
+            "https://www.gpv.com"
+        ],
+        "name": "GreatPoint Ventures"
+    },
+    {
+        "data": [
+            "480 Pacific Avenue, Suite 200, San Francisco, CA 94133",
+            "https://www.greenbayventures.com"
+        ],
+        "name": "Green Bay Ventures"
+    },
+    {
+        "data": [
+            "2024 15th Street, San Francisco, California, United States",
+            "https://www.greencow.vc"
+        ],
+        "name": "Green Cow Venture Capital"
+    },
+    {
+        "data": [
+            "88 Kearny Street, Suite 850, San Francisco, CA 94108",
+            "https://www.greenvisorcapital.com"
+        ],
+        "name": "Green Visor Capital"
+    },
+    {
+        "data": [
+            "1 Gate 6 Rd, Sausalito, CA 94965",
+            "https://www.greenhousecap.com"
+        ],
+        "name": "Greenhouse Capital Partners"
+    },
+    {
+        "data": [
+            "535 Pacific Avenue, 4th Floor, San Francisco, CA 94133, USA",
+            "http://www.greenoaks.com"
+        ],
+        "name": "Greenoaks Capital"
+    },
+    {
+        "data": [
+            "535 Pacific Avenue, 4th Floor, San Francisco, CA 94133, US",
+            "https://greenoaks.com"
+        ],
+        "name": "Greenoaks Capital Partners"
+    },
+    {
+        "data": [],
+        "name": "HIVE Ventures"
+    },
+    {
+        "data": [
+            "727 Sansome St, Floor 3, San Francisco, California 94111, USA",
+            "https://haystack.vc"
+        ],
+        "name": "Haystack"
+    },
+    {
+        "data": [
+            "101 Montgomery Street, Suite 200, The Presidio of San Francisco, CA 94129",
+            "https://headline.com/"
+        ],
+        "name": "Headline"
+    },
+    {
+        "data": [
+            "1 Sansome St, Suite 3650, San Francisco, CA 94104",
+            "https://healthvelocitycapital.com"
+        ],
+        "name": "Health Velocity Capital"
+    },
+    {
+        "data": [
+            "560 Mission St, Suite 1349, San Francisco, CA 94105, USA",
+            "https://healthy.vc"
+        ],
+        "name": "Healthy Ventures"
+    },
+    {
+        "data": [
+            "523 Octavia St, San Francisco, CA 94102",
+            "https://www.heavybit.com"
+        ],
+        "name": "Heavybit"
+    },
+    {
+        "data": [
+            "1333 Gough St Apt 8B, San Francisco, California, 94109, United States",
+            "www.hikevc.com"
+        ],
+        "name": "Hike Ventures"
+    },
+    {
+        "data": [
+            "436 Bryant Street, 3rd Floor, San Francisco, CA 94107, United States",
+            "http://www.homebrew.co"
+        ],
+        "name": "Homebrew"
+    },
+    {
+        "data": [
+            "340 Pine St, Suite 200, San Francisco, CA 94104, United States",
+            "https://human.capital"
+        ],
+        "name": "Human Capital"
+    },
+    {
+        "data": [
+            "Pier 33 South, The Embarcadero, Suite 300, San Francisco, CA 94111",
+            "http://www.hwvp.com"
+        ],
+        "name": "Hummer Winblad Venture Partners"
+    },
+    {
+        "data": [
+            "300 Mission St, San Francisco, CA 94105",
+            "https://www.iconiqcapital.com"
+        ],
+        "name": "ICONIQ Capital"
+    },
+    {
+        "data": [
+            "50 Beale Street, Ste. 2300, 94105, San Francisco, US",
+            "https://www.iconiqcapital.com/growth"
+        ],
+        "name": "ICONIQ Growth"
+    },
+    {
+        "data": [
+            "501 The Embarcadero Pier 28 Annex, San Francisco, CA 94105",
+            "http://www.ideocolab.com"
+        ],
+        "name": "IDEO CoLab Ventures"
+    },
+    {
+        "data": [
+            "2121 S El Camino Real, San Mateo, CA 94403, United States",
+            "https://imo.vc"
+        ],
+        "name": "IMO Ventures"
+    },
+    {
+        "data": [
+            "139 Townsend Street, Suite 505, San Francisco, CA 94107, United States",
+            "http://www.indexventures.com"
+        ],
+        "name": "Index Ventures"
+    },
+    {
+        "data": [
+            "50 Osgood Place, Suite 400, San Francisco, CA 94133",
+            "https://www.industryventures.com"
+        ],
+        "name": "Industry Ventures"
+    },
+    {
+        "data": [
+            "PO Box 190254, San Francisco, CA 94119, US",
+            "http://initialized.com"
+        ],
+        "name": "Initialized Capital"
+    },
+    {
+        "data": [
+            "1 Front Street, Suite 2100, San Francisco, CA 94111, United States",
+            "http://www.us.jll.com"
+        ],
+        "name": "JLL Spark"
+    },
+    {
+        "data": [
+            "727 Sansome Street, Suite 300, San Francisco, CA 94111",
+            "http://jsv.com"
+        ],
+        "name": "Jackson Square Ventures"
+    },
+    {
+        "data": [
+            "221 Main Street, San Francisco, CA 94105",
+            "http://www.javelinvp.com"
+        ],
+        "name": "Javelin Venture Partners"
+    },
+    {
+        "data": [
+            "123 South Park St, San Francisco, California 94107, US",
+            "http://www.jazzvp.com"
+        ],
+        "name": "Jazz Venture Partners"
+    },
+    {
+        "data": [],
+        "name": "Joyance Partners"
+    },
+    {
+        "data": [
+            "12182 Parker Ranch Road, Saratoga, CA",
+            "https://k2global.co"
+        ],
+        "name": "K2 Global"
+    },
+    {
+        "data": [
+            "Bay Area, San Francisco",
+            "http://www.k2globalvc.com"
+        ],
+        "name": "K2 Global"
+    },
+    {
+        "data": [
+            "500 3rd Street, Suite 515, San Francisco, CA 94107",
+            "https://www.katalyst.ventures"
+        ],
+        "name": "Katalyst.Ventures"
+    },
+    {
+        "data": [
+            "425 Market Street, Suite 2200, San Francisco, CA 94105",
+            "www.keiretsuforum.com"
+        ],
+        "name": "Keiretsu Forum"
+    },
+    {
+        "data": [
+            "77 Van Ness Avenue Suite 101, San Francisco, CA 94102, United States",
+            "www.kindredvc.com"
+        ],
+        "name": "Kindred Ventures"
+    },
+    {
+        "data": [
+            "235 Montgomery Street, Suite 1120, San Francisco, California, United States",
+            "https://app.dealroom.co/companies/kingfisher_investment_advisors"
+        ],
+        "name": "Kingfisher Investment Advisors"
+    },
+    {
+        "data": [
+            "1275 Mission St, San Francisco, CA 94103",
+            "https://launchpdh.com"
+        ],
+        "name": "Launchpad Digital Health"
+    },
+    {
+        "data": [
+            "20 E. 3rd Ave., San Mateo, CA 94401",
+            "https://www.learn.vc"
+        ],
+        "name": "Learn Capital"
+    },
+    {
+        "data": [
+            "115 Sansome Street, Suite 700, San Francisco, CA 94104",
+            "https://www.lemnos.vc"
+        ],
+        "name": "Lemnos VC"
+    },
+    {
+        "data": [
+            "106 Lincoln Boulevard, Suite 104, San Francisco, CA, 94129, United States",
+            "https://www.lifeforcecap.com"
+        ],
+        "name": "Lifeforce Capital"
+    },
+    {
+        "data": [
+            "909 Montgomery St, San Francisco, CA 94133",
+            "http://www.liquid2.vc"
+        ],
+        "name": "Liquid 2 Ventures"
+    },
+    {
+        "data": [
+            "1 Letterman Drive, Building C, Suite C3-350, San Francisco, CA 94129",
+            "http://www.logoscapital.com"
+        ],
+        "name": "Logos Capital"
+    },
+    {
+        "data": [
+            "447 Sutter Street, Suite 405, San Francisco, CA 94108",
+            "https://www.longjourney.vc"
+        ],
+        "name": "Long Journey Ventures"
+    },
+    {
+        "data": [
+            "200 Townsend Street, San Francisco, CA 94107, US",
+            "http://www.lowercasellc.com"
+        ],
+        "name": "Lowercase Capital"
+    },
+    {
+        "data": [
+            "116 New Montgomery Street, Suite 950, San Francisco, CA 94105",
+            "https://lumiacapital.com"
+        ],
+        "name": "Lumia Capital"
+    },
+    {
+        "data": [
+            "1355 Market St, San Francisco, California, United States",
+            "http://www.m12.vc"
+        ],
+        "name": "M12 - Microsoft's Venture Fund"
+    },
+    {
+        "data": [
+            "1301 Sansome Street, San Francisco, CA",
+            "http://www.mhscapital.com"
+        ],
+        "name": "MHS Capital"
+    },
+    {
+        "data": [
+            "170 Clara St, San Francisco, CA 94107",
+            "www.maidenlane.com"
+        ],
+        "name": "Maiden Lane Ventures"
+    },
+    {
+        "data": [
+            "1441 Jones Street, 304, San Francisco, CA 94109",
+            "www.manaventures.vc"
+        ],
+        "name": "Mana Ventures"
+    },
+    {
+        "data": [
+            "46 South Park Street, San Francisco, CA 94107",
+            "www.mgv.vc"
+        ],
+        "name": "Maschmeyer Group Ventures"
+    },
+    {
+        "data": [
+            "535 Mission St, Suite 2600, San Francisco, CA 94105",
+            "https://matrix.vc"
+        ],
+        "name": "Matrix Partners"
+    },
+    {
+        "data": [
+            "463 Pacific Ave, San Francisco, CA 94133",
+            "https://www.maveron.com"
+        ],
+        "name": "Maveron"
+    },
+    {
+        "data": [
+            "1 Post Street, 21st Floor, San Francisco, CA 94104, USA",
+            "https://ventures.mckesson.com"
+        ],
+        "name": "McKesson Ventures"
+    },
+    {
+        "data": [
+            "524 2nd Street, San Francisco, CA 94107",
+            "https://menlovc.com"
+        ],
+        "name": "Menlo Ventures"
+    },
+    {
+        "data": [
+            "419 14th Street, San Francisco, California 94103, US",
+            "https://mighty.capital"
+        ],
+        "name": "Mighty Capital"
+    },
+    {
+        "data": [
+            "149 New Montgomery Street, Ste 631, San Francisco, CA 94105, USA",
+            "www.mindrock.vc"
+        ],
+        "name": "Mindrock Capital"
+    },
+    {
+        "data": [
+            "953 Indiana Street, San Francisco, CA 94107",
+            "http://www.missionbaycapital.com"
+        ],
+        "name": "Mission Bay Capital"
+    },
+    {
+        "data": [
+            "1 Letterman Dr Bldg A, Suite 4900, San Francisco, CA 94129",
+            "https://www.mithril.com"
+        ],
+        "name": "Mithril Capital Management"
+    },
+    {
+        "data": [
+            "15 N. Ellsworth Ave, Suite 205, San Mateo, CA 94401",
+            "https://www.moai.vc"
+        ],
+        "name": "Moai Capital"
+    },
+    {
+        "data": [
+            "2750 Broadway St, San Francisco, CA",
+            "https://mdv.com"
+        ],
+        "name": "Mohr Davidow Ventures"
+    },
+    {
+        "data": [],
+        "name": "Momentum 6"
+    },
+    {
+        "data": [
+            "San Francisco, CA 94114, USA",
+            "http://www.monochrome.vc/"
+        ],
+        "name": "Monochrome Capital"
+    },
+    {
+        "data": [
+            "555 California Street, 27th Floor, San Francisco, CA 94104",
+            "http://www.mosaikpartners.com"
+        ],
+        "name": "Mosaik Partners"
+    },
+    {
+        "data": [
+            "130 W Union St, Pasadena, CA 91103, United States",
+            "www.mountwilsonvc.com"
+        ],
+        "name": "Mount Wilson Ventures"
+    },
+    {
+        "data": [
+            "415 Mission Street, Suite 5550, San Francisco, California, San Francisco, CA, USA",
+            "https://www.mubadalacapital.ae/en/ventures"
+        ],
+        "name": "Mubadala Capital Ventures"
+    },
+    {
+        "data": [
+            "2 Embarcadero Center, San Francisco, CA 94111, United States",
+            "https://www.munichreventures.com"
+        ],
+        "name": "Munich Re Ventures"
+    },
+    {
+        "data": [
+            "34 Page St, San Francisco, CA 94102",
+            "https://www.nfx.com"
+        ],
+        "name": "NFX"
+    },
+    {
+        "data": [
+            "140 Geary St #1000, San Francisco, CA",
+            "https://www.neotribe.vc"
+        ],
+        "name": "Neotribe Ventures"
+    },
+    {
+        "data": [
+            "836 Montgomery St, San Francisco, CA 94133",
+            "www.nextworldcap.com"
+        ],
+        "name": "NextWorld Capital"
+    },
+    {
+        "data": [
+            "2443 Fillmore St, San Francisco, CA",
+            "https://www.northsouthvc.com"
+        ],
+        "name": "North South Ventures"
+    },
+    {
+        "data": [
+            "140 Geary St, San Francisco, California, US",
+            "https://oss.capital"
+        ],
+        "name": "OSS Capital L.P."
+    },
+    {
+        "data": [
+            "190 Pacific Avenue, San Francisco, CA 94111",
+            "https://obvious.com"
+        ],
+        "name": "Obvious Ventures"
+    },
+    {
+        "data": [
+            "45 Germania St, San Francisco, California, 94117, United States",
+            "http://www.otgventures.com"
+        ],
+        "name": "Off the Grid Ventures"
+    },
+    {
+        "data": [
+            "2431 Mission Street, San Francisco, California, 94110 US",
+            "https://www.beondeck.com"
+        ],
+        "name": "On Deck"
+    },
+    {
+        "data": [
+            "San Francisco, California, United States",
+            "https://www.oxfordangelfund.com"
+        ],
+        "name": "Oxford Angel Fund"
+    },
+    {
+        "data": [
+            "1355 Market St, #488, San Francisco, California 94102, US",
+            "https://oyster.vc"
+        ],
+        "name": "Oyster Ventures"
+    },
+    {
+        "data": [
+            "475 Sansome Street, Suite 1720, San Francisco, CA 94111",
+            "https://www.pfmhealthsciences.com"
+        ],
+        "name": "PFM Health Sciences"
+    },
+    {
+        "data": [
+            "1160 Battery St. #100, San Francisco, CA 94111-1233",
+            "https://www.parade.vc"
+        ],
+        "name": "Parade Ventures"
+    },
+    {
+        "data": [
+            "548 Market Street, San Francisco, CA 94104",
+            "http://paradigm.xyz"
+        ],
+        "name": "Paradigm"
+    },
+    {
+        "result": [],
+        "name": "Partner Fund Management"
+    },
+    {
+        "data": [
+            "205 14th Avenue, San Francisco, CA 94118, United States",
+            "https://www.pathbreakervc.com"
+        ],
+        "name": "Pathbreaker Ventures"
+    },
+    {
+        "data": [
+            "555 Montgomery Street, Floor Number 6, San Francisco, CA 94111, United States",
+            "https://peakstate.vc/"
+        ],
+        "name": "Peak State Ventures"
+    },
+    {
+        "data": [
+            "158 South Park, San Francisco, CA 94107, United States",
+            "http://www.pear.vc"
+        ],
+        "name": "Pear"
+    },
+    {
+        "data": [
+            "1160 Battery Street East, Suite 100, San Francisco, CA 94111",
+            "https://www.pilotgrowth.com"
+        ],
+        "name": "Pilot Growth Equity"
+    },
+    {
+        "data": [
+            "981 Mission St, San Francisco, California, 94103, United States",
+            "https://www.pioneerfund.vc"
+        ],
+        "name": "Pioneer Fund"
+    },
+    {
+        "data": [
+            "4 Embarcadero Center, Suite 3950, San Francisco, CA 94111",
+            "https://piva.vc"
+        ],
+        "name": "Piva Capital"
+    },
+    {
+        "data": [
+            "501 2nd Street, Suite 200, San Francisco, CA 94107",
+            "https://pivotallifesciences.com/pivotal-bioventure-partners"
+        ],
+        "name": "Pivotal bioVenture Partners"
+    },
+    {
+        "data": [],
+        "name": "Plug & Play"
+    },
+    {
+        "data": [
+            "548 MARKET STREET SUITE 64375, SAN FRANCISCO, CA 94104",
+            "https://polychain.capital"
+        ],
+        "name": "Polychain"
+    },
+    {
+        "data": [
+            "548 Market St Ste 64375, San Francisco, California, 94104, United States",
+            "https://polychain.capital"
+        ],
+        "name": "Polychain Capital"
+    },
+    {
+        "data": [],
+        "name": "Portfolia"
+    },
+    {
+        "data": [
+            "580 Pacific Avenue, San Francisco, CA 94133",
+            "https://precursorvc.com"
+        ],
+        "name": "Precursor Ventures"
+    },
+    {
+        "data": [
+            "537 Fillmore Street, Apartment 4, San Francisco, CA 94117",
+            "www.prefaceventures.com"
+        ],
+        "name": "Preface Ventures"
+    },
+    {
+        "data": [],
+        "name": "Prefix Capital"
+    },
+    {
+        "data": [
+            "One Ferry Building, Suite 300, San Francisco, CA 94111",
+            "https://www.preludeventures.com"
+        ],
+        "name": "Prelude Ventures"
+    },
+    {
+        "data": [
+            "1337 California Street Suite 6, San Francisco, CA 94109, United States",
+            "www.presencecap.com"
+        ],
+        "name": "Presence Capital"
+    },
+    {
+        "data": [
+            "101 Natoma St, 2F, San Francisco, California 94105, US",
+            "https://www.princeville-capital.com"
+        ],
+        "name": "Princeville Capital"
+    },
+    {
+        "data": [
+            "94117 San Francisco, United States",
+            "https://psymed.ventures"
+        ],
+        "name": "PsyMed Ventures"
+    },
+    {
+        "data": [
+            "501 2nd St #403, San Francisco, CA 94107",
+            "www.questacapital.com"
+        ],
+        "name": "Questa Capital Management"
+    },
+    {
+        "data": [
+            "548 Market Street Pmb 72966, San Francisco, CA 94104",
+            "https://quiet.com"
+        ],
+        "name": "Quiet Capital"
+    },
+    {
+        "data": [],
+        "name": "R42 Group"
+    },
+    {
+        "data": [
+            "One Lombard Street, Suite 300, San Francisco, CA 94111",
+            "https://raine.com"
+        ],
+        "name": "Raine Ventures"
+    },
+    {
+        "data": [
+            "San Francisco, CA 94102 United States",
+            "www.regen.vc"
+        ],
+        "name": "ReGen Ventures"
+    },
+    {
+        "data": [
+            "474 Bryant St, San Francisco, CA 94107",
+            "https://www.reachcapital.com"
+        ],
+        "name": "Reach Capital"
+    },
+    {
+        "data": [],
+        "name": "Rebel Fund"
+    },
+    {
+        "data": [
+            "600 Montgomery St, 44th Floor, San Francisco, CA 94111",
+            "www.rembrandtvc.com"
+        ],
+        "name": "Rembrandt Venture Partners"
+    },
+    {
+        "data": [],
+        "name": "Remote First Capital"
+    },
+    {
+        "data": [
+            "474 Bryant Street, San Francisco, CA 94107",
+            "www.renegadepartners.com"
+        ],
+        "name": "Renegade Partners"
+    },
+    {
+        "data": [
+            "PO Box 780, San Francisco, CA 94104",
+            "https://www.resolute.vc"
+        ],
+        "name": "Resolute Ventures"
+    },
+    {
+        "data": [
+            "548 Market St Pmb 82874, San Francisco, CA 94104, United States",
+            "www.ridge.vc"
+        ],
+        "name": "Ridge Ventures"
+    },
+    {
+        "data": [
+            "649 Mission Street, 5th Floor, San Francisco, CA 94105",
+            "https://rightsidecapital.com"
+        ],
+        "name": "Right Side Capital Management"
+    },
+    {
+        "data": [
+            "149 9th St, San Francisco, CA 94103",
+            "https://www.rightventures.com/"
+        ],
+        "name": "RightVentures"
+    },
+    {
+        "data": [
+            "274 Brannan Street, Suite 500, San Francisco, CA 94107, United States",
+            "https://www.rippleventures.com"
+        ],
+        "name": "Ripple"
+    },
+    {
+        "data": [
+            "2670 Harrison St, San Francisco, CA 94110",
+            "https://root.vc"
+        ],
+        "name": "Root Ventures"
+    },
+    {
+        "data": [],
+        "name": "S2 Capital"
+    },
+    {
+        "data": [
+            "96 South Park, San Francisco, California 94107, US",
+            "https://www.s28capital.com"
+        ],
+        "name": "S28 Capital"
+    },
+    {
+        "data": [
+            "588 Sutter Street Suite 299, San Francisco, CA 94102",
+            "www.svangel.com"
+        ],
+        "name": "SV Angel"
+    },
+    {
+        "data": [
+            "38 Keyes Avenue, Suite LL05, San Francisco, CA 94129, United States",
+            "www.svlatamcap.com"
+        ],
+        "name": "SV Latam Capital"
+    },
+    {
+        "data": [
+            "415 Mission Street, 3rd Floor, San Francisco, CA 94105",
+            "https://www.salesforce.com"
+        ],
+        "name": "Salesforce"
+    },
+    {
+        "data": [
+            "209 Kearny St, San Francisco, CA 94108",
+            "www.schematicventures.com"
+        ],
+        "name": "Schematic Ventures"
+    },
+    {
+        "data": [
+            "744 Montgomery Street, Floor 3, San Francisco, CA 94111",
+            "http://www.scifi.vc"
+        ],
+        "name": "SciFi VC"
+    },
+    {
+        "data": [
+            "535 Mission Street, 14F, San Francisco, CA 94105",
+            "https://scrum.vc"
+        ],
+        "name": "Scrum Ventures"
+    },
+    {
+        "data": [
+            "1850 Gateway Dr. 700, San Mateo, CA 94404, USA",
+            "https://www.sempervirensvc.com"
+        ],
+        "name": "SemperVirens Venture Capital"
+    },
+    {
+        "data": [
+            "1030 15TH STREET NW UB1 SUITE 373",
+            "https://www.serenaventures.com/"
+        ],
+        "name": "Serena Ventures"
+    },
+    {
+        "data": [
+            "44 Montgomery Street, Suite 3450, San Francisco, California 94104, US",
+            "https://serentcapital.com"
+        ],
+        "name": "Serent Capital"
+    },
+    {
+        "data": [
+            "280 Utah Avenue, South San Francisco, CA 94080",
+            "www.spiivc.com"
+        ],
+        "name": "ShangPharma Innovation"
+    },
+    {
+        "data": [
+            "323 Geary St, San Francisco, California, USA",
+            "https://shima.capital"
+        ],
+        "name": "Shima Capital"
+    },
+    {
+        "data": [
+            "1400 Fashion Island Blvd. Ste. 1010, San Mateo, CA 94404",
+            "https://www.sierraventures.com"
+        ],
+        "name": "Sierra Ventures"
+    },
+    {
+        "data": [
+            "501 2nd St Suite 100, San Francisco, CA 94107",
+            "https://www.signalfire.com"
+        ],
+        "name": "SignalFire"
+    },
+    {
+        "data": [
+            "1032 Irving St Unit 615, San Francisco, CA 94122",
+            "https://smarthub.vc"
+        ],
+        "name": "SmartHub"
+    },
+    {
+        "data": [],
+        "name": "Social Starts"
+    },
+    {
+        "data": [
+            "315 Montgomery Street, 9th Floor, San Francisco, CA 94104, US",
+            "https://sociicapital.com/"
+        ],
+        "name": "Socii Capital"
+    },
+    {
+        "data": [
+            "One Ferry Building, San Francisco, CA",
+            "https://www.solarecofund.com"
+        ],
+        "name": "Solar Eco Fund"
+    },
+    {
+        "data": [
+            "112 S Park St, San Francisco, CA 94107",
+            "https://www.southparkcommons.com"
+        ],
+        "name": "South Park Commons"
+    },
+    {
+        "data": [
+            "785 Market Street, Suite 700, San Francisco, CA 94103",
+            "http://www.spidercapital.com"
+        ],
+        "name": "Spider Capital"
+    },
+    {
+        "data": [
+            "100 Montgomery Street, Suite 2190, San Francisco, CA 94104",
+            "http://www.sprucecp.com"
+        ],
+        "name": "Spruce Capital Partners"
+    },
+    {
+        "data": [
+            "1011 Kearny St, San Francisco, California 94133, US",
+            "https://www.starship.vc"
+        ],
+        "name": "Starship Ventures"
+    },
+    {
+        "data": [],
+        "name": "Sterling Road"
+    },
+    {
+        "data": [
+            "800 Boylston St. Suite 1410 Boston, MA 02199",
+            "https://stormbreaker.vc"
+        ],
+        "name": "Stormbreaker Ventures"
+    },
+    {
+        "data": [
+            "595 Pacific Ave FL4, San Francisco, CA 94133, USA",
+            "https://www.stratminds.vc"
+        ],
+        "name": "StratMinds"
+    },
+    {
+        "data": [
+            "1825 Emerson Street, Palo Alto, CA 94301, United States",
+            "www.streamlined.vc"
+        ],
+        "name": "Streamlined Ventures"
+    },
+    {
+        "data": [],
+        "name": "Structure Capital"
+    },
+    {
+        "data": [
+            "921 Front St, San Francisco, CA 94111, United States",
+            "https://sugarcap.com"
+        ],
+        "name": "Sugar Capital"
+    },
+    {
+        "data": [
+            "660 York St Suite 201, San Francisco, CA 94110",
+            "https://susaventures.com"
+        ],
+        "name": "Susa Ventures"
+    },
+    {
+        "data": [
+            "325 Pacific Avenue, San Francisco, CA 94111",
+            "http://www.swayvc.com"
+        ],
+        "name": "Sway Ventures"
+    },
+    {
+        "data": [
+            "335 Surrey Street, San Francisco, CA 94131, United States",
+            "www.switch.vc"
+        ],
+        "name": "Switch Ventures"
+    },
+    {
+        "data": [
+            "345 California Street, Suite 3300, San Francisco, CA 94104, United States",
+            "http://www.tpg.com"
+        ],
+        "name": "TPG Biotech"
+    },
+    {
+        "data": [
+            "345 California Street Suite 3300, San Francisco, CA 94104",
+            "https://www.tpg.com"
+        ],
+        "name": "TPG Growth"
+    },
+    {
+        "data": [],
+        "name": "Taurus Ventures"
+    },
+    {
+        "data": [
+            "1 Market St, San Francisco, California, US",
+            "https://www.techstars.com"
+        ],
+        "name": "Techstars"
+    },
+    {
+        "data": [
+            "200 California St, Suite 500, San Francisco, CA 94111, US",
+            "http://www.tektonventures.com"
+        ],
+        "name": "Tekton Ventures"
+    },
+    {
+        "data": [
+            "188 Minna St 38 E, San Francisco, California, 94105, United States",
+            "http://www.telesoftvc.com"
+        ],
+        "name": "TeleSoft Partners"
+    },
+    {
+        "data": [
+            "300 Montgomery Street, Suite 1130, San Francisco, CA 94104",
+            "https://thpartners.net"
+        ],
+        "name": "Telegraph Hill Partners"
+    },
+    {
+        "data": [
+            "575 Market Street, Suite 1650, San Francisco, California 94105, USA",
+            "https://telstraventures.com"
+        ],
+        "name": "Telstra Ventures"
+    },
+    {
+        "data": [
+            "106 Lincoln Blvd, San Francisco, CA 94129",
+            "https://www.thayerventures.com"
+        ],
+        "name": "Thayer Ventures"
+    },
+    {
+        "data": [
+            "1700 Owens Street, Suite 500, San Francisco, CA 94158, United States",
+            "https://www.thecolumngroup.com"
+        ],
+        "name": "The Column Group"
+    },
+    {
+        "data": [
+            "345 California St Ste 3300, San Francisco, California, 94104, United States",
+            "https://therisefund.com"
+        ],
+        "name": "The Rise Fund"
+    },
+    {
+        "data": [
+            "Saint Vincent and the Grenadines",
+            "https://theuntitled.vc"
+        ],
+        "name": "The Untitled Venture Company"
+    },
+    {
+        "data": [
+            "138 S Park St, San Francisco, CA 94107",
+            "www.thomvest.com"
+        ],
+        "name": "Thomvest Ventures"
+    },
+    {
+        "data": [
+            "San Francisco, California",
+            "https://www.thursday.vc/"
+        ],
+        "name": "Thursday Ventures"
+    },
+    {
+        "data": [
+            "555 California Street, Floor 29, San Francisco, CA 94104, United States",
+            "www.tidemarkcap.com"
+        ],
+        "name": "Tidemark Capital"
+    },
+    {
+        "data": [
+            "600 Montgomery Street, Suite 480, San Francisco, CA 94111",
+            "https://ttcp.com"
+        ],
+        "name": "Top Tier Capital Partners"
+    },
+    {
+        "data": [
+            "2700 19th Street, San Francisco, CA 94110, United States",
+            "http://www.tribecap.co"
+        ],
+        "name": "Tribe Capital"
+    },
+    {
+        "data": [
+            "500 3rd Street, Suite 215, San Francisco, CA 94107",
+            "http://www.trucks.vc"
+        ],
+        "name": "Trucks Venture Capital"
+    },
+    {
+        "data": [
+            "Bluxome St, San Francisco, California, 94107, United States",
+            "www.tuesday.vc"
+        ],
+        "name": "Tuesday Capital"
+    },
+    {
+        "data": [
+            "3340 Hillview Ave, Palo Alto, California 94304",
+            "https://unanimous.vc"
+        ],
+        "name": "Unanimous Capital"
+    },
+    {
+        "data": [
+            "500 2nd St Fl 3, San Francisco, California, 94107, United States",
+            "www.uncorkcapital.com"
+        ],
+        "name": "Uncork Capital"
+    },
+    {
+        "data": [
+            "548 Market Street Suite 34015, San Francisco, CA 94104, United States",
+            "http://www.uncorrelated.com"
+        ],
+        "name": "Uncorrelated Ventures"
+    },
+    {
+        "data": [
+            "665 3rd St. #150, San Francisco, California 94107, US",
+            "https://unionlabs.com"
+        ],
+        "name": "Union Labs Ventures"
+    },
+    {
+        "data": [
+            "San Francisco, California, United States",
+            "http://www.uprising.us"
+        ],
+        "name": "Uprising Ventures"
+    },
+    {
+        "data": [
+            "553 Pacific Ave, San Francisco, CA 94133",
+            "www.upsidevc.com"
+        ],
+        "name": "Upside Partnership"
+    },
+    {
+        "data": [
+            "645 Harrison Street, Suite 200, San Francisco, CA 94107",
+            "https://www.urbaninnovationfund.com"
+        ],
+        "name": "Urban Innovation Fund"
+    },
+    {
+        "data": [
+            "1 Market Street, Steuart Tower, 23rd Floor, San Francisco, CA 94105, United States",
+            "https://www.vectorcapital.com"
+        ],
+        "name": "Vector Capital"
+    },
+    {
+        "data": [
+            "600 Montgomery Street, San Francisco, CA 94111",
+            "www.vela.partners"
+        ],
+        "name": "Vela Partners"
+    },
+    {
+        "data": [
+            "440 N Barranca Ave #3976, Covina, CA 91723, United States",
+            "www.villageglobal.vc"
+        ],
+        "name": "Village Global"
+    },
+    {
+        "data": [
+            "Headquarters: San Francisco, CA\n642, Harrison Street, Suite 200, San Francisco, CA - 94107",
+            "https://usa.visa.com/"
+        ],
+        "name": "Visa"
+    },
+    {
+        "data": [],
+        "name": "Volt Capital"
+    },
+    {
+        "data": [
+            "50 California St #2580, San Francisco, CA 94111, USA",
+            "https://wiharper.com"
+        ],
+        "name": "WI Harper Group"
+    },
+    {
+        "data": [
+            "1 California St # 1750, San Francisco, CA 94111",
+            "www.waldenintl.com"
+        ],
+        "name": "Walden International"
+    },
+    {
+        "data": [
+            "548 Market Street, #43351, San Francisco, CA 94104",
+            "https://www.wayfinder.com"
+        ],
+        "name": "Wayfinder Ventures"
+    },
+    {
+        "data": [
+            "82 2nd St, San Francisco, CA 94105",
+            "https://winfunding.com"
+        ],
+        "name": "Webb Investment Network"
+    },
+    {
+        "data": [
+            "52 Homestead St, San Francisco, CA 94114",
+            "https://wefunder.com"
+        ],
+        "name": "Wefunder"
+    },
+    {
+        "data": [
+            "590 Pacific Avenue, San Francisco, CA 94133",
+            "https://www.westcap.com"
+        ],
+        "name": "WestCap"
+    },
+    {
+        "data": [
+            "104 La Mesa Drive, Suite 102, Portola Valley, CA 94028, US",
+            "http://www.westerntech.com"
+        ],
+        "name": "Western Technology Investment"
+    },
+    {
+        "data": [
+            "777 Mariners Island Blvd Suite 550, San Mateo, California 94404, US",
+            "https://wildcat.vc"
+        ],
+        "name": "Wildcat Venture Partners"
+    },
+    {
+        "data": [
+            "160 Spear Street, Suite 1700, San Francisco, CA 94015",
+            "https://ventures.workday.com/en-us/contact.html"
+        ],
+        "name": "Workday Ventures"
+    },
+    {
+        "data": [],
+        "name": "Worklife"
+    },
+    {
+        "data": [
+            "435 Tasso Street, Suite 120, Palo Alto, California 94301, United States",
+            "https://worldview.com"
+        ],
+        "name": "Worldview Technology Partners"
+    },
+    {
+        "data": [
+            "257 Collingwood Street, San Francisco, CA 94114, United States",
+            "www.xyz.vc"
+        ],
+        "name": "XYZ Venture Capital"
+    },
+    {
+        "data": [
+            "42 Miller Avenue, Mill Valley, CA 94941",
+            "https://www.ylventures.com"
+        ],
+        "name": "YL Ventures"
+    },
+    {
+        "data": [
+            "1390 Market St. Suite 200, PMB 244, San Francisco, California 94102, US",
+            "http://yes.vc"
+        ],
+        "name": "Yes VC"
+    },
+    {
+        "data": [
+            "255 California Street, San Francisco, California, 94111, United States",
+            "https://www.zenopartners.com"
+        ],
+        "name": "Zeno Ventures"
+    },
+    {
+        "data": [
+            "747 Front Street, Ste 100, San Francisco, CA 94111",
+            "https://www.ivp.com/"
+        ],
+        "name": "at.inc/"
+    },
+    {
+        "data": [
+            "333 Bush Street, Floor 23, Ste. 2300, San Francisco, CA 94104",
+            "https://www.f7ventures.com"
+        ],
+        "name": "f7 Ventures"
+    },
+    {
+        "data": [
+            "44 Tehama St, San Francisco, California 94105, US",
+            "https://www.gumi-cryptos.com"
+        ],
+        "name": "gumi Cryptos Capital (gCC)"
+    },
+    {
+        "data": [
+            "1980 Washington Street, Suite 604, San Francisco, CA 94109, United States",
+            "www.v1.vc"
+        ],
+        "name": "v1.vc"
+    },
+    {
+        "data": [
+            "San Francisco, CA",
+            "https://www.thegp.com"
+        ],
+        "name": "The General Partnership (TheGP)"
+    }
+]

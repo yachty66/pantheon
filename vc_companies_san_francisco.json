@@ -20,6 +20,10 @@
             "InsurTech",
             "Big Data & Analytics",
             "SaaS"
+        ],
+        "data": [
+            "415 Jackson Street, 3rd Floor, San Francisco, CA 94111",
+            "https://01a.com"
         ]
     },
     {
@@ -40,6 +44,10 @@
         "investment_focus": [
             "Software",
             "DeepTech"
+        ],
+        "data": [
+            "49 Geary Street, San Francisco, CA 94108, United States",
+            "www.137ventures.com"
         ]
     },
     {
@@ -68,6 +76,10 @@
             "Fashion",
             "CloudTech",
             "FinTech"
+        ],
+        "data": [
+            "100 Broadway, San Francisco, California",
+            "www.1517fund.com"
         ]
     },
     {
@@ -99,6 +111,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Enterprise",
             "Productivity Tools"
+        ],
+        "data": [
+            "44 Tehama Street, San Francisco, CA 94105",
+            "https://1984.vc"
         ]
     },
     {
@@ -116,7 +132,11 @@
             "Series A",
             "Series B"
         ],
-        "investment_focus": []
+        "investment_focus": [],
+        "data": [
+            "1840 Green Street Suite 2, San Francisco, CA 94123, United States",
+            "www.1confirmation.com"
+        ]
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/2-12-angels",
@@ -133,7 +153,8 @@
         ],
         "investment_focus": [
             "Developer Tools"
-        ]
+        ],
+        "data": null
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/468-capital",
@@ -159,7 +180,8 @@
             "EdTech",
             "FinTech",
             "IoT (Internet of Things)"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/500-global",
@@ -182,6 +204,10 @@
             "FinTech",
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "814 Mission St, San Francisco, CA 94103 US",
+            "https://500.co"
         ]
     },
     {
@@ -274,6 +300,10 @@
         "investment_focus": [
             "SaaS",
             "Consumer"
+        ],
+        "data": [
+            "335 Madison Ave Rm 7A, New York City, New York, 10017, United States",
+            "www.645ventures.com"
         ]
     },
     {
@@ -295,6 +325,10 @@
             "FinTech",
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "44 Tehama Street, San Francisco, CA 94105, United States",
+            "www.7bc.vc"
         ]
     },
     {
@@ -315,6 +349,10 @@
         "investment_focus": [
             "FinTech",
             "SaaS"
+        ],
+        "data": [
+            "2 Embarcadero Center, Floor 8, San Francisco, CA 94111, United States",
+            "https://www.9yardscapital.com"
         ]
     },
     {
@@ -337,6 +375,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "44 Monterey St, San Francisco, CA",
+            "https://www.linkedin.com/company/azangels"
         ]
     },
     {
@@ -390,7 +432,8 @@
             "Robotics",
             "Sustainability",
             "Software"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/acme-capital",
@@ -412,6 +455,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "SaaS",
             "Consumer"
+        ],
+        "data": [
+            "350 Mission St Floor 25, San Francisco, CA 94105",
+            "http://www.acme.vc"
         ]
     },
     {
@@ -434,6 +481,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "Three Embarcadero Center, Promenade Level Suite P5, San Francisco, California 94111, US",
+            "http://www.au21.capital"
         ]
     },
     {
@@ -456,6 +507,10 @@
         ],
         "investment_focus": [
             "InsurTech"
+        ],
+        "data": [
+            "235 Montgomery Street, Suite 1230, San Francisco, CA 94104",
+            "https://aberdare.com"
         ]
     },
     {
@@ -475,6 +530,10 @@
         "investment_focus": [
             "Productivity Tools",
             "Software"
+        ],
+        "data": [
+            "South Park, San Francisco, California 94133, US",
+            "http://www.abstract.vc"
         ]
     },
     {
@@ -497,6 +556,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "235 Montgomery Street Suite 967, San Francisco, CA 94104, United States",
+            "https://acaciainvest.com"
         ]
     },
     {
@@ -527,6 +590,10 @@
             "Consumer",
             "InsurTech",
             "Apps"
+        ],
+        "data": [
+            "50 California Street, Suite 2050, San Francisco, CA 94111",
+            "www.activatecap.com"
         ]
     },
     {
@@ -552,6 +619,10 @@
             "Marketing (MarTech)",
             "InsurTech",
             "PropTech"
+        ],
+        "data": [
+            "170 Grant Avenue, 4th Floor, San Francisco, CA 94108",
+            "https://advanceventures.com"
         ]
     },
     {
@@ -570,6 +641,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "650 California Street, Floor 12, San Francisco, CA, 94108, United States",
+            "https://www.affirm.com"
         ]
     },
     {
@@ -595,6 +670,10 @@
             "Software",
             "Consumer",
             "InsurTech"
+        ],
+        "data": [
+            "Afore Capital\n1 Letterman Drive\nBuilding C, Suite 400\nSan Francisco, CA 94129",
+            "https://www.aforecapital.com/"
         ]
     },
     {
@@ -620,6 +699,10 @@
             "IoT (Internet of Things)",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "845 Market St, Suite 450, San Francisco, CA 94103",
+            "https://agfunder.com"
         ]
     },
     {
@@ -645,6 +728,10 @@
             "Big Data & Analytics",
             "Cybersecurity",
             "Enterprise"
+        ],
+        "data": [
+            "74 Brady St, Suite 4, San Francisco, CA 94103",
+            "http://akkadian.vc"
         ]
     },
     {
@@ -681,6 +768,10 @@
             "CloudTech",
             "RetailTech",
             "IoT (Internet of Things)"
+        ],
+        "data": [
+            "149 New Montgomery St, San Francisco, CA 94105. 660 4th Street Suite 487 San Francisco, CA.",
+            "https://www.alchemistaccelerator.com"
         ]
     },
     {
@@ -708,6 +799,10 @@
             "Consumer Electronics",
             "Hardware",
             "Legal Tech"
+        ],
+        "data": [
+            "943 Howard Street, San Francisco, CA 94103",
+            "www.alsop-louie.com"
         ]
     },
     {
@@ -733,6 +828,10 @@
             "EdTech",
             "SaaS",
             "PropTech"
+        ],
+        "data": [
+            "490 Post Street, San Francisco, California, 94102, United States",
+            "https://www.altair.vc"
         ]
     },
     {
@@ -755,6 +854,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "415 Jackson St Suite B, San Francisco, CA 94111, United States",
+            "www.alter.global"
         ]
     },
     {
@@ -774,6 +877,10 @@
         "investment_focus": [
             "Food and Beverage",
             "Consumer"
+        ],
+        "data": [
+            "San Francisco, CA, USA",
+            "https://amberstone.com"
         ]
     },
     {
@@ -797,6 +904,10 @@
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "FinTech"
+        ],
+        "data": [
+            "2 Embarcadero Center, 8th Floor, San Francisco, CA 94111, United States",
+            "www.amity.vc"
         ]
     },
     {
@@ -818,6 +929,10 @@
             "Enterprise",
             "Productivity Tools",
             "SaaS"
+        ],
+        "data": [
+            "135 Main Street, Suite 850, San Francisco, CA 94105, United States",
+            "www.angelpad.org"
         ]
     },
     {
@@ -840,6 +955,10 @@
             "IoT (Internet of Things)",
             "Robotics",
             "Consumer"
+        ],
+        "data": [
+            "1770 Pine St Apt 506, San Francisco, California, 94109, United States",
+            "www.anorak.vc"
         ]
     },
     {
@@ -872,6 +991,10 @@
             "Cybersecurity",
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Apps"
+        ],
+        "data": [
+            "122 Hudson, 3rd Floor, New York, NY 10013",
+            "https://www.anthemis.com"
         ]
     },
     {
@@ -892,6 +1015,10 @@
         "investment_focus": [
             "Software",
             "Cybersecurity"
+        ],
+        "data": [
+            "1 Coso Avenue, San Francisco, CA 94110, United States",
+            "www.array.vc"
         ]
     },
     {
@@ -922,6 +1049,10 @@
             "Delivery",
             "Developer Tools",
             "Robotics"
+        ],
+        "data": [
+            "499 Jackson St Suite 400, San Francisco, CA 94111",
+            "http://www.av.co"
         ]
     },
     {
@@ -955,7 +1086,8 @@
             "Consumer",
             "Hardware",
             "Fashion"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/atomic",
@@ -975,6 +1107,10 @@
         "investment_focus": [
             "E-Commerce",
             "FinTech"
+        ],
+        "data": [
+            "1 Letterman Drive, San Francisco, CA, 94129, United States",
+            "https://atomic.vc"
         ]
     },
     {
@@ -992,6 +1128,10 @@
         ],
         "investment_focus": [
             "SaaS"
+        ],
+        "data": [
+            "1015 Carolina Street, San Francisco, California, 94107, United States",
+            "http://www.audacious.co"
         ]
     },
     {
@@ -1013,6 +1153,10 @@
             "EdTech",
             "Enterprise",
             "HR Tech"
+        ],
+        "data": [
+            "720 York St Ste 116, San Francisco, California, 94110, United States",
+            "https://www.ausum.vc"
         ]
     },
     {
@@ -1032,6 +1176,10 @@
         ],
         "investment_focus": [
             "BioTech"
+        ],
+        "data": [
+            "10 East 40th Street, 40th Floor, New York, NY 10016",
+            "https://autismimpact.fund"
         ]
     },
     {
@@ -1062,6 +1210,10 @@
             "Enterprise",
             "IoT (Internet of Things)",
             "BioTech"
+        ],
+        "data": [
+            "1134 Kline Street, La Jolla, CA 92037",
+            "https://www.avalon-ventures.com"
         ]
     },
     {
@@ -1085,6 +1237,10 @@
         "investment_focus": [
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "505 Sansome St, Suite 1575, San Francisco, CA 94111",
+            "http://www.azurecap.com"
         ]
     },
     {
@@ -1106,6 +1262,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "IoT (Internet of Things)",
             "Robotics"
+        ],
+        "data": [
+            "201 Spear Street, Suite 1100, San Francisco, CA 94105, United States",
+            "http://b37.vc"
         ]
     },
     {
@@ -1131,7 +1291,8 @@
             "SaaS",
             "Consumer",
             "FinTech"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/bitkraft-ventures",
@@ -1154,6 +1315,10 @@
             "CloudTech",
             "EdTech",
             "Marketing (MarTech)"
+        ],
+        "data": [
+            "2 Embarcadero Ctr, San Francisco, California, 94111, United States",
+            "https://www.bitkraft.vc"
         ]
     },
     {
@@ -1198,6 +1363,10 @@
             "Creator Economy",
             "Health & Wellness",
             "EdTech"
+        ],
+        "data": [
+            "450 Pacific Avenue, San Francisco, CA 94133",
+            "https://baincapitalventures.com"
         ]
     },
     {
@@ -1234,6 +1403,10 @@
             "Marketing (MarTech)",
             "ClimateTech & CleanTech",
             "CloudTech"
+        ],
+        "data": [
+            "101 Mission St Suite 1115, San Francisco, CA 94105",
+            "https://base10.vc"
         ]
     },
     {
@@ -1263,6 +1436,10 @@
             "PropTech",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "50 Osgood Place, Suite 220A, San Francisco, CA 94133",
+            "https://beepartners.vc"
         ]
     },
     {
@@ -1296,6 +1473,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Advertising (AdTech)",
             "E-Commerce"
+        ],
+        "data": [
+            "140 New Montgomery Street, San Francisco, California 94105",
+            "http://www.benchmark.com"
         ]
     },
     {
@@ -1315,7 +1496,11 @@
             "Series C",
             "Series D"
         ],
-        "investment_focus": []
+        "investment_focus": [],
+        "data": [
+            "601 California Street, Suite 620, San Francisco, CA 94108",
+            "https://beringcapital.com"
+        ]
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/berkeley-catalyst-fund-bcf",
@@ -1334,7 +1519,8 @@
         ],
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/better-tomorrow-ventures",
@@ -1351,6 +1537,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "13 Pearl Street, San Francisco, CA 94103, United States",
+            "www.btv.vc"
         ]
     },
     {
@@ -1371,6 +1561,10 @@
         "investment_focus": [
             "Enterprise",
             "HR Tech"
+        ],
+        "data": [
+            "1550 Bryant Street, Suite 700, San Francisco, CA 94103, United States",
+            "www.binarycap.com"
         ]
     },
     {
@@ -1398,6 +1592,10 @@
             "CloudTech",
             "E-Commerce",
             "Enterprise"
+        ],
+        "data": [
+            "1 Ferry Building Suite 255, San Francisco, CA 94111, United States",
+            "https://www.blockchain.capital"
         ]
     },
     {
@@ -1430,6 +1628,10 @@
             "CloudTech",
             "Hardware",
             "FinTech"
+        ],
+        "data": [
+            "140 New Montgomery St, San Francisco, CA 94105",
+            "https://www.bloombergbeta.com"
         ]
     },
     {
@@ -1452,6 +1654,10 @@
             "Big Data & Analytics",
             "CloudTech",
             "SaaS"
+        ],
+        "data": [
+            "999 Baker Way, Suite 150, San Mateo, CA 94404",
+            "https://www.linkedin.com/company/bluepointeventures"
         ]
     },
     {
@@ -1484,6 +1690,10 @@
             "Productivity Tools",
             "Software",
             "SaaS"
+        ],
+        "data": [
+            "432 Bryant Street, San Francisco, CA 94107",
+            "www.blumbergcapital.com"
         ]
     },
     {
@@ -1520,6 +1730,10 @@
             "Big Data & Analytics",
             "PropTech",
             "SaaS"
+        ],
+        "data": [
+            "2122 Bryant St, San Francisco, California 94110, US",
+            "https://bolt.io/"
         ]
     },
     {
@@ -1558,6 +1772,10 @@
             "InsurTech",
             "Food and Beverage",
             "Enterprise"
+        ],
+        "data": [
+            "100 The Embarcadero, Suite 200, San Francisco, CA 94105",
+            "https://www.bondcap.com"
         ]
     },
     {
@@ -1578,6 +1796,10 @@
             "FinTech",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "55 E 3RD Ave, San Mateo, CA, 94401-4010, United States",
+            "https://www.boost.vc"
         ]
     },
     {
@@ -1599,6 +1821,10 @@
             "FinTech",
             "Cybersecurity",
             "ClimateTech & CleanTech"
+        ],
+        "data": [
+            "44 Tehama Street, San Francisco, CA 94105, USA",
+            "https://bootstraplabs.com"
         ]
     },
     {
@@ -1627,6 +1853,10 @@
             "FinTech",
             "PropTech",
             "Hardware"
+        ],
+        "data": [
+            "103 Ashbury Street, San Francisco, CA 94117, United States",
+            "http://www.bragielbrothers.com"
         ]
     },
     {
@@ -1646,6 +1876,10 @@
         ],
         "investment_focus": [
             "Software"
+        ],
+        "data": [
+            "4 Embarcadero Center Suite 1400, San Francisco, CA 94111",
+            "http://www.brainstorm.vc"
         ]
     },
     {
@@ -1665,6 +1899,10 @@
         "investment_focus": [
             "BioTech",
             "Sustainability"
+        ],
+        "data": [
+            "1 Letterman Drive Building C, Suite 400, San Francisco, CA 94129, United States",
+            "www.breakout.vc"
         ]
     },
     {
@@ -1687,6 +1925,10 @@
         "investment_focus": [
             "E-Commerce",
             "Software"
+        ],
+        "data": [
+            "601 California St Suite 620, San Francisco, CA 94108",
+            "https://www.buckhillcapital.com"
         ]
     },
     {
@@ -1715,6 +1957,10 @@
             "Apps",
             "RetailTech",
             "Big Data & Analytics"
+        ],
+        "data": [
+            "601 California Street, Suite 700, San Francisco, CA 94108",
+            "https://www.builders.vc"
         ]
     },
     {
@@ -1734,7 +1980,8 @@
         ],
         "investment_focus": [
             "FinTech"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/cadenza-capital-management",
@@ -1757,6 +2004,10 @@
             "FinTech",
             "Software",
             "Creator Economy"
+        ],
+        "data": [
+            "Undisclosed, San Francisco, CA 94105, USA",
+            "www.cadenza.vc"
         ]
     },
     {
@@ -1792,6 +2043,10 @@
             "Cybersecurity",
             "PropTech",
             "Productivity Tools"
+        ],
+        "data": [
+            "2655 Broderick Street, San Francisco, CA 94123-2969",
+            "https://caffeinatedcapital.com"
         ]
     },
     {
@@ -1826,6 +2081,10 @@
             "E-Commerce",
             "Marketing (MarTech)",
             "Food and Beverage"
+        ],
+        "data": [
+            "25 Taylor Street, San Francisco, California 94117, US",
+            "http://www.cantos.vc"
         ]
     },
     {
@@ -1853,6 +2112,10 @@
             "Cybersecurity",
             "PropTech",
             "SaaS"
+        ],
+        "data": [
+            "201 3rd St, 5th Fl, San Francisco, CA 94103",
+            "https://capitaloneventures.com"
         ]
     },
     {
@@ -1875,6 +2138,10 @@
             "Legal Tech",
             "E-Commerce",
             "RetailTech"
+        ],
+        "data": [
+            "1600 Amphitheatre Parkway, Mountain View, California 94043, US",
+            "https://www.capitalg.com"
         ]
     },
     {
@@ -1896,6 +2163,10 @@
             "Productivity Tools",
             "SaaS",
             "Software"
+        ],
+        "data": [
+            "3 Embarcadero Center, Suite 2360, San Francisco, CA 94111, USA",
+            "https://partners-cap.com/partners-capital-san-francisco/"
         ]
     },
     {
@@ -1924,6 +2195,10 @@
             "InsurTech",
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "101 Mission Street, Suite 1630, San Francisco, California 94105",
+            "https://cathayinnovation.com"
         ]
     },
     {
@@ -1956,6 +2231,10 @@
             "Enterprise",
             "BioTech",
             "Cybersecurity"
+        ],
+        "data": [
+            "1 California St. #1750, San Francisco, CA, 94111",
+            "www.celesta.vc"
         ]
     },
     {
@@ -1975,6 +2254,10 @@
         ],
         "investment_focus": [
             "E-Commerce"
+        ],
+        "data": [
+            "42514 Albrae Street, Fremont, CA 94538",
+            "https://celticvc.com"
         ]
     },
     {
@@ -1997,6 +2280,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "665 3rd Street Suite 150, San Francisco, CA 94107, United States",
+            "www.cen.vc"
         ]
     },
     {
@@ -2034,6 +2321,10 @@
             "Marketing (MarTech)",
             "Creator Economy",
             "E-Commerce"
+        ],
+        "data": [
+            "1 Market Street, Spear Tower, 40th floor, San Francisco, CA 94105",
+            "https://www.citi.com/ventures/"
         ]
     },
     {
@@ -2053,6 +2344,10 @@
         ],
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "595 Pacific Ave Fl 4, San Francisco, California, 94133, United States",
+            "https://www.civilizationventures.com"
         ]
     },
     {
@@ -2078,6 +2373,10 @@
             "Software",
             "CloudTech",
             "Developer Tools"
+        ],
+        "data": [
+            "544 Market St, San Francisco, CA 94104",
+            "https://www.cloudappscapital.com"
         ]
     },
     {
@@ -2132,7 +2431,8 @@
             "Robotics",
             "Sustainability",
             "Software"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/coelius-capital",
@@ -2152,7 +2452,8 @@
         ],
         "investment_focus": [
             "SaaS"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/coinbase-ventures",
@@ -2180,6 +2481,10 @@
             "PropTech",
             "Big Data & Analytics",
             "Enterprise"
+        ],
+        "data": [
+            "548 Market Street Suite 23008, San Francisco, CA 94104, United States",
+            "https://www.coinbase.com/ventures"
         ]
     },
     {
@@ -2202,6 +2507,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "703 Market Street, San Francisco, CA 94103",
+            "www.cometlabs.io"
         ]
     },
     {
@@ -2242,6 +2551,10 @@
             "Marketing (MarTech)",
             "Robotics",
             "InsurTech"
+        ],
+        "data": [
+            "604 Mission Street, 6th Floor, San Francisco, CA 94105, United States",
+            "www.commerce.vc"
         ]
     },
     {
@@ -2267,6 +2580,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "InsurTech",
             "EdTech"
+        ],
+        "data": [
+            "333 Bush Street, Floor 23, Ste. 2300, San Francisco, CA 94104",
+            "https://concreterosecapital.com/"
         ]
     },
     {
@@ -2298,6 +2615,10 @@
             "Food and Beverage",
             "Enterprise",
             "PaaS (Platforms)"
+        ],
+        "data": [
+            "201 Mission St Suite 650, San Francisco, CA 94105",
+            "https://www.congruentvc.com"
         ]
     },
     {
@@ -2320,6 +2641,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "845 Market St, San Francisco, CA 94103",
+            "http://www.continue.capital"
         ]
     },
     {
@@ -2348,6 +2673,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "HR Tech",
             "Apps"
+        ],
+        "data": [
+            "995 Market St, San Francisco, California 94103, US",
+            "http://contrary.com"
         ]
     },
     {
@@ -2380,6 +2709,10 @@
             "Marketing (MarTech)",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "650 California Street, 7th Floor, San Francisco, CA 94108",
+            "https://www.correlationvc.com"
         ]
     },
     {
@@ -2406,6 +2739,10 @@
             "FinTech",
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "555 Mission St #1800, San Francisco, CA 94105",
+            "https://www.cotacapital.com"
         ]
     },
     {
@@ -2431,6 +2768,10 @@
             "Enterprise",
             "SaaS",
             "Software"
+        ],
+        "data": [
+            "500 3rd Street Suite 240, San Francisco, CA 94107",
+            "https://counterpart.vc"
         ]
     },
     {
@@ -2448,6 +2789,10 @@
         ],
         "investment_focus": [
             "FemTech"
+        ],
+        "data": [
+            "185 Banks Street, San Francisco, CA 94110",
+            "http://www.coyote.ventures"
         ]
     },
     {
@@ -2468,6 +2813,10 @@
         "investment_focus": [
             "E-Commerce",
             "SaaS"
+        ],
+        "data": [
+            "855 Front St, San Francisco, CA 94111",
+            "https://www.craftventures.com"
         ]
     },
     {
@@ -2492,6 +2841,10 @@
             "Consumer Electronics",
             "Food and Beverage",
             "PropTech"
+        ],
+        "data": [
+            "1700 Montgomery Street, Suite 240, San Francisco, CA 94111",
+            "https://crescentcove.com"
         ]
     },
     {
@@ -2518,6 +2871,10 @@
             "IoT (Internet of Things)",
             "Marketing (MarTech)",
             "SaaS"
+        ],
+        "data": [
+            "2 Embarcadero Center, Suite 2200, San Francisco, CA 94111",
+            "www.crosslinkcapital.com"
         ]
     },
     {
@@ -2562,6 +2919,10 @@
             "Marketing (MarTech)",
             "Food and Beverage",
             "InsurTech"
+        ],
+        "data": [
+            "500 2nd Street, Floor 2, San Francisco, CA 94107",
+            "https://www.dcvc.com"
         ]
     },
     {
@@ -2583,6 +2944,10 @@
             "PropTech",
             "SaaS",
             "Software"
+        ],
+        "data": [
+            "32 Heron St, San Francisco, CA 94103",
+            "http://www.darlingventures.com"
         ]
     },
     {
@@ -2603,7 +2968,8 @@
         "investment_focus": [
             "FinTech",
             "SaaS"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/databricks-ventures",
@@ -2625,6 +2991,10 @@
             "Software",
             "Big Data & Analytics",
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "160 Spear Street, 15th Floor, San Francisco, CA 94105",
+            "https://www.databricks.com/databricks-ventures"
         ]
     },
     {
@@ -2658,6 +3028,10 @@
             "E-Commerce",
             "RetailTech",
             "Cybersecurity"
+        ],
+        "data": [
+            "2055 Turk Street, San Francisco, CA 94115, United States",
+            "https://www.dayoneventures.com/"
         ]
     },
     {
@@ -2681,6 +3055,10 @@
             "InsurTech",
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "267 Dorland Street, San Francisco, CA 94114, United States",
+            "www.deciens.com"
         ]
     },
     {
@@ -2710,6 +3088,10 @@
             "Apps",
             "Big Data & Analytics",
             "Cybersecurity"
+        ],
+        "data": [
+            "2973 Woodside Rd, Woodside, California, US",
+            "https://defy.vc"
         ]
     },
     {
@@ -2735,6 +3117,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "310 Shaw Rd, South San Francisco, California, USA",
+            "https://www.delphiventures.com"
         ]
     },
     {
@@ -2755,6 +3141,10 @@
         "investment_focus": [
             "HR Tech",
             "Software"
+        ],
+        "data": [
+            "164 Townsend St, Suite 3, San Francisco, CA 94107, United States",
+            "http://www.designerfund.com"
         ]
     },
     {
@@ -2772,6 +3162,10 @@
         ],
         "investment_focus": [
             "SaaS"
+        ],
+        "data": [
+            "4837 17th St, San Francisco, California, 94117",
+            "https://www.diaspora.vc"
         ]
     },
     {
@@ -2796,6 +3190,10 @@
             "Big Data & Analytics",
             "Productivity Tools",
             "Software"
+        ],
+        "data": [
+            "221 Main St, Suite 1550, San Francisco, CA 94105",
+            "http://www.docusign.com"
         ]
     },
     {
@@ -2820,6 +3218,10 @@
             "E-Commerce",
             "RetailTech",
             "Food and Beverage"
+        ],
+        "data": [
+            "San Francisco, California, United States",
+            "https://draftvc.com"
         ]
     },
     {
@@ -2844,6 +3246,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "InsurTech",
             "Robotics"
+        ],
+        "data": [
+            "1 Letterman Drive, Building D, Suite M-500, San Francisco, CA 94129",
+            "https://www.dragoneer.com"
         ]
     },
     {
@@ -2864,6 +3270,10 @@
         "investment_focus": [
             "FinTech",
             "SaaS"
+        ],
+        "data": [
+            "One Market Street, San Francisco, California, 94105, United States",
+            "https://www.dragonfly.xyz"
         ]
     },
     {
@@ -2886,6 +3296,10 @@
             "FinTech",
             "IoT (Internet of Things)",
             "Robotics"
+        ],
+        "data": [
+            "2555 Pulgas Avenue East, Palo Alto, CA",
+            "https://www.earthshot.vc"
         ]
     },
     {
@@ -2907,6 +3321,10 @@
         ],
         "investment_focus": [
             "Hardware"
+        ],
+        "data": [
+            "275 Sacramento St, San Francisco, CA 94111, USA",
+            "https://eif.vc/"
         ]
     },
     {
@@ -2951,6 +3369,10 @@
             "CloudTech",
             "Health & Wellness",
             "RetailTech"
+        ],
+        "data": [
+            "Pier 5, Ste 102, San Francisco, California 94111, US",
+            "http://www.emcap.com"
         ]
     },
     {
@@ -2978,6 +3400,10 @@
             "IoT (Internet of Things)",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "25 Taylor Street, San Francisco, CA 94102, United States",
+            "www.emergent.vc"
         ]
     },
     {
@@ -2998,6 +3424,10 @@
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Big Data & Analytics"
+        ],
+        "data": [
+            "71 Stevenson Street Suite 400, San Francisco, California, United States",
+            "https://www.empactfulcapital.com"
         ]
     },
     {
@@ -3015,6 +3445,10 @@
         ],
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "604 Mission Street, 10th Floor, PH Level, San Francisco, CA 94105, United States",
+            "https://www.eniac.vc"
         ]
     },
     {
@@ -3040,6 +3474,10 @@
             "IoT (Internet of Things)",
             "PropTech",
             "SaaS"
+        ],
+        "data": [
+            "2 Embarcadero Suite 1440, San Francisco, CA 94111, United States",
+            "https://www.ethos.vc"
         ]
     },
     {
@@ -3068,6 +3506,10 @@
             "PropTech",
             "Big Data & Analytics",
             "FemTech"
+        ],
+        "data": [
+            "660 4th Street Suite 193, San Francisco, CA 94107",
+            "https://www.expa.com"
         ]
     },
     {
@@ -3086,6 +3528,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "600 California Street, 11th Floor, San Francisco, CA 94109, United States",
+            "https://www.xcap.vc"
         ]
     },
     {
@@ -3116,6 +3562,10 @@
             "EdTech",
             "HR Tech",
             "Big Data & Analytics"
+        ],
+        "data": [
+            "601 California Street, Floor 19, San Francisco, CA 94108",
+            "https://ftvcapital.com"
         ]
     },
     {
@@ -3135,6 +3585,10 @@
         "investment_focus": [
             "ClimateTech & CleanTech",
             "PropTech"
+        ],
+        "data": [
+            "160 Bovet Rd, Suite 310, San Mateo, CA 94402",
+            "https://www.fall-line-capital.com"
         ]
     },
     {
@@ -3159,6 +3613,10 @@
             "Big Data & Analytics",
             "Developer Tools",
             "Marketing (MarTech)"
+        ],
+        "data": [
+            "140 Geary Street, 10th Floor, San Francisco, CA 94108, USA",
+            "http://www.fathomcap.com"
         ]
     },
     {
@@ -3181,6 +3639,10 @@
             "FinTech",
             "PropTech",
             "Apps"
+        ],
+        "data": [
+            "San Francisco, CA 94104, US",
+            "https://www.fiat.vc"
         ]
     },
     {
@@ -3207,7 +3669,8 @@
             "Fashion",
             "Robotics",
             "Software"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/fin-capital",
@@ -3234,6 +3697,10 @@
             "FinTech",
             "InsurTech",
             "PropTech"
+        ],
+        "data": [
+            "650 California Street, San Francisco, CA 94108, United States",
+            "www.finvc"
         ]
     },
     {
@@ -3253,6 +3720,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "44 Tehama Street, San Francisco, CA 94105, United States",
+            "http://www.financialventurestudio.com"
         ]
     },
     {
@@ -3275,7 +3746,8 @@
             "E-Commerce",
             "Fashion",
             "Food and Beverage"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/firework-ventures",
@@ -3293,6 +3765,10 @@
         ],
         "investment_focus": [
             "EdTech"
+        ],
+        "data": [
+            "394 Pacific Avenue, 2nd Floor, San Francisco, CA, USA",
+            "https://www.firework.vc"
         ]
     },
     {
@@ -3315,6 +3791,10 @@
             "FinTech",
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Software"
+        ],
+        "data": [
+            "3031 San Jose Avenue, San Francisco, California, 94112, United States",
+            "https://www.firstraysvc.com"
         ]
     },
     {
@@ -3335,6 +3815,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "36 Palm Avenue, San Francisco, CA 94118",
+            "https://www.flexcapital.com"
         ]
     },
     {
@@ -3352,6 +3836,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "310 Shaw Rd, South San Francisco, California, USA",
+            "http://www.floriventures.com"
         ]
     },
     {
@@ -3385,6 +3873,10 @@
             "SaaS",
             "Health & Wellness",
             "FinTech"
+        ],
+        "data": [
+            "1161 Mission Street Suite 300, San Francisco, CA 94103, United States",
+            "www.forerunnerventures.com"
         ]
     },
     {
@@ -3408,6 +3900,10 @@
         "investment_focus": [
             "BioTech",
             "Health & Wellness"
+        ],
+        "data": [
+            "900 Larkspur Landing Circle, Suite 150, Larkspur, CA 94939",
+            "http://www.foresitecapital.com"
         ]
     },
     {
@@ -3437,6 +3933,10 @@
             "Food and Beverage",
             "Apps",
             "InsurTech"
+        ],
+        "data": [
+            "501 Second Street, Suite 300, San Francisco, California 94107",
+            "https://formation8.com"
         ]
     },
     {
@@ -3456,6 +3956,10 @@
         ],
         "investment_focus": [
             "SaaS"
+        ],
+        "data": [
+            "149 Natoma Street, 2nd Floor, San Francisco, CA 94105, US",
+            "https://www.forumvc.com"
         ]
     },
     {
@@ -3478,6 +3982,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "27 S. Park St, #201, San Francisco, CA 94107",
+            "https://www.founderscircle.com"
         ]
     },
     {
@@ -3531,6 +4039,10 @@
             "PetTech",
             "Productivity Tools",
             "Consumer Electronics"
+        ],
+        "data": [
+            "One Letterman Drive, San Francisco, California 94129, US",
+            "http://foundersfund.com"
         ]
     },
     {
@@ -3560,6 +4072,10 @@
             "Developer Tools",
             "Cybersecurity",
             "Apps"
+        ],
+        "data": [
+            "600 California Street, San Francisco, CA 94108, United States",
+            "www.fourriversgroup.com"
         ]
     },
     {
@@ -3595,6 +4111,10 @@
             "InsurTech",
             "Developer Tools",
             "CloudTech"
+        ],
+        "data": [
+            "38 Miller Avenue Suite 490, San Francisco, CA 94941, United States",
+            "www.freestyle.vc"
         ]
     },
     {
@@ -3621,6 +4141,10 @@
             "Software",
             "ClimateTech & CleanTech",
             "Big Data & Analytics"
+        ],
+        "data": [
+            "1355 Market St, 4/F, San Francisco, California, 94102, United States",
+            "http://www.frescocapital.com"
         ]
     },
     {
@@ -3640,7 +4164,8 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "IoT (Internet of Things)",
             "Robotics"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/fung-capital",
@@ -3664,6 +4189,10 @@
             "Fashion",
             "RetailTech",
             "Software"
+        ],
+        "data": [
+            "4 Embarcadero Center, Suite 3400, San Francisco, CA 94111, United States",
+            "http://www.lfvc.com"
         ]
     },
     {
@@ -3684,6 +4213,10 @@
             "Big Data & Analytics",
             "FinTech",
             "Software"
+        ],
+        "data": [
+            "643 Mission St, San Francisco, CA 94105, United States",
+            "https://www.future.africa"
         ]
     },
     {
@@ -3704,6 +4237,10 @@
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Software"
+        ],
+        "data": [
+            "415 Mission St, 59th Floor, San Francisco, CA 94105, US",
+            "http://www.future.ventures"
         ]
     },
     {
@@ -3726,6 +4263,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "Pier 17, Suite 800, San Francisco, CA 94111, United States",
+            "www.fyrfly.vc"
         ]
     },
     {
@@ -3746,6 +4287,10 @@
         "investment_focus": [
             "FinTech",
             "SaaS"
+        ],
+        "data": [
+            "185 Berry St, San Francisco, California, 94107, United States",
+            "https://www.gfrfund.com"
         ]
     },
     {
@@ -3770,6 +4315,10 @@
             "Enterprise",
             "InsurTech",
             "Software"
+        ],
+        "data": [
+            "906 Broadway, San Francisco, California, 94133, United States",
+            "http://www.gva.capital"
         ]
     },
     {
@@ -3793,6 +4342,10 @@
             "SaaS",
             "Big Data & Analytics",
             "CloudTech"
+        ],
+        "data": [
+            "301 Main St, Unit 18B, San Francisco, California 94105, US",
+            "https://www.garuda.vc"
         ]
     },
     {
@@ -3815,6 +4368,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "1405 Gough St, San Francisco, CA 94109, United States of America",
+            "https://genblock.capital"
         ]
     },
     {
@@ -3838,6 +4395,10 @@
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Big Data & Analytics"
+        ],
+        "data": [
+            "43 South Park, San Francisco, CA 94107, United States",
+            "www.genoavc.com"
         ]
     },
     {
@@ -3857,6 +4418,10 @@
         ],
         "investment_focus": [
             "Software"
+        ],
+        "data": [
+            "2261 Market Street #311, San Francisco, CA 94114",
+            "www.goat.vc"
         ]
     },
     {
@@ -3886,6 +4451,10 @@
             "IoT (Internet of Things)",
             "Marketing (MarTech)",
             "SaaS"
+        ],
+        "data": [
+            "240 Lorton Avenue, Burlingame, CA, 94010-4245, United States",
+            "https://www.goodwatercap.com"
         ]
     },
     {
@@ -3917,6 +4486,10 @@
             "RetailTech",
             "Productivity Tools",
             "InsurTech"
+        ],
+        "data": [
+            "744 Montgomery St, San Francisco, California, United States",
+            "https://www.gpv.com"
         ]
     },
     {
@@ -3940,6 +4513,10 @@
         "investment_focus": [
             "Big Data & Analytics",
             "SaaS"
+        ],
+        "data": [
+            "480 Pacific Avenue, Suite 200, San Francisco, CA 94133",
+            "https://www.greenbayventures.com"
         ]
     },
     {
@@ -3973,6 +4550,10 @@
             "IoT (Internet of Things)",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "2024 15th Street, San Francisco, California, United States",
+            "https://www.greencow.vc"
         ]
     },
     {
@@ -3999,6 +4580,10 @@
             "PropTech",
             "Cybersecurity",
             "Developer Tools"
+        ],
+        "data": [
+            "88 Kearny Street, Suite 850, San Francisco, CA 94108",
+            "https://www.greenvisorcapital.com"
         ]
     },
     {
@@ -4023,6 +4608,10 @@
             "Food and Beverage",
             "Productivity Tools",
             "Software"
+        ],
+        "data": [
+            "1 Gate 6 Rd, Sausalito, CA 94965",
+            "https://www.greenhousecap.com"
         ]
     },
     {
@@ -4047,6 +4636,10 @@
             "Software",
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Enterprise"
+        ],
+        "data": [
+            "535 Pacific Avenue, 4th Floor, San Francisco, CA 94133, USA",
+            "http://www.greenoaks.com"
         ]
     },
     {
@@ -4069,6 +4662,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "535 Pacific Avenue, 4th Floor, San Francisco, CA 94133, US",
+            "https://greenoaks.com"
         ]
     },
     {
@@ -4089,7 +4686,8 @@
         "investment_focus": [
             "Big Data & Analytics",
             "Enterprise"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/haystack",
@@ -4125,6 +4723,10 @@
             "Legal Tech",
             "EdTech",
             "Robotics"
+        ],
+        "data": [
+            "727 Sansome St, Floor 3, San Francisco, California 94111, USA",
+            "https://haystack.vc"
         ]
     },
     {
@@ -4172,6 +4774,10 @@
             "Health & Wellness",
             "Apps",
             "RetailTech"
+        ],
+        "data": [
+            "101 Montgomery Street, Suite 200, The Presidio of San Francisco, CA 94129",
+            "https://headline.com/"
         ]
     },
     {
@@ -4193,6 +4799,10 @@
             "Health & Wellness",
             "Enterprise",
             "FinTech"
+        ],
+        "data": [
+            "1 Sansome St, Suite 3650, San Francisco, CA 94104",
+            "https://healthvelocitycapital.com"
         ]
     },
     {
@@ -4212,6 +4822,10 @@
         ],
         "investment_focus": [
             "Cybersecurity"
+        ],
+        "data": [
+            "560 Mission St, Suite 1349, San Francisco, CA 94105, USA",
+            "https://healthy.vc"
         ]
     },
     {
@@ -4236,6 +4850,10 @@
             "FinTech",
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "523 Octavia St, San Francisco, CA 94102",
+            "https://www.heavybit.com"
         ]
     },
     {
@@ -4258,6 +4876,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "1333 Gough St Apt 8B, San Francisco, California, 94109, United States",
+            "www.hikevc.com"
         ]
     },
     {
@@ -4282,6 +4904,10 @@
             "E-Commerce",
             "PropTech",
             "Software"
+        ],
+        "data": [
+            "436 Bryant Street, 3rd Floor, San Francisco, CA 94107, United States",
+            "http://www.homebrew.co"
         ]
     },
     {
@@ -4323,6 +4949,10 @@
             "Cybersecurity",
             "Developer Tools",
             "Productivity Tools"
+        ],
+        "data": [
+            "340 Pine St, Suite 200, San Francisco, CA 94104, United States",
+            "https://human.capital"
         ]
     },
     {
@@ -4349,6 +4979,10 @@
             "Creator Economy",
             "E-Commerce",
             "SaaS"
+        ],
+        "data": [
+            "Pier 33 South, The Embarcadero, Suite 300, San Francisco, CA 94111",
+            "http://www.hwvp.com"
         ]
     },
     {
@@ -4376,6 +5010,10 @@
             "FinTech",
             "PropTech",
             "SaaS"
+        ],
+        "data": [
+            "300 Mission St, San Francisco, CA 94105",
+            "https://www.iconiqcapital.com"
         ]
     },
     {
@@ -4407,6 +5045,10 @@
             "Enterprise",
             "Developer Tools",
             "PaaS (Platforms)"
+        ],
+        "data": [
+            "50 Beale Street, Ste. 2300, 94105, San Francisco, US",
+            "https://www.iconiqcapital.com/growth"
         ]
     },
     {
@@ -4426,6 +5068,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "501 The Embarcadero Pier 28 Annex, San Francisco, CA 94105",
+            "http://www.ideocolab.com"
         ]
     },
     {
@@ -4448,6 +5094,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "2121 S El Camino Real, San Mateo, CA 94403, United States",
+            "https://imo.vc"
         ]
     },
     {
@@ -4492,6 +5142,10 @@
             "InsurTech",
             "Food and Beverage",
             "Marketing (MarTech)"
+        ],
+        "data": [
+            "139 Townsend Street, Suite 505, San Francisco, CA 94107, United States",
+            "http://www.indexventures.com"
         ]
     },
     {
@@ -4519,6 +5173,10 @@
             "E-Commerce",
             "EdTech",
             "SaaS"
+        ],
+        "data": [
+            "50 Osgood Place, Suite 400, San Francisco, CA 94133",
+            "https://www.industryventures.com"
         ]
     },
     {
@@ -4556,6 +5214,10 @@
             "Health & Wellness",
             "Productivity Tools",
             "Enterprise"
+        ],
+        "data": [
+            "PO Box 190254, San Francisco, CA 94119, US",
+            "http://initialized.com"
         ]
     },
     {
@@ -4584,6 +5246,10 @@
             "Apps",
             "Software",
             "InsurTech"
+        ],
+        "data": [
+            "1 Front Street, Suite 2100, San Francisco, CA 94111, United States",
+            "http://www.us.jll.com"
         ]
     },
     {
@@ -4614,6 +5280,10 @@
             "Advertising (AdTech)",
             "Cybersecurity",
             "Health & Wellness"
+        ],
+        "data": [
+            "727 Sansome Street, Suite 300, San Francisco, CA 94111",
+            "http://jsv.com"
         ]
     },
     {
@@ -4637,6 +5307,10 @@
             "E-Commerce",
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "221 Main Street, San Francisco, CA 94105",
+            "http://www.javelinvp.com"
         ]
     },
     {
@@ -4662,6 +5336,10 @@
             "Robotics",
             "Enterprise",
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "123 South Park St, San Francisco, California 94107, US",
+            "http://www.jazzvp.com"
         ]
     },
     {
@@ -4681,31 +5359,8 @@
         ],
         "investment_focus": [
             "FemTech"
-        ]
-    },
-    {
-        "url": "https://vc-mapping.gilion.com/vc-firms/k2-global",
-        "name": "K2 Global",
-        "logo": "https://logo.clearbit.com/www.k2globalvc.com",
-        "founded": "2015",
-        "investments": "29",
-        "exits": "9",
-        "about": "K2 is a venture capital firm based in Silicon Valley and Singapore that invests in technology start-up companies.",
-        "portfolio_companies": "Pod Foods Co",
-        "fund_type": "Venture Fund",
-        "investment_stage": [
-            "Pre-Seed",
-            "Seed",
-            "Series A",
-            "Series B",
-            "Series C",
-            "Series D"
         ],
-        "investment_focus": [
-            "E-Commerce",
-            "Food and Beverage",
-            "RetailTech"
-        ]
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/k2-global-6",
@@ -4731,6 +5386,10 @@
             "E-Commerce",
             "FinTech",
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "Bay Area, San Francisco",
+            "http://www.k2globalvc.com"
         ]
     },
     {
@@ -4750,6 +5409,10 @@
         ],
         "investment_focus": [
             "BioTech"
+        ],
+        "data": [
+            "500 3rd Street, Suite 515, San Francisco, CA 94107",
+            "https://www.katalyst.ventures"
         ]
     },
     {
@@ -4773,6 +5436,10 @@
         "investment_focus": [
             "BioTech",
             "FinTech"
+        ],
+        "data": [
+            "425 Market Street, Suite 2200, San Francisco, CA 94105",
+            "www.keiretsuforum.com"
         ]
     },
     {
@@ -4791,6 +5458,10 @@
         "investment_focus": [
             "Hardware",
             "Robotics"
+        ],
+        "data": [
+            "77 Van Ness Avenue Suite 101, San Francisco, CA 94102, United States",
+            "www.kindredvc.com"
         ]
     },
     {
@@ -4811,6 +5482,10 @@
             "Cybersecurity",
             "FinTech",
             "SaaS"
+        ],
+        "data": [
+            "235 Montgomery Street, Suite 1120, San Francisco, California, United States",
+            "https://app.dealroom.co/companies/kingfisher_investment_advisors"
         ]
     },
     {
@@ -4833,6 +5508,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "1275 Mission St, San Francisco, CA 94103",
+            "https://launchpdh.com"
         ]
     },
     {
@@ -4861,6 +5540,10 @@
             "Big Data & Analytics",
             "SaaS",
             "Enterprise"
+        ],
+        "data": [
+            "20 E. 3rd Ave., San Mateo, CA 94401",
+            "https://www.learn.vc"
         ]
     },
     {
@@ -4881,6 +5564,10 @@
         "investment_focus": [
             "Robotics",
             "Software"
+        ],
+        "data": [
+            "115 Sansome Street, Suite 700, San Francisco, CA 94104",
+            "https://www.lemnos.vc"
         ]
     },
     {
@@ -4904,6 +5591,10 @@
         "investment_focus": [
             "BioTech",
             "Health & Wellness"
+        ],
+        "data": [
+            "106 Lincoln Boulevard, Suite 104, San Francisco, CA, 94129, United States",
+            "https://www.lifeforcecap.com"
         ]
     },
     {
@@ -4946,6 +5637,10 @@
             "Health & Wellness",
             "PropTech",
             "Marketing (MarTech)"
+        ],
+        "data": [
+            "909 Montgomery St, San Francisco, CA 94133",
+            "http://www.liquid2.vc"
         ]
     },
     {
@@ -4965,6 +5660,10 @@
         ],
         "investment_focus": [
             "BioTech"
+        ],
+        "data": [
+            "1 Letterman Drive, Building C, Suite C3-350, San Francisco, CA 94129",
+            "http://www.logoscapital.com"
         ]
     },
     {
@@ -4996,6 +5695,10 @@
             "RetailTech",
             "Food and Beverage",
             "Health & Wellness"
+        ],
+        "data": [
+            "447 Sutter Street, Suite 405, San Francisco, CA 94108",
+            "https://www.longjourney.vc"
         ]
     },
     {
@@ -5018,6 +5721,10 @@
         "investment_focus": [
             "Developer Tools",
             "Software"
+        ],
+        "data": [
+            "200 Townsend Street, San Francisco, CA 94107, US",
+            "http://www.lowercasellc.com"
         ]
     },
     {
@@ -5040,6 +5747,10 @@
         ],
         "investment_focus": [
             "Apps"
+        ],
+        "data": [
+            "116 New Montgomery Street, Suite 950, San Francisco, CA 94105",
+            "https://lumiacapital.com"
         ]
     },
     {
@@ -5080,6 +5791,10 @@
             "EdTech",
             "HR Tech",
             "Food and Beverage"
+        ],
+        "data": [
+            "1355 Market St, San Francisco, California, United States",
+            "http://www.m12.vc"
         ]
     },
     {
@@ -5111,6 +5826,10 @@
             "E-Commerce",
             "PropTech",
             "SaaS"
+        ],
+        "data": [
+            "1301 Sansome Street, San Francisco, CA",
+            "http://www.mhscapital.com"
         ]
     },
     {
@@ -5131,6 +5850,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "170 Clara St, San Francisco, CA 94107",
+            "www.maidenlane.com"
         ]
     },
     {
@@ -5150,6 +5873,10 @@
         ],
         "investment_focus": [
             "FemTech"
+        ],
+        "data": [
+            "1441 Jones Street, 304, San Francisco, CA 94109",
+            "www.manaventures.vc"
         ]
     },
     {
@@ -5172,6 +5899,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Big Data & Analytics",
             "FinTech"
+        ],
+        "data": [
+            "46 South Park Street, San Francisco, CA 94107",
+            "www.mgv.vc"
         ]
     },
     {
@@ -5215,6 +5946,10 @@
             "Advertising (AdTech)",
             "Marketing (MarTech)",
             "InsurTech"
+        ],
+        "data": [
+            "535 Mission St, Suite 2600, San Francisco, CA 94105",
+            "https://matrix.vc"
         ]
     },
     {
@@ -5254,6 +5989,10 @@
             "Marketing (MarTech)",
             "Consumer Electronics",
             "InsurTech"
+        ],
+        "data": [
+            "463 Pacific Ave, San Francisco, CA 94133",
+            "https://www.maveron.com"
         ]
     },
     {
@@ -5271,7 +6010,11 @@
             "Seed",
             "Series A"
         ],
-        "investment_focus": []
+        "investment_focus": [],
+        "data": [
+            "1 Post Street, 21st Floor, San Francisco, CA 94104, USA",
+            "https://ventures.mckesson.com"
+        ]
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/menlo-ventures",
@@ -5323,6 +6066,10 @@
             "EdTech",
             "Consumer Electronics",
             "IoT (Internet of Things)"
+        ],
+        "data": [
+            "524 2nd Street, San Francisco, CA 94107",
+            "https://menlovc.com"
         ]
     },
     {
@@ -5345,6 +6092,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "419 14th Street, San Francisco, California 94103, US",
+            "https://mighty.capital"
         ]
     },
     {
@@ -5367,6 +6118,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "149 New Montgomery Street, Ste 631, San Francisco, CA 94105, USA",
+            "www.mindrock.vc"
         ]
     },
     {
@@ -5384,7 +6139,11 @@
             "Seed",
             "Series A"
         ],
-        "investment_focus": []
+        "investment_focus": [],
+        "data": [
+            "953 Indiana Street, San Francisco, CA 94107",
+            "http://www.missionbaycapital.com"
+        ]
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/mithril-capital-management",
@@ -5412,6 +6171,10 @@
             "SaaS",
             "Apps",
             "ClimateTech & CleanTech"
+        ],
+        "data": [
+            "1 Letterman Dr Bldg A, Suite 4900, San Francisco, CA 94129",
+            "https://www.mithril.com"
         ]
     },
     {
@@ -5434,6 +6197,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "15 N. Ellsworth Ave, Suite 205, San Mateo, CA 94401",
+            "https://www.moai.vc"
         ]
     },
     {
@@ -5462,6 +6229,10 @@
             "Software",
             "CloudTech",
             "SaaS"
+        ],
+        "data": [
+            "2750 Broadway St, San Francisco, CA",
+            "https://mdv.com"
         ]
     },
     {
@@ -5484,7 +6255,8 @@
             "SaaS",
             "Consumer",
             "FinTech"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/monochrome-capital",
@@ -5513,6 +6285,10 @@
             "Marketing (MarTech)",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "San Francisco, CA 94114, USA",
+            "http://www.monochrome.vc/"
         ]
     },
     {
@@ -5536,6 +6312,10 @@
             "E-Commerce",
             "InsurTech",
             "PropTech"
+        ],
+        "data": [
+            "555 California Street, 27th Floor, San Francisco, CA 94104",
+            "http://www.mosaikpartners.com"
         ]
     },
     {
@@ -5558,6 +6338,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "130 W Union St, Pasadena, CA 91103, United States",
+            "www.mountwilsonvc.com"
         ]
     },
     {
@@ -5589,6 +6373,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Cybersecurity",
             "InsurTech"
+        ],
+        "data": [
+            "415 Mission Street, Suite 5550, San Francisco, California, San Francisco, CA, USA",
+            "https://www.mubadalacapital.ae/en/ventures"
         ]
     },
     {
@@ -5614,6 +6402,10 @@
             "Big Data & Analytics",
             "FinTech",
             "Apps"
+        ],
+        "data": [
+            "2 Embarcadero Center, San Francisco, CA 94111, United States",
+            "https://www.munichreventures.com"
         ]
     },
     {
@@ -5639,6 +6431,10 @@
             "PropTech",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "34 Page St, San Francisco, CA 94102",
+            "https://www.nfx.com"
         ]
     },
     {
@@ -5661,6 +6457,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "140 Geary St #1000, San Francisco, CA",
+            "https://www.neotribe.vc"
         ]
     },
     {
@@ -5682,6 +6482,10 @@
             "FinTech",
             "Software",
             "Big Data & Analytics"
+        ],
+        "data": [
+            "836 Montgomery St, San Francisco, CA 94133",
+            "www.nextworldcap.com"
         ]
     },
     {
@@ -5701,6 +6505,10 @@
         ],
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "2443 Fillmore St, San Francisco, CA",
+            "https://www.northsouthvc.com"
         ]
     },
     {
@@ -5720,6 +6528,10 @@
         ],
         "investment_focus": [
             "Software"
+        ],
+        "data": [
+            "140 Geary St, San Francisco, California, US",
+            "https://oss.capital"
         ]
     },
     {
@@ -5760,6 +6572,10 @@
             "FinTech",
             "InsurTech",
             "BioTech"
+        ],
+        "data": [
+            "190 Pacific Avenue, San Francisco, CA 94111",
+            "https://obvious.com"
         ]
     },
     {
@@ -5782,6 +6598,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "45 Germania St, San Francisco, California, 94117, United States",
+            "http://www.otgventures.com"
         ]
     },
     {
@@ -5808,6 +6628,10 @@
             "Software",
             "Enterprise",
             "SaaS"
+        ],
+        "data": [
+            "2431 Mission Street, San Francisco, California, 94110 US",
+            "https://www.beondeck.com"
         ]
     },
     {
@@ -5828,6 +6652,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "San Francisco, California, United States",
+            "https://www.oxfordangelfund.com"
         ]
     },
     {
@@ -5860,6 +6688,10 @@
             "Marketing (MarTech)",
             "PropTech",
             "SaaS"
+        ],
+        "data": [
+            "1355 Market St, #488, San Francisco, California 94102, US",
+            "https://oyster.vc"
         ]
     },
     {
@@ -5880,6 +6712,10 @@
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Health & Wellness"
+        ],
+        "data": [
+            "475 Sansome Street, Suite 1720, San Francisco, CA 94111",
+            "https://www.pfmhealthsciences.com"
         ]
     },
     {
@@ -5900,6 +6736,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "1160 Battery St. #100, San Francisco, CA 94111-1233",
+            "https://www.parade.vc"
         ]
     },
     {
@@ -5923,6 +6763,10 @@
         "investment_focus": [
             "FinTech",
             "Software"
+        ],
+        "data": [
+            "548 Market Street, San Francisco, CA 94104",
+            "http://paradigm.xyz"
         ]
     },
     {
@@ -5945,7 +6789,8 @@
             "SaaS",
             "Consumer",
             "FinTech"
-        ]
+        ],
+        "data": null
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/pathbreaker-ventures",
@@ -5971,6 +6816,10 @@
             "Marketing (MarTech)",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "205 14th Avenue, San Francisco, CA 94118, United States",
+            "https://www.pathbreakervc.com"
         ]
     },
     {
@@ -5995,6 +6844,10 @@
             "EdTech",
             "InsurTech",
             "PropTech"
+        ],
+        "data": [
+            "555 Montgomery Street, Floor Number 6, San Francisco, CA 94111, United States",
+            "https://peakstate.vc/"
         ]
     },
     {
@@ -6016,6 +6869,10 @@
             "Big Data & Analytics",
             "FinTech",
             "SaaS"
+        ],
+        "data": [
+            "158 South Park, San Francisco, CA 94107, United States",
+            "http://www.pear.vc"
         ]
     },
     {
@@ -6042,6 +6899,10 @@
             "SaaS",
             "Advertising (AdTech)",
             "Marketing (MarTech)"
+        ],
+        "data": [
+            "1160 Battery Street East, Suite 100, San Francisco, CA 94111",
+            "https://www.pilotgrowth.com"
         ]
     },
     {
@@ -6063,6 +6924,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "EdTech",
             "FinTech"
+        ],
+        "data": [
+            "981 Mission St, San Francisco, California, 94103, United States",
+            "https://www.pioneerfund.vc"
         ]
     },
     {
@@ -6091,6 +6956,10 @@
             "Hardware",
             "BioTech",
             "Food and Beverage"
+        ],
+        "data": [
+            "4 Embarcadero Center, Suite 3950, San Francisco, CA 94111",
+            "https://piva.vc"
         ]
     },
     {
@@ -6113,6 +6982,10 @@
         ],
         "investment_focus": [
             "BioTech"
+        ],
+        "data": [
+            "501 2nd Street, Suite 200, San Francisco, CA 94107",
+            "https://pivotallifesciences.com/pivotal-bioventure-partners"
         ]
     },
     {
@@ -6130,7 +7003,8 @@
         ],
         "investment_focus": [
             "FinTech"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/polychain",
@@ -6156,6 +7030,10 @@
             "Hardware",
             "Fashion",
             "Apps"
+        ],
+        "data": [
+            "548 MARKET STREET SUITE 64375, SAN FRANCISCO, CA 94104",
+            "https://polychain.capital"
         ]
     },
     {
@@ -6175,6 +7053,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "548 Market St Ste 64375, San Francisco, California, 94104, United States",
+            "https://polychain.capital"
         ]
     },
     {
@@ -6206,7 +7088,8 @@
             "HR Tech",
             "Robotics",
             "SaaS"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/precursor-ventures",
@@ -6249,6 +7132,10 @@
             "HR Tech",
             "InsurTech",
             "Health & Wellness"
+        ],
+        "data": [
+            "580 Pacific Avenue, San Francisco, CA 94133",
+            "https://precursorvc.com"
         ]
     },
     {
@@ -6268,6 +7155,10 @@
         ],
         "investment_focus": [
             "Big Data & Analytics"
+        ],
+        "data": [
+            "537 Fillmore Street, Apartment 4, San Francisco, CA 94117",
+            "www.prefaceventures.com"
         ]
     },
     {
@@ -6290,7 +7181,8 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "CloudTech",
             "Software"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/prelude-ventures",
@@ -6326,6 +7218,10 @@
             "DeepTech",
             "Apps",
             "Enterprise"
+        ],
+        "data": [
+            "One Ferry Building, Suite 300, San Francisco, CA 94111",
+            "https://www.preludeventures.com"
         ]
     },
     {
@@ -6346,6 +7242,10 @@
         "investment_focus": [
             "Apps",
             "Software"
+        ],
+        "data": [
+            "1337 California Street Suite 6, San Francisco, CA 94109, United States",
+            "www.presencecap.com"
         ]
     },
     {
@@ -6368,6 +7268,10 @@
             "FinTech",
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "101 Natoma St, 2F, San Francisco, California 94105, US",
+            "https://www.princeville-capital.com"
         ]
     },
     {
@@ -6387,7 +7291,11 @@
             "Series C",
             "Series D"
         ],
-        "investment_focus": []
+        "investment_focus": [],
+        "data": [
+            "94117 San Francisco, United States",
+            "https://psymed.ventures"
+        ]
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/questa-capital-management",
@@ -6407,6 +7315,10 @@
         "investment_focus": [
             "Software",
             "Health & Wellness"
+        ],
+        "data": [
+            "501 2nd St #403, San Francisco, CA 94107",
+            "www.questacapital.com"
         ]
     },
     {
@@ -6453,6 +7365,10 @@
             "EdTech",
             "RetailTech",
             "PetTech"
+        ],
+        "data": [
+            "548 Market Street Pmb 72966, San Francisco, CA 94104",
+            "https://quiet.com"
         ]
     },
     {
@@ -6474,7 +7390,8 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Big Data & Analytics",
             "IoT (Internet of Things)"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/raine-ventures",
@@ -6500,6 +7417,10 @@
             "SaaS",
             "HR Tech",
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "One Lombard Street, Suite 300, San Francisco, CA 94111",
+            "https://raine.com"
         ]
     },
     {
@@ -6519,6 +7440,10 @@
         ],
         "investment_focus": [
             "ClimateTech & CleanTech"
+        ],
+        "data": [
+            "San Francisco, CA 94102 United States",
+            "www.regen.vc"
         ]
     },
     {
@@ -6549,6 +7474,10 @@
             "Hardware",
             "SaaS",
             "Enterprise"
+        ],
+        "data": [
+            "474 Bryant St, San Francisco, CA 94107",
+            "https://www.reachcapital.com"
         ]
     },
     {
@@ -6573,7 +7502,8 @@
             "Marketing (MarTech)",
             "Enterprise",
             "SaaS"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/rembrandt-venture-partners",
@@ -6600,6 +7530,10 @@
             "SaaS",
             "Enterprise",
             "Productivity Tools"
+        ],
+        "data": [
+            "600 Montgomery St, 44th Floor, San Francisco, CA 94111",
+            "www.rembrandtvc.com"
         ]
     },
     {
@@ -6651,7 +7585,8 @@
             "Robotics",
             "Sustainability",
             "Software"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/renegade-partners",
@@ -6670,6 +7605,10 @@
             "Consumer",
             "E-Commerce",
             "RetailTech"
+        ],
+        "data": [
+            "474 Bryant Street, San Francisco, CA 94107",
+            "www.renegadepartners.com"
         ]
     },
     {
@@ -6695,6 +7634,10 @@
             "IoT (Internet of Things)",
             "Marketing (MarTech)",
             "SaaS"
+        ],
+        "data": [
+            "PO Box 780, San Francisco, CA 94104",
+            "https://www.resolute.vc"
         ]
     },
     {
@@ -6714,6 +7657,10 @@
         ],
         "investment_focus": [
             "SaaS"
+        ],
+        "data": [
+            "548 Market St Pmb 82874, San Francisco, CA 94104, United States",
+            "www.ridge.vc"
         ]
     },
     {
@@ -6760,6 +7707,10 @@
             "EdTech",
             "Health & Wellness",
             "PetTech"
+        ],
+        "data": [
+            "649 Mission Street, 5th Floor, San Francisco, CA 94105",
+            "https://rightsidecapital.com"
         ]
     },
     {
@@ -6780,6 +7731,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "149 9th St, San Francisco, CA 94103",
+            "https://www.rightventures.com/"
         ]
     },
     {
@@ -6799,6 +7754,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "274 Brannan Street, Suite 500, San Francisco, CA 94107, United States",
+            "https://www.rippleventures.com"
         ]
     },
     {
@@ -6818,6 +7777,10 @@
         ],
         "investment_focus": [
             "Robotics"
+        ],
+        "data": [
+            "2670 Harrison St, San Francisco, CA 94110",
+            "https://root.vc"
         ]
     },
     {
@@ -6840,7 +7803,8 @@
             "SaaS",
             "Consumer",
             "FinTech"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/s28-capital",
@@ -6867,6 +7831,10 @@
             "Advertising (AdTech)",
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "E-Commerce"
+        ],
+        "data": [
+            "96 South Park, San Francisco, California 94107, US",
+            "https://www.s28capital.com"
         ]
     },
     {
@@ -6916,6 +7884,10 @@
             "BioTech",
             "RetailTech",
             "PropTech"
+        ],
+        "data": [
+            "588 Sutter Street Suite 299, San Francisco, CA 94102",
+            "www.svangel.com"
         ]
     },
     {
@@ -6935,6 +7907,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "38 Keyes Avenue, Suite LL05, San Francisco, CA 94129, United States",
+            "www.svlatamcap.com"
         ]
     },
     {
@@ -6959,6 +7935,10 @@
             "Hardware",
             "Software",
             "FinTech"
+        ],
+        "data": [
+            "415 Mission Street, 3rd Floor, San Francisco, CA 94105",
+            "https://www.salesforce.com"
         ]
     },
     {
@@ -6976,7 +7956,11 @@
             "Seed",
             "Series A"
         ],
-        "investment_focus": []
+        "investment_focus": [],
+        "data": [
+            "209 Kearny St, San Francisco, CA 94108",
+            "www.schematicventures.com"
+        ]
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/scifi-vc",
@@ -7003,6 +7987,10 @@
             "Marketing (MarTech)",
             "BioTech",
             "Developer Tools"
+        ],
+        "data": [
+            "744 Montgomery Street, Floor 3, San Francisco, CA 94111",
+            "http://www.scifi.vc"
         ]
     },
     {
@@ -7028,6 +8016,10 @@
             "Big Data & Analytics",
             "Robotics",
             "FinTech"
+        ],
+        "data": [
+            "535 Mission Street, 14F, San Francisco, CA 94105",
+            "https://scrum.vc"
         ]
     },
     {
@@ -7050,6 +8042,10 @@
             "HR Tech",
             "InsurTech",
             "SaaS"
+        ],
+        "data": [
+            "1850 Gateway Dr. 700, San Mateo, CA 94404, USA",
+            "https://www.sempervirensvc.com"
         ]
     },
     {
@@ -7081,6 +8077,10 @@
             "FemTech",
             "Software",
             "EdTech"
+        ],
+        "data": [
+            "1030 15TH STREET NW UB1 SUITE 373",
+            "https://www.serenaventures.com/"
         ]
     },
     {
@@ -7101,6 +8101,10 @@
         "investment_focus": [
             "EdTech",
             "Software"
+        ],
+        "data": [
+            "44 Montgomery Street, Suite 3450, San Francisco, California 94104, US",
+            "https://serentcapital.com"
         ]
     },
     {
@@ -7116,7 +8120,11 @@
         "investment_stage": [
             "Seed"
         ],
-        "investment_focus": []
+        "investment_focus": [],
+        "data": [
+            "280 Utah Avenue, South San Francisco, CA 94080",
+            "www.spiivc.com"
+        ]
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/shima-capital",
@@ -7138,6 +8146,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "323 Geary St, San Francisco, California, USA",
+            "https://shima.capital"
         ]
     },
     {
@@ -7167,6 +8179,10 @@
             "CloudTech",
             "Cybersecurity",
             "EdTech"
+        ],
+        "data": [
+            "1400 Fashion Island Blvd. Ste. 1010, San Mateo, CA 94404",
+            "https://www.sierraventures.com"
         ]
     },
     {
@@ -7211,6 +8227,10 @@
             "RetailTech",
             "EdTech",
             "HR Tech"
+        ],
+        "data": [
+            "501 2nd St Suite 100, San Francisco, CA 94107",
+            "https://www.signalfire.com"
         ]
     },
     {
@@ -7233,6 +8253,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "1032 Irving St Unit 615, San Francisco, CA 94122",
+            "https://smarthub.vc"
         ]
     },
     {
@@ -7269,7 +8293,8 @@
             "PaaS (Platforms)",
             "PetTech",
             "Health & Wellness"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/socii-capital",
@@ -7291,6 +8316,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Legal Tech",
             "SaaS"
+        ],
+        "data": [
+            "315 Montgomery Street, 9th Floor, San Francisco, CA 94104, US",
+            "https://sociicapital.com/"
         ]
     },
     {
@@ -7309,6 +8338,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "One Ferry Building, San Francisco, CA",
+            "https://www.solarecofund.com"
         ]
     },
     {
@@ -7334,6 +8367,10 @@
             "Apps",
             "HR Tech",
             "FinTech"
+        ],
+        "data": [
+            "112 S Park St, San Francisco, CA 94107",
+            "https://www.southparkcommons.com"
         ]
     },
     {
@@ -7359,6 +8396,10 @@
             "E-Commerce",
             "RetailTech",
             "HR Tech"
+        ],
+        "data": [
+            "785 Market Street, Suite 700, San Francisco, CA 94103",
+            "http://www.spidercapital.com"
         ]
     },
     {
@@ -7380,6 +8421,10 @@
         ],
         "investment_focus": [
             "BioTech"
+        ],
+        "data": [
+            "100 Montgomery Street, Suite 2190, San Francisco, CA 94104",
+            "http://www.sprucecp.com"
         ]
     },
     {
@@ -7399,6 +8444,10 @@
         ],
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "1011 Kearny St, San Francisco, California 94133, US",
+            "https://www.starship.vc"
         ]
     },
     {
@@ -7419,7 +8468,8 @@
             "SaaS",
             "Consumer",
             "FinTech"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/stormbreaker-ventures",
@@ -7440,6 +8490,10 @@
             "IoT (Internet of Things)",
             "Cybersecurity",
             "Software"
+        ],
+        "data": [
+            "800 Boylston St. Suite 1410 Boston, MA 02199",
+            "https://stormbreaker.vc"
         ]
     },
     {
@@ -7462,6 +8516,10 @@
             "CloudTech",
             "Software",
             "FinTech"
+        ],
+        "data": [
+            "595 Pacific Ave FL4, San Francisco, CA 94133, USA",
+            "https://www.stratminds.vc"
         ]
     },
     {
@@ -7503,6 +8561,10 @@
             "Legal Tech",
             "HR Tech",
             "Food and Beverage"
+        ],
+        "data": [
+            "1825 Emerson Street, Palo Alto, CA 94301, United States",
+            "www.streamlined.vc"
         ]
     },
     {
@@ -7524,7 +8586,8 @@
             "Creator Economy",
             "E-Commerce",
             "Food and Beverage"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/sugar-capital",
@@ -7546,6 +8609,10 @@
             "FinTech",
             "Software",
             "ClimateTech & CleanTech"
+        ],
+        "data": [
+            "921 Front St, San Francisco, CA 94111, United States",
+            "https://sugarcap.com"
         ]
     },
     {
@@ -7580,6 +8647,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "InsurTech",
             "Enterprise"
+        ],
+        "data": [
+            "660 York St Suite 201, San Francisco, CA 94110",
+            "https://susaventures.com"
         ]
     },
     {
@@ -7599,6 +8670,10 @@
         ],
         "investment_focus": [
             "SaaS"
+        ],
+        "data": [
+            "325 Pacific Avenue, San Francisco, CA 94111",
+            "http://www.swayvc.com"
         ]
     },
     {
@@ -7622,6 +8697,10 @@
             "FinTech",
             "Advertising (AdTech)",
             "PropTech"
+        ],
+        "data": [
+            "335 Surrey Street, San Francisco, CA 94131, United States",
+            "www.switch.vc"
         ]
     },
     {
@@ -7647,6 +8726,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "345 California Street, Suite 3300, San Francisco, CA 94104, United States",
+            "http://www.tpg.com"
         ]
     },
     {
@@ -7681,6 +8764,10 @@
             "Enterprise",
             "Marketing (MarTech)",
             "Productivity Tools"
+        ],
+        "data": [
+            "345 California Street Suite 3300, San Francisco, CA 94104",
+            "https://www.tpg.com"
         ]
     },
     {
@@ -7703,7 +8790,8 @@
             "SaaS",
             "Consumer",
             "FinTech"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/techstars",
@@ -7739,6 +8827,10 @@
             "PetTech",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "1 Market St, San Francisco, California, US",
+            "https://www.techstars.com"
         ]
     },
     {
@@ -7760,6 +8852,10 @@
             "Apps",
             "E-Commerce",
             "Delivery"
+        ],
+        "data": [
+            "200 California St, Suite 500, San Francisco, CA 94111, US",
+            "http://www.tektonventures.com"
         ]
     },
     {
@@ -7784,6 +8880,10 @@
             "Consumer",
             "E-Commerce",
             "Legal Tech"
+        ],
+        "data": [
+            "188 Minna St 38 E, San Francisco, California, 94105, United States",
+            "http://www.telesoftvc.com"
         ]
     },
     {
@@ -7809,6 +8909,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "300 Montgomery Street, Suite 1130, San Francisco, CA 94104",
+            "https://thpartners.net"
         ]
     },
     {
@@ -7844,6 +8948,10 @@
             "Marketing (MarTech)",
             "Robotics",
             "SaaS"
+        ],
+        "data": [
+            "575 Market Street, Suite 1650, San Francisco, California 94105, USA",
+            "https://telstraventures.com"
         ]
     },
     {
@@ -7868,6 +8976,10 @@
             "Advertising (AdTech)",
             "SaaS",
             "Software"
+        ],
+        "data": [
+            "106 Lincoln Blvd, San Francisco, CA 94129",
+            "https://www.thayerventures.com"
         ]
     },
     {
@@ -7888,7 +9000,11 @@
             "Series C",
             "Series D"
         ],
-        "investment_focus": []
+        "investment_focus": [],
+        "data": [
+            "1700 Owens Street, Suite 500, San Francisco, CA 94158, United States",
+            "https://www.thecolumngroup.com"
+        ]
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/the-rise-fund",
@@ -7911,6 +9027,10 @@
             "Software",
             "BioTech",
             "EdTech"
+        ],
+        "data": [
+            "345 California St Ste 3300, San Francisco, California, 94104, United States",
+            "https://therisefund.com"
         ]
     },
     {
@@ -7933,6 +9053,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "Saint Vincent and the Grenadines",
+            "https://theuntitled.vc"
         ]
     },
     {
@@ -7966,6 +9090,10 @@
             "Big Data & Analytics",
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "InsurTech"
+        ],
+        "data": [
+            "138 S Park St, San Francisco, CA 94107",
+            "www.thomvest.com"
         ]
     },
     {
@@ -7990,6 +9118,10 @@
             "CloudTech",
             "Robotics",
             "Software"
+        ],
+        "data": [
+            "San Francisco, California",
+            "https://www.thursday.vc/"
         ]
     },
     {
@@ -8011,6 +9143,10 @@
             "ClimateTech & CleanTech",
             "Software",
             "Sustainability"
+        ],
+        "data": [
+            "555 California Street, Floor 29, San Francisco, CA 94104, United States",
+            "www.tidemarkcap.com"
         ]
     },
     {
@@ -8039,6 +9175,10 @@
             "Big Data & Analytics",
             "SaaS",
             "Software"
+        ],
+        "data": [
+            "600 Montgomery Street, Suite 480, San Francisco, CA 94111",
+            "https://ttcp.com"
         ]
     },
     {
@@ -8066,6 +9206,10 @@
             "FinTech",
             "Marketing (MarTech)",
             "SaaS"
+        ],
+        "data": [
+            "2700 19th Street, San Francisco, CA 94110, United States",
+            "http://www.tribecap.co"
         ]
     },
     {
@@ -8086,6 +9230,10 @@
         "investment_focus": [
             "ClimateTech & CleanTech",
             "Robotics"
+        ],
+        "data": [
+            "500 3rd Street, Suite 215, San Francisco, CA 94107",
+            "http://www.trucks.vc"
         ]
     },
     {
@@ -8117,6 +9265,10 @@
             "Apps",
             "Marketing (MarTech)",
             "Developer Tools"
+        ],
+        "data": [
+            "Bluxome St, San Francisco, California, 94107, United States",
+            "www.tuesday.vc"
         ]
     },
     {
@@ -8134,7 +9286,11 @@
             "Series A",
             "Series B"
         ],
-        "investment_focus": []
+        "investment_focus": [],
+        "data": [
+            "3340 Hillview Ave, Palo Alto, California 94304",
+            "https://unanimous.vc"
+        ]
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/uncork-capital",
@@ -8178,6 +9334,10 @@
             "Health & Wellness",
             "Food and Beverage",
             "Consumer Electronics"
+        ],
+        "data": [
+            "500 2nd St Fl 3, San Francisco, California, 94107, United States",
+            "www.uncorkcapital.com"
         ]
     },
     {
@@ -8203,6 +9363,10 @@
             "Developer Tools",
             "PaaS (Platforms)",
             "FinTech"
+        ],
+        "data": [
+            "548 Market Street Suite 34015, San Francisco, CA 94104, United States",
+            "http://www.uncorrelated.com"
         ]
     },
     {
@@ -8225,6 +9389,10 @@
             "Developer Tools",
             "PaaS (Platforms)",
             "Software"
+        ],
+        "data": [
+            "665 3rd St. #150, San Francisco, California 94107, US",
+            "https://unionlabs.com"
         ]
     },
     {
@@ -8247,6 +9415,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "San Francisco, California, United States",
+            "http://www.uprising.us"
         ]
     },
     {
@@ -8269,6 +9441,10 @@
             "Software",
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Health & Wellness"
+        ],
+        "data": [
+            "553 Pacific Ave, San Francisco, CA 94133",
+            "www.upsidevc.com"
         ]
     },
     {
@@ -8291,6 +9467,10 @@
             "FinTech",
             "IoT (Internet of Things)",
             "SaaS"
+        ],
+        "data": [
+            "645 Harrison Street, Suite 200, San Francisco, CA 94107",
+            "https://www.urbaninnovationfund.com"
         ]
     },
     {
@@ -8313,6 +9493,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "1 Market Street, Steuart Tower, 23rd Floor, San Francisco, CA 94105, United States",
+            "https://www.vectorcapital.com"
         ]
     },
     {
@@ -8333,6 +9517,10 @@
         "investment_focus": [
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "Health & Wellness"
+        ],
+        "data": [
+            "600 Montgomery Street, San Francisco, CA 94111",
+            "www.vela.partners"
         ]
     },
     {
@@ -8353,6 +9541,10 @@
         "investment_focus": [
             "FinTech",
             "SaaS"
+        ],
+        "data": [
+            "440 N Barranca Ave #3976, Covina, CA 91723, United States",
+            "www.villageglobal.vc"
         ]
     },
     {
@@ -8379,6 +9571,10 @@
             "Software",
             "PaaS (Platforms)",
             "E-Commerce"
+        ],
+        "data": [
+            "Headquarters: San Francisco, CA\n642, Harrison Street, Suite 200, San Francisco, CA - 94107",
+            "https://usa.visa.com/"
         ]
     },
     {
@@ -8400,7 +9596,8 @@
             "Apps",
             "Cybersecurity",
             "Developer Tools"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/wi-harper-group",
@@ -8422,6 +9619,10 @@
         ],
         "investment_focus": [
             "BioTech"
+        ],
+        "data": [
+            "50 California St #2580, San Francisco, CA 94111, USA",
+            "https://wiharper.com"
         ]
     },
     {
@@ -8452,6 +9653,10 @@
             "Hardware",
             "Big Data & Analytics",
             "SaaS"
+        ],
+        "data": [
+            "1 California St # 1750, San Francisco, CA 94111",
+            "www.waldenintl.com"
         ]
     },
     {
@@ -8477,6 +9682,10 @@
             "CloudTech",
             "PropTech",
             "E-Commerce"
+        ],
+        "data": [
+            "548 Market Street, #43351, San Francisco, CA 94104",
+            "https://www.wayfinder.com"
         ]
     },
     {
@@ -8504,6 +9713,10 @@
             "SaaS",
             "Software",
             "Cybersecurity"
+        ],
+        "data": [
+            "82 2nd St, San Francisco, CA 94105",
+            "https://winfunding.com"
         ]
     },
     {
@@ -8524,6 +9737,10 @@
         "investment_focus": [
             "E-Commerce",
             "SaaS"
+        ],
+        "data": [
+            "52 Homestead St, San Francisco, CA 94114",
+            "https://wefunder.com"
         ]
     },
     {
@@ -8555,6 +9772,10 @@
             "Enterprise",
             "Consumer",
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "590 Pacific Avenue, San Francisco, CA 94133",
+            "https://www.westcap.com"
         ]
     },
     {
@@ -8598,6 +9819,10 @@
             "PaaS (Platforms)",
             "ClimateTech & CleanTech",
             "PropTech"
+        ],
+        "data": [
+            "104 La Mesa Drive, Suite 102, Portola Valley, CA 94028, US",
+            "http://www.westerntech.com"
         ]
     },
     {
@@ -8623,6 +9848,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "777 Mariners Island Blvd Suite 550, San Mateo, California 94404, US",
+            "https://wildcat.vc"
         ]
     },
     {
@@ -8649,6 +9878,10 @@
             "Enterprise",
             "HR Tech",
             "SaaS"
+        ],
+        "data": [
+            "160 Spear Street, Suite 1700, San Francisco, CA 94015",
+            "https://ventures.workday.com/en-us/contact.html"
         ]
     },
     {
@@ -8680,7 +9913,8 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "E-Commerce",
             "Hardware"
-        ]
+        ],
+        "data": []
     },
     {
         "url": "https://vc-mapping.gilion.com/vc-firms/worldview-technology-partners",
@@ -8705,6 +9939,10 @@
             "SaaS",
             "Consumer",
             "FinTech"
+        ],
+        "data": [
+            "435 Tasso Street, Suite 120, Palo Alto, California 94301, United States",
+            "https://worldview.com"
         ]
     },
     {
@@ -8735,6 +9973,10 @@
             "E-Commerce",
             "Consumer",
             "InsurTech"
+        ],
+        "data": [
+            "257 Collingwood Street, San Francisco, CA 94114, United States",
+            "www.xyz.vc"
         ]
     },
     {
@@ -8757,6 +9999,10 @@
             "Software",
             "CloudTech",
             "Enterprise"
+        ],
+        "data": [
+            "42 Miller Avenue, Mill Valley, CA 94941",
+            "https://www.ylventures.com"
         ]
     },
     {
@@ -8778,6 +10024,10 @@
             "Artificial Intelligence & Machine Learning (AI/ML)",
             "SaaS",
             "Software"
+        ],
+        "data": [
+            "1390 Market St. Suite 200, PMB 244, San Francisco, California 94102, US",
+            "http://yes.vc"
         ]
     },
     {
@@ -8807,6 +10057,10 @@
             "Developer Tools",
             "Software",
             "Artificial Intelligence & Machine Learning (AI/ML)"
+        ],
+        "data": [
+            "255 California Street, San Francisco, California, 94111, United States",
+            "https://www.zenopartners.com"
         ]
     },
     {
@@ -8824,6 +10078,10 @@
         ],
         "investment_focus": [
             "FinTech"
+        ],
+        "data": [
+            "747 Front Street, Ste 100, San Francisco, CA 94111",
+            "https://www.ivp.com/"
         ]
     },
     {
@@ -8842,6 +10100,10 @@
         "investment_focus": [
             "Health & Wellness",
             "HR Tech"
+        ],
+        "data": [
+            "333 Bush Street, Floor 23, Ste. 2300, San Francisco, CA 94104",
+            "https://www.f7ventures.com"
         ]
     },
     {
@@ -8863,6 +10125,10 @@
             "EdTech",
             "Developer Tools",
             "Software"
+        ],
+        "data": [
+            "44 Tehama St, San Francisco, California 94105, US",
+            "https://www.gumi-cryptos.com"
         ]
     },
     {
@@ -8884,29 +10150,44 @@
             "Consumer",
             "PetTech",
             "Software"
+        ],
+        "data": [
+            "1980 Washington Street, Suite 604, San Francisco, CA 94109, United States",
+            "www.v1.vc"
         ]
     },
     {
         "url": "https://thegp.com",
         "name": "The General Partnership (TheGP)",
-        "logo": "", 
-        "founded": "", 
-        "investments": "", 
-        "exits": "", 
+        "logo": "",
+        "founded": "",
+        "investments": "",
+        "exits": "",
         "about": "The General Partnership invests capital and offers a 'services-for-equity' model to build and scale durable companies. The team has expertise from Google, Stripe, Coinbase, Square, and the White House, and has a history of successful company exits.",
-        "portfolio_companies": ["PromisePay", "TurbineOne", "Inflection", "WorkOS", "Dynaboard", "WholeSail"],
+        "portfolio_companies": [
+            "PromisePay",
+            "TurbineOne",
+            "Inflection",
+            "WorkOS",
+            "Dynaboard",
+            "WholeSail"
+        ],
         "fund_type": "Venture Fund",
         "investment_stage": [
-          "Early Stage", 
-          "Growth" 
+            "Early Stage",
+            "Growth"
         ],
         "investment_focus": [
-          "Technology", 
-          "Enterprise", 
-          "AI/ML", 
-          "Developer Tools", 
-          "Cloud Computing", 
-          "Blockchain"
+            "Technology",
+            "Enterprise",
+            "AI/ML",
+            "Developer Tools",
+            "Cloud Computing",
+            "Blockchain"
+        ],
+        "data": [
+            "San Francisco, CA",
+            "https://www.thegp.com"
         ]
-      }
+    }
 ]
