@@ -31,9 +31,16 @@ h1 {
 
 .center-button-container {
   display: flex;
-  justify-content: center;
-  gap: 20px; /* Adds space between the buttons */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+  gap: 10px; /* Adds space between the elements */
   margin: 20px 0;
+}
+
+.selector-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .left-button, .right-button, #map-selector {
