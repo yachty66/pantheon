@@ -29,23 +29,33 @@ h1 {
   margin: 10px 0;
 }
 
-.left-button, .right-button {
+.center-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds space between the buttons */
+  margin: 20px 0;
+}
+
+.left-button, .right-button, #map-selector {
   font-size: 16px;
   color: #333;
   text-decoration: none;
   padding: 10px 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: white; /* Set background color to white */
+  appearance: none; /* Remove default styling */
+  -webkit-appearance: none; /* Remove default styling for Safari */
+  -moz-appearance: none; /* Remove default styling for Firefox */
 }
 
-.left-button:hover, .right-button:hover {
+.left-button:hover, .right-button:hover, #map-selector:hover {
   text-decoration: underline;
 }
 
 .center-button {
   display: block;
   text-align: center;
-  margin: 20px auto;
   font-size: 16px;
   color: #333;
   text-decoration: none;
@@ -61,4 +71,17 @@ h1 {
 
 .info-window-content a {
   all: revert; /* This CSS property resets all the inherited styles to their initial values */
+}
+
+/* Additional styling for the select element to match the button style */
+#map-selector {
+  background-color: white; /* Ensure background color is white */
+  cursor: pointer; /* Change cursor to pointer */
+  outline: none; /* Remove outline */
+  box-shadow: none; /* Remove box shadow */
+  padding-right: 30px; /* Add padding to the right to make space for the arrow */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23333' d='M5 7L2 3h6z'/%3E%3C/svg%3E"); /* Custom arrow */
+  background-repeat: no-repeat; /* Prevent repeating the background image */
+  background-position: right 10px center; /* Position the arrow */
+  background-size: 10px 10px; /* Set the size of the arrow */
 }

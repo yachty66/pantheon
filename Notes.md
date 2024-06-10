@@ -30,5 +30,4 @@
 - [ ] Develop a website named "Pantheon," embedding Google Maps and offering pricing options.
 - [ ] Include Wi-Fi-enabled cafes and clubs in San Francisco.
 
-before i lock in something i want to make sure its the right thing on which i am going to lock in - thats the thing
-
+how i will design my website now?
