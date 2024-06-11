@@ -1,16 +1,11 @@
 ## practical next steps
 
-- [x] make a kml file 
-    - first create a basic kml file which contains one single marker with random image
-    - if above works try to add a simple description to this 
-- [x] go through feedback from twitter 
-- [x] Create map "Y Combinator Companies San Francisco" and make it shareable so that i can access it from my phone and also wobbert
-- [x] add button to website via which people can access the map
-- [ ] add all VC companies to the map
-    - [ ] make a list with all the VC companies from https://vc-mapping.gilion.com/venture-capital-firms/san-francisco?5825b8f1_page=3 
-    - [ ] setup an agent which gets the address of each VC in san francisco with source and also the url of the VC
-    - [ ] make map "VC companies San Francisco"
-- [ ] make a selector button and adjust the button with which the map is shared 
+- [ ] make and add new dataset 
+- [ ] add them to pantheon
+- [ ] add google analytics 
+- [ ] cleanup my existing datasets and upload them to kaggle?
+- [ ] make a dataset of all the people from github and think how i can integrate this on pantheon
+
 
 ## next steps
 
