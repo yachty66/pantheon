@@ -20,7 +20,7 @@
           <option value="universities">US Universities</option>
         </select>
       </div>
-      <a id="google-maps-link" href="https://www.google.com/maps/d/edit?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE&usp=sharing" target="_blank" class="center-button"><i class="fa fa-map-marker-alt" aria-hidden="true"></i> Save Map to Google Maps</a>
+      <a id="google-maps-link" href="https://www.google.com/maps/d/embed?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE" target="_blank" class="center-button"><i class="fa fa-map-marker-alt" aria-hidden="true"></i> Save Map to Google Maps</a>
     </div>
     <div id="map"></div>
 
@@ -52,11 +52,11 @@
       document.getElementById('map-selector').addEventListener('change', function() {
         var googleMapsLink = document.getElementById('google-maps-link');
         if (this.value === 'vc') {
-          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=1yOR6RFf27HdiMYB9KSZnQnbYv0U8_g8';
+          googleMapsLink.href = 'https://www.google.com/maps/d/embed?mid=1yOR6RFf27HdiMYB9KSZnQnbYv0U8_g8';
         } else if (this.value === 'universities') {
-          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=1y4EQV9-iOjrQhXYtavXluhErxF_ZMtY';
+          googleMapsLink.href = 'https://www.google.com/maps/d/embed?mid=1y4EQV9-iOjrQhXYtavXluhErxF_ZMtY';
         } else {
-          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE';
+          googleMapsLink.href = 'https://www.google.com/maps/d/embed?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE';
         }
         loadMap(this.value);
       });
