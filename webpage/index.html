@@ -17,6 +17,7 @@
         <select id="map-selector" class="left-button">
           <option value="yc">YC Companies</option>
           <option value="vc">VC Companies</option>
+          <option value="universities">US Universities</option>
         </select>
       </div>
       <a id="google-maps-link" href="https://www.google.com/maps/d/edit?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE&usp=sharing" target="_blank" class="center-button"><i class="fa fa-map-marker-alt" aria-hidden="true"></i> Save Map to Google Maps</a>
@@ -39,9 +40,12 @@
       function loadMap(type) {
         let mapUrl;
         if (type === 'vc') {
-          mapUrl = 'https://www.google.com/maps/d/embed?mid=1yOR6RFf27HdiMYB9KSZnQnbYv0U8_g8';
-        } else {
-          mapUrl = 'https://www.google.com/maps/d/embed?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE';
+          mapUrl = 'https://www.google.com/maps/d/edit?mid=1yOR6RFf27HdiMYB9KSZnQnbYv0U8_g8';
+        } else if (type === 'universities') {
+          mapUrl = 'https://www.google.com/maps/d/edit?mid=1y4EQV9-iOjrQhXYtavXluhErxF_ZMtY';
+        }
+        else {
+          mapUrl = 'https://www.google.com/maps/d/edit?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE';
         }
         document.getElementById('map').innerHTML = `<iframe src="${mapUrl}" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>`;
       }
@@ -50,7 +54,9 @@
         var googleMapsLink = document.getElementById('google-maps-link');
         if (this.value === 'vc') {
           googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=1yOR6RFf27HdiMYB9KSZnQnbYv0U8_g8&usp=sharing';
-        } else {
+        } else if (this.value === 'universities') {
+          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=1y4EQV9-iOjrQhXYtavXluhErxF_ZMtY&usp=sharing';
+        } else  {
           googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE&usp=sharing';
         }
         loadMap(this.value);

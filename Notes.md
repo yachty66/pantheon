@@ -1,6 +1,10 @@
 ## practical next steps
 
 - [ ] make and add new dataset 
+    - [ ] make new file which contains only entries where an logo is available too
+    - [ ] create layers in 500 pieces and check if this works with importing
+    - [ ] decide if i want to run vision model over the logo to check if its actual logo
+    - [ ] fix any errors in the html which is getting displayed 
 - [ ] add them to pantheon
 - [ ] add google analytics 
 - [ ] cleanup my existing datasets and upload them to kaggle?
