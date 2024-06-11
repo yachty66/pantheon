@@ -40,11 +40,11 @@
       function loadMap(type) {
         let mapUrl;
         if (type === 'vc') {
-          mapUrl = 'https://www.google.com/maps/d/embed?mid=1yOR6RFf27HdiMYB9KSZnQnbYv0U8_g8&usp=sharing';
+          mapUrl = 'https://www.google.com/maps/d/embed?mid=1yOR6RFf27HdiMYB9KSZnQnbYv0U8_g8';
         } else if (type === 'universities') {
-          mapUrl = 'https://www.google.com/maps/d/embed?mid=1y4EQV9-iOjrQhXYtavXluhErxF_ZMtY&usp=sharing';
+          mapUrl = 'https://www.google.com/maps/d/embed?mid=1y4EQV9-iOjrQhXYtavXluhErxF_ZMtY';
         } else {
-          mapUrl = 'https://www.google.com/maps/d/embed?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE&usp=sharing';
+          mapUrl = 'https://www.google.com/maps/d/embed?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE';
         }
         document.getElementById('map').innerHTML = `<iframe src="${mapUrl}" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>`;
       }
@@ -52,11 +52,11 @@
       document.getElementById('map-selector').addEventListener('change', function() {
         var googleMapsLink = document.getElementById('google-maps-link');
         if (this.value === 'vc') {
-          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=1yOR6RFf27HdiMYB9KSZnQnbYv0U8_g8&usp=sharing';
+          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=1yOR6RFf27HdiMYB9KSZnQnbYv0U8_g8';
         } else if (this.value === 'universities') {
-          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=1y4EQV9-iOjrQhXYtavXluhErxF_ZMtY&usp=sharing';
+          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=1y4EQV9-iOjrQhXYtavXluhErxF_ZMtY';
         } else {
-          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE&usp=sharing';
+          googleMapsLink.href = 'https://www.google.com/maps/d/edit?mid=121YtzpC2K5ngwqkRjYqM_bFrOdOkckE';
         }
         loadMap(this.value);
       });
