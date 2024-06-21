@@ -7,6 +7,14 @@
     - [ ] fix any errors in the html which is getting displayed 
 - [x] add them to pantheon
 - [x] add google analytics 
+- [ ] make pins for the data in the database
+- [ ] make a popup for the event name and address linking url and the name of the venue
+- [ ] make it possible to use navigation to this point inside the map 
+- [ ] share on twitter
+
+
+
+
 - [ ] make a dataset of all the people from github and think how i can integrate this on pantheon
     - [ ] get all actor urls and store them in dataset 
     - [ ] request data from actor urls and store this data as value to the apis url 
@@ -15,7 +23,7 @@
 ## next steps
 
 - [ ] make a really great landing which delivers the vision
-- [ ] add all meditation locations to the map
+- [ ] add all meditation locations to the map 
 - [ ] add starlink coverage data
 - [ ] add a chatbot with which its possible for people to chat with the data respectively
 - [ ] add all events which are happening in san fransisco
