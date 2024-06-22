@@ -1,11 +1,23 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from supabase import create_client, Client
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 
+
+
 app = FastAPI()
+
+  # Set up CORS
+app.add_middleware(
+      CORSMiddleware,
+      allow_origins=["http://127.0.0.1:5500"],  # Adjust the origin as per your client URL
+      allow_credentials=True,
+      allow_methods=["*"],
+      allow_headers=["*"],
+)
 
 # Supabase setup
 url: str = os.getenv("SUPABASE_URL")

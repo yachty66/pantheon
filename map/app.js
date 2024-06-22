@@ -1,33 +1,35 @@
-/*
-for now all i need is to render pins for the location of the events and if someone i clicking the pin he can navigate their
-
-- make pins for the data in the database
-- make a popup for the event name and address linking url and the name of the venue
-
-how are i am going to create a app now? 
-
-how can i create now a 
-
-hello my name is and i am going to be in 
-
-if i run every day 21 km how would that change my life?
-
-how are i am going to do this app now. need to pull data from supabase for this. h
-
-its time to go fully all in hypercaffeinated
-
-i like, hello my name is and i am going to cook really hard. hello my name is herl
-*/
-
-
-//pull data from database 
-
-// app.js
 mapboxgl.accessToken = "pk.eyJ1IjoieWFjaHR5NjYiLCJhIjoiY2x4aTZndXJuMW8xdzJpcHJyYTFiMnl1cSJ9.BQezezawWYgnD6sBZMsvnw";
 var map = new mapboxgl.Map({
-    container: 'map', // container ID
-    style: 'mapbox://styles/mapbox/streets-v11', // style URL
-    center: [-74.5, 40], // starting position [lng, lat]
-    zoom: 9 // starting zoom
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [-122.4194, 37.7749], // Centered on San Francisco
+    zoom: 12
 });
 
+function loadEvents() {
+    fetch('http://127.0.0.1:8000/events')
+        .then(response => response.json())
+        .then(data => {
+            const events = JSON.parse(data.data[0].events); // Assuming the events are in the first item of data array
+            events.forEach(event => {
+                // Extract latitude and longitude from address using a geocoding service if not directly available
+                // For now, let's assume you have latitude and longitude directly available or add them manually
+
+                // Create a marker for each event
+                const marker = new mapboxgl.Marker({ color: 'red' })
+                    .setLngLat([event.longitude, event.latitude]) // You need to have longitude and latitude in your event data
+                    .addTo(map);
+
+                // Create a popup for each marker
+                const popup = new mapboxgl.Popup({ offset: 25 })
+                    .setHTML(`<h3>${event.name}</h3><p>${event.address}</p><a href="${event.url}" target="_blank">Navigate</a>`);
+
+                // Attach the popup to the marker
+                marker.setPopup(popup);
+            });
+        })
+        .catch(error => console.error('Error fetching events:', error));
+}
+
+// Call loadEvents when the map loads
+map.on('load', loadEvents);

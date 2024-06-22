@@ -12,14 +12,6 @@
 - [ ] make it possible to use navigation to this point inside the map 
 - [ ] share on twitter
 
-
-
-
-- [ ] make a dataset of all the people from github and think how i can integrate this on pantheon
-    - [ ] get all actor urls and store them in dataset 
-    - [ ] request data from actor urls and store this data as value to the apis url 
-- [ ] cleanup my existing datasets and upload them to kaggle? 
-
 ## next steps
 
 - [ ] make a really great landing which delivers the vision
@@ -42,3 +34,15 @@ what are i am gonna build now? i can add a interface on the right side but i can
 if i have this thing on the right side waht are i am going to add their? i can add the selector so that i can choose their what exactly i want to see. what will i be able to select on that right side - i am not sure yet tbh - i need to figure this out. what exactly are i am going to do now with the app - i am thinking - i am not sure. maybe i should just start of with building a basic map where i am able to render all the clubs from the ra. this would work too obviously i just need to check how exactly i am going to do it. 
 
 i can build a banger website which is good and than people can open the map from there - this would be sick. i also can just have a mao where people can directly go to - this would be fun ofc.
+
+## github
+
+- [ ] make a dataset of all the people from github and think how i can integrate this on pantheon
+    - [ ] get all actor urls and store them in dataset 
+    - [ ] request data from actor urls and store this data as value to the apis url 
+- [ ] cleanup my existing datasets and upload them to kaggle? 
+
+- [ ] ssh into normal cpu and than download data for one month there
+- [ ] making all the user names unique 
+- [ ] infra for mass scraping - distributed!!!
+- [ ] getting sponsorship
