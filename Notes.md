@@ -35,6 +35,12 @@ if i have this thing on the right side waht are i am going to add their? i can a
 
 i can build a banger website which is good and than people can open the map from there - this would be sick. i also can just have a mao where people can directly go to - this would be fun ofc.
 
+- github
+- twitter
+- pantheon
+
+the thing for pantheon is - what are i am going to do here. for now i could just create 
+
 ## github
 
 - [ ] make a dataset of all the people from github and think how i can integrate this on pantheon
@@ -45,4 +51,4 @@ i can build a banger website which is good and than people can open the map from
 - [ ] ssh into normal cpu and than download data for one month there
 - [ ] making all the user names unique 
 - [ ] infra for mass scraping - distributed!!!
-- [ ] getting sponsorship
+- [ ] getting sponsorship 
