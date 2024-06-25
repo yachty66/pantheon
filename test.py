@@ -1,9 +1,6 @@
 import requests
 import json
 
-
-#i am going to sleep sooni
-
 def get_cheapest_restaurants(api_key, location, radius):
     base_url = "https://places.googleapis.com/v1/places:searchNearby"
     headers = {
@@ -39,7 +36,7 @@ def get_cheapest_restaurants(api_key, location, radius):
     return cheapest_restaurants
 
 # Example usage
-api_key = "AIzaSyBJ1-EYh9sumyJwcIjLK72s5CkNUrNntPk"
+api_key = "AIzaSyB7p8cwTOU_GQutozp_cQRoyDmcRdBeC-E"
 location = "37.7749,-122.4194"  # San Francisco, CA
 radius = 1000  # 1 kilometer
 

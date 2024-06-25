@@ -37,8 +37,6 @@ def get_cheapest_restaurants(current_location):
     """
     returns a list of all the cheapest restaurants in the area based on current location
     """
-    
-
     pass
 
 
