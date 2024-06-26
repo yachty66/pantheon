@@ -3,7 +3,7 @@ name: Daily Resident Advisor Scrape
 on:
   schedule:
     # This will run every day at 10 PM PST (6 AM UTC)
-    - cron: '0 6 * * *'
+    - cron: '0 10 * * *'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
