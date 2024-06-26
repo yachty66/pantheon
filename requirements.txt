@@ -1,0 +1,4 @@
+fastapi==0.95.1
+uvicorn==0.22.0
+supabase==1.0.3
+python-dotenv==1.0.0
