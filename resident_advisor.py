@@ -9,6 +9,9 @@ from supabase import create_client, Client
 # Load environment variables from .env file
 load_dotenv()
 
+# Mapbox API setup
+MAPBOX_ACCESS_TOKEN = os.getenv("MAPBOX_TOKEN")
+MAPBOX_GEOCODING_URL = "https://api.mapbox.com/geocoding/v5/mapbox.places/"
 
 def main():
     url = "https://ra.co/events/us/sanfrancisco"
@@ -18,6 +21,8 @@ def main():
     html_content_start_page = fetch_start_page(
         url, proxy_username, proxy_password, proxy_url
     )
+    with open("events.html", "w") as file:
+        file.write(html_content_start_page)
     print("html content start page", html_content_start_page)
     events = parse_events(html_content_start_page)
     print("events", events)
@@ -25,7 +30,32 @@ def main():
         events, proxy_username, proxy_password, proxy_url
     )
     print("event details", event_details)
+    #events=[{'url': 'https://ra.co/events/1951991', 'name': 'Interzone feat. Zeldris', 'address': '1192 Folsom St, San Francisco, CA 94103'}]
+    for event in event_details:
+        geocoded = geocode_address(event['address'])
+        if geocoded:
+            event['geocoded_address'] = geocoded
+        else:
+            event['geocoded_address'] = None
+    print(event_details)
     push_to_database(event_details)
+
+#### geocode address
+def geocode_address(address):
+    encoded_address = requests.utils.quote(address)
+    print("token", MAPBOX_ACCESS_TOKEN)
+    url = f"{MAPBOX_GEOCODING_URL}{encoded_address}.json?access_token={MAPBOX_ACCESS_TOKEN}"
+    response = requests.get(url)
+    data = response.json()
+    if data['features']:
+        # Get the first result (most relevant)
+        result = data['features'][0]
+        return {
+            'longitude': result['center'][0],
+            'latitude': result['center'][1],
+            'place_name': result['place_name']
+        }
+    return None
 
 
 #### get first page
@@ -107,7 +137,6 @@ def fetch_event_details(events, proxy_username, proxy_password, proxy_url):
         else:
             print(f"Failed to fetch content for {url}.", html_content)
     return event_details
-
 
 #### push to database
 def push_to_database(event_details):

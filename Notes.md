@@ -7,10 +7,13 @@
     - [ ] fix any errors in the html which is getting displayed 
 - [x] add them to pantheon
 - [x] add google analytics 
-- [ ] make pins for the data in the database
-- [ ] make a popup for the event name and address linking url and the name of the venue
+- [ ] load the events from the database 
+- [ ] display the events as pins inside the map 
+    - on click of pin should be name of event, link and address
+- [ ] database needs to pull events every day    
+    - every time new events are getting released i need to activate the scraper - this will be likely be every day at 6am, - i just need to figure out at which time in the day events are getting displayed again and in this moment i need to run the scraper
+- [ ] show current location 
 - [ ] make it possible to use navigation to this point inside the map 
-- [ ] share on twitter
 
 ## next steps
 
@@ -26,7 +29,7 @@
 - [ ] Create an embedding of the YC data.
 - [ ] Explore how users can utilize the map on their phones with Google Maps.
 - [ ] Integrate a ChatGPT-like interface into the map to enable interaction with the data.
-- [ ] Develop a website named "Pantheon," embedding Google Maps and offering pricing options.
+- [ ] Develop a website named "Pantheon" embedding Google Maps and offering pricing options.
 - [ ] Include Wi-Fi-enabled cafes and clubs in San Francisco.
 
 what are i am gonna build now? i can add a interface on the right side but i can also just leave it blank. its up to me what are i am going to do.
