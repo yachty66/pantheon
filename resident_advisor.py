@@ -1,23 +1,26 @@
 #### imports
 import requests
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 import re
 from supabase import create_client, Client
 
 # Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
 
 # Mapbox API setup
-MAPBOX_ACCESS_TOKEN = os.getenv("MAPBOX_TOKEN")
+MAPBOX_ACCESS_TOKEN = os.environ.get("MAPBOX_TOKEN")
 MAPBOX_GEOCODING_URL = "https://api.mapbox.com/geocoding/v5/mapbox.places/"
 
 def main():
     url = "https://ra.co/events/us/sanfrancisco"
-    proxy_username = os.getenv("PROXY_USERNAME")
-    proxy_password = os.getenv("PROXY_PASSWORD")
-    proxy_url = os.getenv("PROXY_URL")
+    proxy_username = os.environ.get("PROXY_USERNAME")
+    proxy_password = os.environ.get("PROXY_PASSWORD")
+    proxy_url = os.environ.get("PROXY_URL")
+    print("proxy username", proxy_username)
+    print("proxy password", proxy_password)
+    print("proxy url", proxy_url)
     html_content_start_page = fetch_start_page(
         url, proxy_username, proxy_password, proxy_url
     )
@@ -104,9 +107,9 @@ def fetch_with_web_unlocker(url, proxy_username, proxy_password, proxy_url, retr
 
 
 def fetch_event_details(events, proxy_username, proxy_password, proxy_url):
-    proxy_username = os.getenv("PROXY_USERNAME")
-    proxy_password = os.getenv("PROXY_PASSWORD")
-    proxy_url = os.getenv("PROXY_URL")
+    proxy_username = os.environ.get("PROXY_USERNAME")
+    proxy_password = os.environ.get("PROXY_PASSWORD")
+    proxy_url = os.environ.get("PROXY_URL")
     # Loop through each URL, fetch the content, and parse for name and address
     event_details = []
     for url in events:
@@ -140,8 +143,8 @@ def fetch_event_details(events, proxy_username, proxy_password, proxy_url):
 
 #### push to database
 def push_to_database(event_details):
-    url = os.getenv("SUPABASE_URL")
-    key = os.getenv("SUPABASE_KEY")
+    url = os.environ.get("SUPABASE_URL")
+    key = os.environ.get("SUPABASE_KEY")
     supabase: Client = create_client(url, key)
     data = {"events": event_details}
     response = supabase.table("resident_advisor").insert(data).execute()
