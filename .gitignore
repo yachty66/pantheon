@@ -1,5 +1,3 @@
 .env
 .vercel
-IPEDS_data.xlsx
-github
 map/server/__pycache__
