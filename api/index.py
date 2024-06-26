@@ -5,13 +5,13 @@ import os
 
 app = FastAPI()
 
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=["https://pantheon.so", "https://www.pantheon.so"],
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://pantheon.so", "https://www.pantheon.so"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Initialize Supabase client
 url: str = os.environ.get("SUPABASE_URL")
