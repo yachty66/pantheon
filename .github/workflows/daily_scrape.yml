@@ -1,0 +1,33 @@
+name: Daily Resident Advisor Scrape
+
+on:
+  schedule:
+    # This will run every day at 10 PM PST (6 AM UTC)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements_resident_advisor.txt
+
+    - name: Run scraper
+      env:
+        MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        proxy_username: ${{ secrets.PROXY_USERNAME }}
+        proxy_password: ${{ secrets.PROXY_PASSWORD }}
+        proxy_url: ${{ secrets.PROXY_URL }}
+      run: python resident_advisor.py
