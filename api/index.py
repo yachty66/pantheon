@@ -5,7 +5,6 @@ import os
 
 app = FastAPI()
 
-# Set up CORS
 # app.add_middleware(
 #     CORSMiddleware,
 #     allow_origins=["https://pantheon.so", "https://www.pantheon.so"],
@@ -18,14 +17,6 @@ app = FastAPI()
 url: str = os.environ.get("SUPABASE_URL")
 key: str = os.environ.get("SUPABASE_KEY")
 supabase: Client = create_client(url, key) if url and key else None
-
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
-
-@app.get('/ping')
-async def hello():
-    return {'res': 'pong'}
 
 @app.get("/api/events")
 async def get_events():
