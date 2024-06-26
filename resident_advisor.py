@@ -15,9 +15,9 @@ MAPBOX_GEOCODING_URL = "https://api.mapbox.com/geocoding/v5/mapbox.places/"
 
 def main():
     url = "https://ra.co/events/us/sanfrancisco"
-    proxy_username = os.getenv("proxy_username")
-    proxy_password = os.getenv("proxy_password")
-    proxy_url = os.getenv("proxy_url")
+    proxy_username = os.getenv("PROXY_USERNAME")
+    proxy_password = os.getenv("PROXY_PASSWORD")
+    proxy_url = os.getenv("PROXY_URL")
     html_content_start_page = fetch_start_page(
         url, proxy_username, proxy_password, proxy_url
     )
@@ -44,7 +44,6 @@ def main():
 #### geocode address
 def geocode_address(address):
     encoded_address = requests.utils.quote(address)
-    print("token", MAPBOX_ACCESS_TOKEN)
     url = f"{MAPBOX_GEOCODING_URL}{encoded_address}.json?access_token={MAPBOX_ACCESS_TOKEN}"
     response = requests.get(url)
     data = response.json()
@@ -105,9 +104,9 @@ def fetch_with_web_unlocker(url, proxy_username, proxy_password, proxy_url, retr
 
 
 def fetch_event_details(events, proxy_username, proxy_password, proxy_url):
-    proxy_username = os.getenv("proxy_username")
-    proxy_password = os.getenv("proxy_password")
-    proxy_url = os.getenv("proxy_url")
+    proxy_username = os.getenv("PROXY_USERNAME")
+    proxy_password = os.getenv("PROXY_PASSWORD")
+    proxy_url = os.getenv("PROXY_URL")
     # Loop through each URL, fetch the content, and parse for name and address
     event_details = []
     for url in events:
