@@ -8,18 +8,26 @@ load_dotenv()
 
 app = FastAPI()
 
-# Set up CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["https://pantheon.so", "https://www.pantheon.so"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# # Set up CORS
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["https://pantheon.so", "https://www.pantheon.so"],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
 url: str = os.getenv("SUPABASE_URL")
 key: str = os.getenv("SUPABASE_KEY")
 supabase: Client = create_client(url, key)
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+@app.get('/ping')
+async def hello():
+    return {'res': 'pong'}
 
 @app.get("/api/events")
 async def get_events():
@@ -30,8 +38,3 @@ async def get_events():
         return {"data": response.data[0]}
     else:
         return {"error": "No data found or unexpected response structure"}
-
-@app.get("/")
-@app.get("/{path:path}")
-async def catch_all(path: str = ""):
-    return {"message": f"Hello from path: {path}"}
