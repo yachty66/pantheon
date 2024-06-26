@@ -44,12 +44,10 @@ def get_cheapest_restaurants(current_location):
 
 @app.get("/events")
 async def get_events():
-    response = supabase.table("resident_advisor").select("*").execute()
-    # Check if 'error' is an attribute in the response object
+    response = supabase.table("resident_advisor").select("*").order('created_at', desc=True).limit(1).execute()
     if hasattr(response, 'error') and response.error:
         return {"error": str(response.error)}
-    # Assuming 'data' is the correct attribute for fetched data
-    elif hasattr(response, 'data'):
-        return {"data": response.data}
+    elif hasattr(response, 'data') and response.data:
+        return {"data": response.data[0]}  # Return the first (and only) item
     else:
-        return {"error": "Unexpected response structure"}
+        return {"error": "No data found or unexpected response structure"}

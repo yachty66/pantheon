@@ -21,9 +21,9 @@ def main():
     html_content_start_page = fetch_start_page(
         url, proxy_username, proxy_password, proxy_url
     )
-    with open("events.html", "w") as file:
-        file.write(html_content_start_page)
-    print("html content start page", html_content_start_page)
+    # with open("events.html", "w") as file:
+    #     file.write(html_content_start_page)
+    # print("html content start page", html_content_start_page)
     events = parse_events(html_content_start_page)
     print("events", events)
     event_details = fetch_event_details(
@@ -37,7 +37,8 @@ def main():
             event['geocoded_address'] = geocoded
         else:
             event['geocoded_address'] = None
-    print(event_details)
+    print("geocoded results", event_details)
+    #this should now push the geocoded results to the database so i am waiting for this to work and once it works i can see the results inside the db
     push_to_database(event_details)
 
 #### geocode address
