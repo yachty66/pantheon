@@ -10,18 +10,18 @@ app = FastAPI()
 
 # Set up CORS
 app.add_middleware(
-      CORSMiddleware,
-      allow_origins=["http://127.0.0.1:5500", "http://127.0.0.1:5501"],  # Adjust the origin as per your client URL
-      allow_credentials=True,
-      allow_methods=["*"],
-      allow_headers=["*"],
+    CORSMiddleware,
+    allow_origins=["https://pantheon.so", "https://www.pantheon.so"],  # Allow pantheon.so domains
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 url: str = os.getenv("SUPABASE_URL")
 key: str = os.getenv("SUPABASE_KEY")
 supabase: Client = create_client(url, key)
 
-@app.get("/events")
+@app.get("/api/events")  # Changed route to /api/events
 async def get_events():
     response = supabase.table("resident_advisor").select("*").order('created_at', desc=True).limit(1).execute()
     if hasattr(response, 'error') and response.error:
