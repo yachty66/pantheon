@@ -1,3 +1,3 @@
 .env
 .vercel
-map/server/__pycache__
+__pycache__

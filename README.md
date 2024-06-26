@@ -7,6 +7,5 @@ The future of Maps
 now what i need to do is to make this works
 
 
-- make it work once locally
-- push to pantheon
 - make it work on pantheon
+- setup the script for ra 
