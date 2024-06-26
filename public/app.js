@@ -15,7 +15,7 @@ function initializeMap() {
 }
 
 function loadEvents() {
-    fetch('http://127.0.0.1:8000/events')
+    fetch('/api/events')
         .then(response => response.json())
         .then(data => {
             if (data.error) {
