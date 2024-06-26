@@ -18,12 +18,6 @@ def main():
     proxy_username = os.environ.get("PROXY_USERNAME")
     proxy_password = os.environ.get("PROXY_PASSWORD")
     proxy_url = os.environ.get("PROXY_URL")
-    supabase_url=os.environ.get("SUPABASE_URL")
-    print("TEST", os.environ.get("TEST"))
-    print("proxy username", proxy_username)
-    print("supabaseurl", supabase_url)
-    print("proxy password", proxy_password)
-    print("proxy url", proxy_url)
     html_content_start_page = fetch_start_page(
         url, proxy_username, proxy_password, proxy_url
     )

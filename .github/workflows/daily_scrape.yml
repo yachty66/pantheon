@@ -27,7 +27,7 @@ jobs:
         MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
         SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        proxy_username: ${{ secrets.PROXY_USERNAME }}
-        proxy_password: ${{ secrets.PROXY_PASSWORD }}
-        proxy_url: ${{ secrets.PROXY_URL }}
+        PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
+        PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
+        PROXY_URL: ${{ secrets.PROXY_URL }}
       run: python resident_advisor.py
