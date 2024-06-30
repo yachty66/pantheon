@@ -2,8 +2,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const sendButton = document.getElementById("sendButton");
     const chatInput = document.getElementById("chatInput");
     const chatMessages = document.getElementById("chatMessages");
+    let isStreaming = false; // Flag to track if a response is being streamed
 
     function sendMessage() {
+        if (isStreaming) {
+            alert("Please wait for the current response to finish.");
+            return;
+        }
+
         const message = chatInput.value;
         if (message.trim() === "") {
             alert("Please enter a message.");
@@ -15,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Clear the input field immediately
         chatInput.value = "";
+
+        isStreaming = true; // Set the flag to true when streaming starts
 
         fetch("http://127.0.0.1:8000/api/ask", {
             method: "POST",
@@ -52,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 reader.read().then(({ done, value }) => {
                     if (done) {
                         console.log("Final result:", result);
+                        isStreaming = false; // Set the flag to false when streaming is complete
                         return;
                     }
                     const chunk = decoder.decode(value, { stream: true });
@@ -62,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     read();
                 }).catch(error => {
                     console.error("Error reading chunk:", error); // Debugging statement
+                    isStreaming = false; // Set the flag to false if an error occurs
                 });
             }
 
@@ -69,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .catch(error => {
             console.error("Error sending message:", error);
+            isStreaming = false; // Set the flag to false if an error occurs
         });
     }
 
