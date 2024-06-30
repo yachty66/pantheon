@@ -147,5 +147,4 @@ def push_to_database(event_details):
     response = supabase.table("resident_advisor").insert(data).execute()
     return response
 
-
 main()
