@@ -50,8 +50,3 @@ async def ask(req: dict):
 
     response_messages = generator()
     return StreamingResponse(response_messages, media_type="text/event-stream")
-    
-@app.post("/api/message")
-async def post_message():
-    #here i need to implement the openai stream which is getting returned
-    return {"message": "Hello, World!"}
