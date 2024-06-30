@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         isStreaming = true; // Set the flag to true when streaming starts
 
-        fetch("http://127.0.0.1:8000/api/ask", {
+        fetch("/api/ask", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
