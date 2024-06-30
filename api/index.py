@@ -57,6 +57,9 @@ async def get_events():
         logger.error(f"Exception occurred: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+
+#how to build a good agent system with tools - thinking of just using openai function calling
+
 @app.post("/api/ask")
 async def ask(req: dict):
     logger.info("Received request for /api/ask with data: %s", req)

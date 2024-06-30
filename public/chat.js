@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const chatMessages = document.getElementById("chatMessages");
     let isStreaming = false; // Flag to track if a response is being streamed
 
+    //const baseURL = window.location.hostname === "localhost" ? "http://localhost:8000" : "https://www.pantheon.so";
+
     function sendMessage() {
         if (isStreaming) {
             alert("Please wait for the current response to finish.");
@@ -24,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         isStreaming = true; // Set the flag to true when streaming starts
 
-        fetch("/api/ask", {
+        fetch("http://127.0.0.1:8000/api/ask", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
