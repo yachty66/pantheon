@@ -40,6 +40,11 @@ document.addEventListener("DOMContentLoaded", function() {
             // Create a new message element for the assistant's response
             const assistantMessageElement = document.createElement("div");
             assistantMessageElement.className = "message assistant";
+            const assistantIcon = document.createElement("i");
+            assistantIcon.className = "fas fa-robot icon";
+            assistantMessageElement.appendChild(assistantIcon);
+            const assistantText = document.createElement("span");
+            assistantMessageElement.appendChild(assistantText);
             chatMessages.appendChild(assistantMessageElement);
             chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to the bottom
 
@@ -50,10 +55,13 @@ document.addEventListener("DOMContentLoaded", function() {
                         return;
                     }
                     const chunk = decoder.decode(value, { stream: true });
+                    console.log("Received chunk:", chunk); // Debugging statement
                     result += chunk;
-                    assistantMessageElement.textContent += chunk; // Append chunk to the message element
+                    assistantText.textContent = result; // Update the message element with the current result
                     chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to the bottom
                     read();
+                }).catch(error => {
+                    console.error("Error reading chunk:", error); // Debugging statement
                 });
             }
 
@@ -76,7 +84,15 @@ document.addEventListener("DOMContentLoaded", function() {
     function appendMessage(role, content) {
         const messageElement = document.createElement("div");
         messageElement.className = `message ${role}`;
-        messageElement.textContent = content;
+        
+        const icon = document.createElement("i");
+        icon.className = role === "user" ? "fas fa-user icon" : "fas fa-robot icon";
+        messageElement.appendChild(icon);
+        
+        const text = document.createElement("span");
+        text.textContent = content;
+        messageElement.appendChild(text);
+        
         chatMessages.appendChild(messageElement);
         chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to the bottom
     }

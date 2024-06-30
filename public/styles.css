@@ -3,7 +3,7 @@ body {
   padding: 0;
   height: 100%;
   display: flex;
-  
+  font-family: 'Inter', sans-serif; /* Set the font family */
 }
 
 #chat {
@@ -27,6 +27,8 @@ body {
 }
 
 .message {
+    display: flex;
+    align-items: center;
     padding: 5px 10px;
     margin: 5px 0;
     border-radius: 5px;
@@ -43,6 +45,16 @@ body {
     align-self: flex-start;
 }
 
+.message .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    width: 24px; /* Set a fixed width for the icons */
+    height: 24px; /* Set a fixed height for the icons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .input-container {
     position: relative;
     width: 100%;
@@ -56,7 +68,7 @@ body {
     box-sizing: border-box;
     padding-right: 50px; /* Space for the button */
     resize: none; /* Prevent resizing */
-    font-family: 'Roboto', sans-serif; /* Set the font family */
+    font-family: 'Inter', sans-serif; /* Set the font family */
     font-size: 14px; /* Adjust font size */
 }
 
@@ -75,7 +87,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Roboto', sans-serif; /* Set the font family */
+    font-family: 'Inter', sans-serif; /* Set the font family */
 }
 
 #sendButton:hover {
