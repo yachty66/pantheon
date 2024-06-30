@@ -37,14 +37,22 @@ document.addEventListener("DOMContentLoaded", function() {
             const decoder = new TextDecoder("utf-8");
             let result = "";
 
+            // Create a new message element for the assistant's response
+            const assistantMessageElement = document.createElement("div");
+            assistantMessageElement.className = "message assistant";
+            chatMessages.appendChild(assistantMessageElement);
+            chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to the bottom
+
             function read() {
                 reader.read().then(({ done, value }) => {
                     if (done) {
                         console.log("Final result:", result);
                         return;
                     }
-                    result += decoder.decode(value, { stream: true });
-                    appendMessage("assistant", result); // Append assistant message to chat
+                    const chunk = decoder.decode(value, { stream: true });
+                    result += chunk;
+                    assistantMessageElement.textContent += chunk; // Append chunk to the message element
+                    chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to the bottom
                     read();
                 });
             }
