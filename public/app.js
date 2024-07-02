@@ -14,6 +14,53 @@ function initializeMap() {
     });
 }
 
+function initializeWebSocket() {
+    const socket = new WebSocket("ws://localhost:8000/ws");
+
+    socket.onopen = function(event) {
+        console.log("WebSocket is open now.");
+    };
+
+    socket.onmessage = function(event) {
+        console.log("WebSocket message received:", event.data);
+        test(event.data); // Call the test function with the received message
+    };
+
+    socket.onclose = function(event) {
+        console.log("WebSocket is closed now.");
+    };
+
+    socket.onerror = function(error) {
+        console.error("WebSocket error observed:", error);
+    };
+}
+
+async function go_to_place(placeName = 'Berlin') {
+    //all what needs to happen is that this endpoint is getting called 
+    const geocodingUrl = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(placeName)}.json?access_token=${mapboxgl.accessToken}`;
+
+    try {
+        const response = await fetch(geocodingUrl);
+        const data = await response.json();
+
+        if (data.features && data.features.length > 0) {
+            const coordinates = data.features[0].center;
+            
+            map.flyTo({
+                center: coordinates,
+                zoom: 10, // Adjust this value to set the desired zoom level
+                essential: true // This animation is considered essential with respect to prefers-reduced-motion
+            });
+        } else {
+            console.error('Location not found');
+        }
+    } catch (error) {
+        console.error('Error fetching location:', error);
+    }
+}
+
+    
+
 function loadEvents() {
     fetch('/api/events')
         .then(response => response.json())
@@ -47,4 +94,7 @@ function displayEvents(events) {
 }
 
 // Call initializeMap when the window loads
-window.onload = initializeMap;
+window.onload = function() {
+    initializeMap();
+    initializeWebSocket();
+};

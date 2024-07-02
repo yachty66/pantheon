@@ -1,11 +1,14 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
+from typing import List
 from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from supabase import create_client, Client
-from openai import AsyncOpenAI
+from openai import AsyncOpenAI, OpenAI
 import os
 import logging
+import json
+from pydantic import BaseModel
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -40,7 +43,6 @@ async def get_events():
     if not supabase:
         logger.error("Supabase client not initialized")
         raise HTTPException(status_code=500, detail="Supabase client not initialized")
-    
     try:
         response = supabase.table("resident_advisor").select("*").order('created_at', desc=True).limit(1).execute()
         logger.info(f"Supabase response: {response}")
@@ -57,11 +59,69 @@ async def get_events():
         logger.error(f"Exception occurred: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+tools = [
+    {
+        "type": "function",
+        "function": {
+            "name": "go_to_place_in_map",
+            "description": "Go to a place in the map",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "place": {
+                        "type": "string",
+                        "description": "The name of the place to navigate to.",
+                    }
+                },
+                "required": ["place"],
+            },
+        },
+    }
+]
+
+def check_for_function_call():
+    system=f"""
+    You are a chatbot on top of a map. Your job is to help the user navigate the map. You can use the available functions to help you with this task.
+    """
+    #todo this needs to be messages from the frontend
+    user_query="Go to berlin."
+    user_content=f"""
+    You are giving a chat conversation and based on this conversation you need to decide if an function from the available functions needs to be called. the available functions are:
+
+    ---
+    {tools}
+    ---
+
+    in the case a function can be called return the function name and the arguments that need to be passed to the function in JSON. Its important that the name of the key for the function name is `function_name` and the name of the key for the arguments is `arguments`. In the case a function cannot be called return an empty JSON object. 
+
+    Following the chat conversation:
+
+    ---
+    {user_query}
+    ---
+    """
+    completion = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        response_format={ "type": "json_object" },
+        temperature=0.0,
+        messages=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": user_content}
+        ]
+    )
+    response_content = completion.choices[0].message.content
+    return response_content
+
+def final_response():
+    
+    pass
+
 
 #how to build a good agent system with tools - thinking of just using openai function calling
-
 @app.post("/api/ask")
 async def ask(req: dict):
+    print("req: ", req)
+    #check_for_function_call()
     logger.info("Received request for /api/ask with data: %s", req)
     try:
         stream = await client.chat.completions.create(
@@ -69,7 +129,6 @@ async def ask(req: dict):
             model="gpt-3.5-turbo",
             stream=True,
         )
-
         async def generator():
             async for chunk in stream:
                 yield chunk.choices[0].delta.content or ""

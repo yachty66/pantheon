@@ -19,3 +19,11 @@ if we build this from scratch than i dont even need supabase
 ## backlog
 
 - [ ] add cyberpunk mode to map - if the user clicks one of the major cities here futuristic gen ai images of the city are displayed
+    - [ ] make all the spots which have a name in the map already like golden gate park 
+    - [ ] make everything clickable
+    - [ ] show current location
+- [ ] add star on github button
+- [ ] add more agentic functions
+    - [ ] go to X
+
+returning functions to call from the chatinterface would be the best

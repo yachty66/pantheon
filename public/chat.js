@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const chatInput = document.getElementById("chatInput");
     const chatMessages = document.getElementById("chatMessages");
     let isStreaming = false; // Flag to track if a response is being streamed
-
-    //const baseURL = window.location.hostname === "localhost" ? "http://localhost:8000" : "https://www.pantheon.so";
+    let chatHistory = []; // Array to store the chat history
 
     function sendMessage() {
         if (isStreaming) {
@@ -17,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
             alert("Please enter a message.");
             return;
         }
+
+        // Add user message to chat history
+        chatHistory.push({"role": "user", "content": message});
 
         // Append user message to chat
         appendMessage("user", message);
@@ -32,9 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                messages: [
-                    {"role": "user", "content": message}
-                ]
+                messages: chatHistory // Send the entire chat history
             })
         })
         .then(response => {
@@ -62,6 +62,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 reader.read().then(({ done, value }) => {
                     if (done) {
                         console.log("Final result:", result);
+                        // Add assistant's response to chat history
+                        chatHistory.push({"role": "assistant", "content": result});
                         isStreaming = false; // Set the flag to false when streaming is complete
                         return;
                     }
@@ -76,7 +78,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     isStreaming = false; // Set the flag to false if an error occurs
                 });
             }
-
             read();
         })
         .catch(error => {
