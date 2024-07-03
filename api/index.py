@@ -79,12 +79,12 @@ tools = [
     }
 ]
 
-def check_for_function_call():
+async def check_for_function_call(chat_conversation):
+    client = OpenAI(api_key=openai_api_key)
     system=f"""
     You are a chatbot on top of a map. Your job is to help the user navigate the map. You can use the available functions to help you with this task.
     """
-    #todo this needs to be messages from the frontend
-    user_query="Go to berlin."
+    #todo add option where user needs to provide more information in order for sucessfull function call
     user_content=f"""
     You are giving a chat conversation and based on this conversation you need to decide if an function from the available functions needs to be called. the available functions are:
 
@@ -92,12 +92,12 @@ def check_for_function_call():
     {tools}
     ---
 
-    in the case a function can be called return the function name and the arguments that need to be passed to the function in JSON. Its important that the name of the key for the function name is `function_name` and the name of the key for the arguments is `arguments`. In the case a function cannot be called return an empty JSON object. 
+    in the case a function can be called return the function name and the arguments that need to be passed to the function in JSON. Its important that the name of the key for the function name is `function_name` and the name of the key for the arguments is `arguments`. In the case a function cannot be called return an empty JSON object. Never append special characters like "\n\n" 
 
     Following the chat conversation:
 
     ---
-    {user_query}
+    {chat_conversation}
     ---
     """
     completion = client.chat.completions.create(
@@ -112,29 +112,88 @@ def check_for_function_call():
     response_content = completion.choices[0].message.content
     return response_content
 
-def final_response():
-    
-    pass
 
 
 #how to build a good agent system with tools - thinking of just using openai function calling
+# @app.post("/api/ask")
+# async def ask(req: dict):
+#     print("this is a test")
+#     print("req: ", req)
+#     #check_for_function_call()
+#     logger.info("Received request for /api/ask with data: %s", req)
+#     try:
+#         stream = await client.chat.completions.create(
+#             messages=req["messages"],
+#             model="gpt-3.5-turbo",
+#             stream=True,
+#         )
+#         async def generator():
+#             async for chunk in stream:
+#                 yield chunk.choices[0].delta.content or ""
+
+#         response_messages = generator()
+#         return StreamingResponse(response_messages, media_type="text/event-stream")
+#     except Exception as e:
+#         logger.error(f"Exception occurred: {e}")
+#         raise HTTPException(status_code=500, detail=str(e))
+    
+
+#can i have to endpoints the first is checking if a function needs to get called and the
+@app.post("/api/check_function_call")
+async def check_function_call_endpoint(req: dict):
+    #eitherk
+    try:
+        functions = await check_for_function_call(req)
+        return {"functions": functions}
+    except Exception as e:
+        logger.error(f"Exception occurred: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.post("/api/ask")
 async def ask(req: dict):
-    print("req: ", req)
-    #check_for_function_call()
-    logger.info("Received request for /api/ask with data: %s", req)
+    print("this is a test")
+    print("req:", req)
+    messages = req['messages']
+    functions= req["functions"]
+    print("messages:", messages)
+    print("functions:", functions)
     try:
+        system = """
+        You are a chatbot on top of a map. Your job is to help the user navigate the map. You can use the available functions to help you with this task. 
+        """
+        user_content = f"""
+        You are having a chat conversation and functions. The functions object is either empty, in which case no function is called, or it's not empty, in which case a function is called. Following is the functions object:
+
+        {functions}
+
+        Based on these functions and the following chat conversation, please provide a response. Following the chat conversation:
+
+        ---
+        {messages}
+        ---
+        """
+
         stream = await client.chat.completions.create(
-            messages=req["messages"],
-            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": user_content}
+            ],
+            model="gpt-4-turbo",
             stream=True,
         )
+
         async def generator():
             async for chunk in stream:
-                yield chunk.choices[0].delta.content or ""
+                content = chunk.choices[0].delta.content
+                if content:
+                    yield content
 
-        response_messages = generator()
-        return StreamingResponse(response_messages, media_type="text/event-stream")
+        # Create a StreamingResponse for the content
+        streaming_response = StreamingResponse(generator(), media_type="text/plain")
+
+        # Return the StreamingResponse
+        return streaming_response
+
     except Exception as e:
         logger.error(f"Exception occurred: {e}")
         raise HTTPException(status_code=500, detail=str(e))
