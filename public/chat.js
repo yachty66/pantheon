@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     isStreaming = true;
 
     // First, call the /api/check_function_call endpoint
-    fetch("https://www.pantheon.so/api/check_function_call", {
+    fetch("/api/check_function_call", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Now, call the /api/ask endpoint with the functions result
-        return fetch("https://www.pantheon.so/api/ask", {
+        return fetch("/api/ask", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
