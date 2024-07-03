@@ -188,6 +188,7 @@ async def ask(req: dict):
 
         # Create a StreamingResponse for the content
         streaming_response = StreamingResponse(generator(), media_type="text/plain")
+        streaming_response.headers["Transfer-Encoding"] = "chunked"
         print("Streaming response created successfully")
         return streaming_response
 
