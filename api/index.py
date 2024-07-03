@@ -125,6 +125,7 @@ async def check_function_call_endpoint(req: dict):
 
 @app.post("/api/ask")
 async def ask(req: dict):
+    print("just some testing")
     logger.info("Start calling /api/ask")
     logger.info(f"Request: {req}")
     
