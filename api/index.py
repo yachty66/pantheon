@@ -192,7 +192,6 @@ async def ask(req: dict):
             media_type="text/event-stream",
             headers={
                 "X-Content-Type-Options": "nosniff",
-                "Transfer-Encoding": "chunked",
             },
         )
         print("Streaming response created successfully")
