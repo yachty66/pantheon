@@ -1,0 +1,6 @@
+just some testing
+Start calling /api/ask
+Request: {'messages': [{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Hello! How can I assist you today?'}, {'role': 'user', 'content': 'how are you '}], 'functions': {}}
+Messages: [{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Hello! How can I assist you today?'}, {'role': 'user', 'content': 'how are you '}]
+Functions: {}
+Sending request to OpenAI API

@@ -35,7 +35,7 @@ supabase: Client = create_client(url, key) if url and key else None
 openai_api_key = os.environ.get("OPENAI_API_KEY")
 if not openai_api_key:
     logger.error("OpenAI API Key not found in environment variables")
-client = AsyncOpenAI(api_key=openai_api_key)
+
 
 @app.get("/api/events")
 async def get_events():
@@ -44,20 +44,29 @@ async def get_events():
         logger.error("Supabase client not initialized")
         raise HTTPException(status_code=500, detail="Supabase client not initialized")
     try:
-        response = supabase.table("resident_advisor").select("*").order('created_at', desc=True).limit(1).execute()
+        response = (
+            supabase.table("resident_advisor")
+            .select("*")
+            .order("created_at", desc=True)
+            .limit(1)
+            .execute()
+        )
         print(f"Supabase response: {response}")
-        if hasattr(response, 'error') and response.error:
+        if hasattr(response, "error") and response.error:
             logger.error(f"Supabase error: {response.error}")
             raise HTTPException(status_code=500, detail=str(response.error))
-        elif hasattr(response, 'data') and response.data:
+        elif hasattr(response, "data") and response.data:
             print("Successfully retrieved data from Supabase")
             return {"data": response.data[0]}
         else:
             logger.error("No data found or unexpected response structure")
-            raise HTTPException(status_code=500, detail="No data found or unexpected response structure")
+            raise HTTPException(
+                status_code=500, detail="No data found or unexpected response structure"
+            )
     except Exception as e:
         logger.error(f"Exception occurred: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
 
 tools = [
     {
@@ -79,13 +88,14 @@ tools = [
     }
 ]
 
+
 async def check_for_function_call(chat_conversation):
     client = OpenAI(api_key=openai_api_key)
-    system=f"""
+    system = f"""
     You are a chatbot on top of a map. Your job is to help the user navigate the map. You can use the available functions to help you with this task.
     """
-    #todo add option where user needs to provide more information in order for sucessfull function call
-    user_content=f"""
+    # todo add option where user needs to provide more information in order for sucessfull function call
+    user_content = f"""
     You are giving a chat conversation and based on this conversation you need to decide if an function from the available functions needs to be called. the available functions are:
 
     ---
@@ -102,20 +112,21 @@ async def check_for_function_call(chat_conversation):
     """
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
-        response_format={ "type": "json_object" },
+        response_format={"type": "json_object"},
         temperature=0.0,
         messages=[
             {"role": "system", "content": system},
-            {"role": "user", "content": user_content}
-        ]
+            {"role": "user", "content": user_content},
+        ],
     )
     response_content = completion.choices[0].message.content
     return response_content
 
-#can i have to endpoints the first is checking if a function needs to get called and the
+
+# can i have to endpoints the first is checking if a function needs to get called and the
 @app.post("/api/check_function_call")
 async def check_function_call_endpoint(req: dict):
-    #eitherk
+    # eitherk
     try:
         functions = await check_for_function_call(req)
         return {"functions": functions}
@@ -123,13 +134,15 @@ async def check_function_call_endpoint(req: dict):
         logger.error(f"Exception occurred: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+
 @app.post("/api/ask")
 async def ask(req: dict):
+    client = AsyncOpenAI(api_key=openai_api_key)
     print("just some testing")
     print("Start calling /api/ask")
     print(f"Request: {req}")
-    
-    messages = req['messages']
+
+    messages = req["messages"]
     functions = req["functions"]
     print(f"Messages: {messages}")
     print(f"Functions: {functions}")
@@ -150,14 +163,21 @@ async def ask(req: dict):
         ---
         """
         print("Sending request to OpenAI API")
-        stream = await client.chat.completions.create(
-            messages=[
-                {"role": "system", "content": system},
-                {"role": "user", "content": user_content}
-            ],
-            model="gpt-4-turbo",
-            stream=True,
-        )
+        try:
+            stream = await client.chat.completions.create(
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user_content},
+                ],
+                model="gpt-4-turbo",
+                stream=True,
+            )
+        except Exception as api_error:
+            print(f"Error while calling OpenAI API: {api_error}")
+            raise HTTPException(
+                status_code=500, detail="Error while calling OpenAI API"
+            )
+        print("stream:", stream)
 
         async def generator():
             async for chunk in stream:

@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/index.py": {
-      "maxDuration": 40
+      "maxDuration": 10
     }
   },
   "routes": [
