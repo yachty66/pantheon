@@ -125,9 +125,14 @@ async def check_function_call_endpoint(req: dict):
 
 @app.post("/api/ask")
 async def ask(req: dict):
-    #why the fuck does this not work? you stupid shit - why 
+    logger.info("Start calling /api/ask")
+    logger.info(f"Request: {req}")
+    
     messages = req['messages']
-    functions= req["functions"]
+    functions = req["functions"]
+    logger.info(f"Messages: {messages}")
+    logger.info(f"Functions: {functions}")
+
     try:
         system = """
         You are a chatbot on top of a map. Your job is to help the user navigate the map. You can use the available functions to help you with this task. 
@@ -143,7 +148,7 @@ async def ask(req: dict):
         {messages}
         ---
         """
-
+        logger.info("Sending request to OpenAI API")
         stream = await client.chat.completions.create(
             messages=[
                 {"role": "system", "content": system},
@@ -157,11 +162,12 @@ async def ask(req: dict):
             async for chunk in stream:
                 content = chunk.choices[0].delta.content
                 if content:
+                    logger.info(f"Streaming content: {content}")
                     yield content
 
         # Create a StreamingResponse for the content
         streaming_response = StreamingResponse(generator(), media_type="text/plain")
-
+        logger.info("Streaming response created successfully")
         return streaming_response
 
     except Exception as e:
