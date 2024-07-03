@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .then((response) => {
         if (!response.ok) {
-          console.log("history", history);
+          console.log("history", chatHistory);
           console.log("response", response);
           throw new Error("Error sending message: " + response.statusText);
         }
