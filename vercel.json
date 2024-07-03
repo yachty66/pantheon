@@ -1,15 +1,8 @@
 {
   "version": 2,
   "functions": {
-    "api/index.py": {
-      "maxDuration": 10
-    }
   },
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "api/index.py"
-    },
     {
       "src": "/(.*)",
       "dest": "/public/$1"

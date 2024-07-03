@@ -50,8 +50,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // First, call the /api/check_function_call endpoint
     //"http://127.0.0.1:8000/api/check_function_call"
-    //"/api/check_function_call"
-    fetch("http://127.0.0.1:8000/api/check_function_call", {
+      //"/api/check_function_call"
+      //"https://pantheon-83585915f080.herokuapp.com/api/check_function_call"
+    fetch("https://pantheon-83585915f080.herokuapp.com/api/check_function_call", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -90,8 +91,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Now, call the /api/ask endpoint with the functions result
         //"http://127.0.0.1:8000/api/ask"
-        //"/api/ask"
-        return fetch("http://127.0.0.1:8000/api/ask", {
+          //"/api/ask"
+          //"https://pantheon-83585915f080.herokuapp.com/api/ask"
+        return fetch("https://pantheon-83585915f080.herokuapp.com/api/ask", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
