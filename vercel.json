@@ -1,7 +1,5 @@
 {
   "version": 2,
-  "functions": {
-  },
   "routes": [
     {
       "src": "/(.*)",
