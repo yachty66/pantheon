@@ -112,32 +112,6 @@ async def check_for_function_call(chat_conversation):
     response_content = completion.choices[0].message.content
     return response_content
 
-
-
-#how to build a good agent system with tools - thinking of just using openai function calling
-# @app.post("/api/ask")
-# async def ask(req: dict):
-#     print("this is a test")
-#     print("req: ", req)
-#     #check_for_function_call()
-#     logger.info("Received request for /api/ask with data: %s", req)
-#     try:
-#         stream = await client.chat.completions.create(
-#             messages=req["messages"],
-#             model="gpt-3.5-turbo",
-#             stream=True,
-#         )
-#         async def generator():
-#             async for chunk in stream:
-#                 yield chunk.choices[0].delta.content or ""
-
-#         response_messages = generator()
-#         return StreamingResponse(response_messages, media_type="text/event-stream")
-#     except Exception as e:
-#         logger.error(f"Exception occurred: {e}")
-#         raise HTTPException(status_code=500, detail=str(e))
-    
-
 #can i have to endpoints the first is checking if a function needs to get called and the
 @app.post("/api/check_function_call")
 async def check_function_call_endpoint(req: dict):
@@ -151,12 +125,8 @@ async def check_function_call_endpoint(req: dict):
 
 @app.post("/api/ask")
 async def ask(req: dict):
-    print("this is a test")
-    print("req:", req)
     messages = req['messages']
     functions= req["functions"]
-    print("messages:", messages)
-    print("functions:", functions)
     try:
         system = """
         You are a chatbot on top of a map. Your job is to help the user navigate the map. You can use the available functions to help you with this task. 
@@ -191,7 +161,6 @@ async def ask(req: dict):
         # Create a StreamingResponse for the content
         streaming_response = StreamingResponse(generator(), media_type="text/plain")
 
-        # Return the StreamingResponse
         return streaming_response
 
     except Exception as e:
