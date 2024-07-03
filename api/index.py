@@ -39,18 +39,18 @@ client = AsyncOpenAI(api_key=openai_api_key)
 
 @app.get("/api/events")
 async def get_events():
-    logger.info("Received request for /api/events")
+    print("Received request for /api/events")
     if not supabase:
         logger.error("Supabase client not initialized")
         raise HTTPException(status_code=500, detail="Supabase client not initialized")
     try:
         response = supabase.table("resident_advisor").select("*").order('created_at', desc=True).limit(1).execute()
-        logger.info(f"Supabase response: {response}")
+        print(f"Supabase response: {response}")
         if hasattr(response, 'error') and response.error:
             logger.error(f"Supabase error: {response.error}")
             raise HTTPException(status_code=500, detail=str(response.error))
         elif hasattr(response, 'data') and response.data:
-            logger.info("Successfully retrieved data from Supabase")
+            print("Successfully retrieved data from Supabase")
             return {"data": response.data[0]}
         else:
             logger.error("No data found or unexpected response structure")
@@ -126,13 +126,13 @@ async def check_function_call_endpoint(req: dict):
 @app.post("/api/ask")
 async def ask(req: dict):
     print("just some testing")
-    logger.info("Start calling /api/ask")
-    logger.info(f"Request: {req}")
+    print("Start calling /api/ask")
+    print(f"Request: {req}")
     
     messages = req['messages']
     functions = req["functions"]
-    logger.info(f"Messages: {messages}")
-    logger.info(f"Functions: {functions}")
+    print(f"Messages: {messages}")
+    print(f"Functions: {functions}")
 
     try:
         system = """
@@ -149,7 +149,7 @@ async def ask(req: dict):
         {messages}
         ---
         """
-        logger.info("Sending request to OpenAI API")
+        print("Sending request to OpenAI API")
         stream = await client.chat.completions.create(
             messages=[
                 {"role": "system", "content": system},
@@ -163,12 +163,12 @@ async def ask(req: dict):
             async for chunk in stream:
                 content = chunk.choices[0].delta.content
                 if content:
-                    logger.info(f"Streaming content: {content}")
+                    print(f"Streaming content: {content}")
                     yield content
 
         # Create a StreamingResponse for the content
         streaming_response = StreamingResponse(generator(), media_type="text/plain")
-        logger.info("Streaming response created successfully")
+        print("Streaming response created successfully")
         return streaming_response
 
     except Exception as e:
