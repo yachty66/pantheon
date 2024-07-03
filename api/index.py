@@ -125,6 +125,7 @@ async def check_function_call_endpoint(req: dict):
 
 @app.post("/api/ask")
 async def ask(req: dict):
+    #why the fuck does this not work? you stupid shit - why 
     messages = req['messages']
     functions= req["functions"]
     try:
