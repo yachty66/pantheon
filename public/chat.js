@@ -5,6 +5,31 @@ document.addEventListener("DOMContentLoaded", function () {
   let isStreaming = false;
   let chatHistory = [];
 
+  async function go_to_place_in_map(placeName = "Berlin") {
+    const geocodingUrl = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(
+      placeName
+    )}.json?access_token=${mapboxgl.accessToken}`;
+
+    try {
+      const response = await fetch(geocodingUrl);
+      const data = await response.json();
+
+      if (data.features && data.features.length > 0) {
+        const coordinates = data.features[0].center;
+
+        map.flyTo({
+          center: coordinates,
+          zoom: 10, // Adjust this value to set the desired zoom level
+          essential: true, // This animation is considered essential with respect to prefers-reduced-motion
+        });
+      } else {
+        console.error("Location not found");
+      }
+    } catch (error) {
+      console.error("Error fetching location:", error);
+    }
+  }
+
   function sendMessage() {
     if (isStreaming) {
       alert("Please wait for the current response to finish.");
@@ -42,8 +67,24 @@ document.addEventListener("DOMContentLoaded", function () {
         return response.json();
       })
       .then((data) => {
-        const functions = data.functions;
+        let functions = data.functions;
         console.log("Functions:", functions);
+
+        // Parse the functions string if necessary
+        if (typeof functions === "string") {
+          functions = JSON.parse(functions);
+        }
+
+        // Check if a function needs to be called
+        if (functions && functions.function_name) {
+          const functionName = functions.function_name;
+          const args = functions.arguments;
+
+          // Call the corresponding function with the provided arguments
+          if (functionName === "go_to_place_in_map" && args.place) {
+            go_to_place_in_map(args.place);
+          }
+        }
 
         // Now, call the /api/ask endpoint with the functions result
         return fetch("http://127.0.0.1:8000/api/ask", {
