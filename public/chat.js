@@ -49,6 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
     isStreaming = true;
 
     // First, call the /api/check_function_call endpoint
+    //"http://127.0.0.1:8000/api/check_function_call"
+    //"/api/check_function_call"
     fetch("/api/check_function_call", {
       method: "POST",
       headers: {
@@ -87,6 +89,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Now, call the /api/ask endpoint with the functions result
+        //"http://127.0.0.1:8000/api/ask"
+        //"/api/ask"
         return fetch("/api/ask", {
           method: "POST",
           headers: {

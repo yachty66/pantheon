@@ -18,7 +18,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://pantheon.so", "https://www.pantheon.so"],
+    allow_origins=["https://pantheon.so", "https://www.pantheon.so", "*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -187,8 +187,14 @@ async def ask(req: dict):
                     yield content
 
         # Create a StreamingResponse for the content
-        streaming_response = StreamingResponse(generator(), media_type="text/plain")
-        streaming_response.headers["Transfer-Encoding"] = "chunked"
+        streaming_response = StreamingResponse(
+            generator(),
+            media_type="text/event-stream",
+            headers={
+                "X-Content-Type-Options": "nosniff",
+                "Transfer-Encoding": "chunked",
+            },
+        )
         print("Streaming response created successfully")
         return streaming_response
 
