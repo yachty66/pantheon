@@ -24,3 +24,27 @@
 <script src="chat.js"></script> <!-- Link to the new JavaScript file -->
 </body>
 </html>
+
+
+
+test_case:
+  - ref_video_path: assets/example_data/videos/lilyachtynew.mp4
+    ref_image_path: assets/example_data/images/runbo.jpg
+    num_frames: 16
+    resolution: 576
+    frames_overlap: 6
+    num_inference_steps: 25
+    noise_aug_strength: 0
+    guidance_scale: 2.0
+    sample_stride: 2
+    fps: 15
+    seed: 42
+
+
+    10 fps 
+
+    I think inference steps in big increments may result in quality changes, e.g. +/- 10 in either direction. I don’t think FPS will matter too much beyond just chopping frames, but one big test downward, e.g. 10 FPS, may be a good barometer. 
+
+    I’m more interested in these fields: frames_overlap, noise_aug_strength, guidance_scale, sample_stride, since they typically affect movement/consistency/sharpness in SVD and SD.
+    
+    I typically like to test each important setting in major steps, then after identifying the settings that move the needle, narrow in on those settings with more precise increments. I usually put the results side by side in Capcut with the settings like the video below which helps visualize things and helps me remember what settings do.

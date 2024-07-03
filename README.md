@@ -27,3 +27,8 @@ if we build this from scratch than i dont even need supabase
     - [ ] go to X
 
 returning functions to call from the chatinterface would be the best
+
+
+useful links for getting streaming working in prod:
+
+https://github.com/vercel/next.js/discussions/47076
