@@ -35,7 +35,7 @@ function displayEvents(events) {
     const { longitude, latitude } = event.geocoded_address;
 
     // Create a red marker for each event
-    new mapboxgl.Marker({ color: "#FF0000" }) // Set color to red
+    new mapboxgl.Marker({ color: "#FF0000" }) 
       .setLngLat([longitude, latitude])
       .setPopup(
         new mapboxgl.Popup({ offset: 25 }) // add popups
