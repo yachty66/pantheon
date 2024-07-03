@@ -18,7 +18,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://pantheon.so", "https://www.pantheon.so", "*"],
+    allow_origins=["https://pantheon.so", "https://www.pantheon.so"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
