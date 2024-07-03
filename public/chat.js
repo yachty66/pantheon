@@ -171,9 +171,6 @@ document.addEventListener("DOMContentLoaded", function () {
     text.textContent = content;
     messageElement.appendChild(text);
 
-    text.textContent = content;
-    messageElement.appendChild(text);
-
     chatMessages.appendChild(messageElement);
     chatMessages.scrollTop = chatMessages.scrollHeight;
   }
