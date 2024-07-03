@@ -126,14 +126,12 @@ document.addEventListener("DOMContentLoaded", function () {
             .read()
             .then(({ done, value }) => {
               if (done) {
-                console.log("Final result:", result);
                 chatHistory.push({ role: "assistant", content: result });
                 isStreaming = false;
                 return;
               }
 
               const chunk = decoder.decode(value, { stream: true });
-              console.log("Received chunk:", chunk);
               result += chunk;
               assistantText.textContent = result;
               chatMessages.scrollTop = chatMessages.scrollHeight;
