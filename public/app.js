@@ -13,6 +13,20 @@ function initializeMap() {
   map.on("load", function () {
     loadEvents();
   });
+
+  // Add click event listener to the map
+  map.on("click", function (e) {
+    const features = map.queryRenderedFeatures(e.point);
+    if (features.length) {
+      const feature = features[0];
+      new mapboxgl.Popup()
+        .setLngLat(e.lngLat)
+        .setHTML(
+          `<h3>${feature.properties.name}</h3><p>${feature.properties.description}</p>`
+        )
+        .addTo(map);
+    }
+  });
 }
 
 function loadEvents() {
@@ -35,7 +49,7 @@ function displayEvents(events) {
     const { longitude, latitude } = event.geocoded_address;
 
     // Create a red marker for each event
-    new mapboxgl.Marker({ color: "#FF0000" }) 
+    new mapboxgl.Marker({ color: "#FF0000" })
       .setLngLat([longitude, latitude])
       .setPopup(
         new mapboxgl.Popup({ offset: 25 }) // add popups

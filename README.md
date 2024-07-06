@@ -22,13 +22,10 @@ if we build this from scratch than i dont even need supabase
     - [ ] make all the spots which have a name in the map already like golden gate park 
     - [ ] make everything clickable
     - [ ] show current location
+- [ ] add location 
+- [ ] make landing page like clone.wtf with green black colors and add a pantheon logo at the top left
+- [ ] figure out how i can use my delaware to make it usable for pantheon so that i can give an angel 1% for my startup
 - [ ] add star on github button
-- [ ] add more agentic functions
-    - [ ] go to X
-
-returning functions to call from the chatinterface would be the best
-
-
-useful links for getting streaming working in prod:
-
-https://github.com/vercel/next.js/discussions/47076
+- [ ] selector for safety map in san francisco - which shows how safe an certain street is
+- [x] add more agentic functions
+    - [x] go to X
