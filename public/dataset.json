@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.43460275000001, 37.776252]
+      },
+      "properties": {
+        "name": "Alamo Square",
+        "description": "A beautiful park in San Francisco.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/US_Navy_090620-N-2798F-033_Sailors_assigned_to_the_aircraft_carrier_USS_Harry_S._Truman_%28CVN_75%29_and_Carrier_Air_Wing_%28CVW%29_3_compete_in_a_Texas_Hold_%27Em_Poker_tournament_aboard_Harry_S._Truman.jpg"
+      }
+    }
+  ]
+}

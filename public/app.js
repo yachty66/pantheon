@@ -11,23 +11,50 @@ function initializeMap() {
   });
 
   map.on("load", function () {
-    loadEvents();
-  });
+    // Add a layer for place labels
+    map.addLayer({
+      id: 'place-labels',
+      type: 'symbol',
+      source: {
+        type: 'vector',
+        url: 'mapbox://mapbox.mapbox-streets-v8'
+      },
+      'source-layer': 'place_label',
+      layout: {
+        'text-field': ['get', 'name'],
 
-  // Add click event listener to the map
-  map.on("click", function (e) {
-    const features = map.queryRenderedFeatures(e.point);
-    if (features.length) {
-      const feature = features[0];
-      new mapboxgl.Popup()
-        .setLngLat(e.lngLat)
-        .setHTML(
-          `<h3>${feature.properties.name}</h3><p>${feature.properties.description}</p>`
-        )
-        .addTo(map);
-    }
+      },
+    });
+
+    // Add click event listener to the place labels layer
+    map.on("click", "place-labels", function (e) {
+      const feature = e.features[0];
+      const placeName = feature.properties.name;
+
+      // Check for specific neighborhood names
+      if (placeName === "Hayes Valley" || placeName === "Another Neighborhood") {
+        new mapboxgl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML(
+            `<h3>${placeName}</h3>
+             <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/US_Navy_090620-N-2798F-033_Sailors_assigned_to_the_aircraft_carrier_USS_Harry_S._Truman_%28CVN_75%29_and_Carrier_Air_Wing_%28CVW%29_3_compete_in_a_Texas_Hold_%27Em_Poker_tournament_aboard_Harry_S._Truman.jpg" alt="${placeName}" style="width:100%;"/>`
+          )
+          .addTo(map);
+      }
+    });
+
+    // Change the cursor to a pointer when the mouse is over the place labels layer.
+    map.on('mouseenter', 'place-labels', function () {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+
+    // Change it back to the default cursor when it leaves.
+    map.on('mouseleave', 'place-labels', function () {
+      map.getCanvas().style.cursor = '';
+    });
   });
 }
+
 
 function loadEvents() {
   fetch("/api/events")
