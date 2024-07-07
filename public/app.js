@@ -1,4 +1,5 @@
 let map; // Declare map as a global variable
+let currentCursor = "default"; // Track the current cursor style
 
 function initializeMap() {
   mapboxgl.accessToken =
@@ -17,33 +18,62 @@ function initializeMap() {
     const layers = map.getStyle().layers;
     layers.forEach(layer => console.log("Layer ID:", layer.id));
 
-    // Define street layers to exclude
-    const streetLayers = ["road", "road-label", "bridge", "tunnel"];
+    // Define layers to include for click events
+    const clickableLayers = [
+      "settlement-subdivision-label", "poi-label", "settlement-label"
+    ];
 
-    // Add click event listener to all non-street layers
-    layers.forEach(layer => {
-      if (!streetLayers.includes(layer.id)) {
-        map.on("click", layer.id, function (e) {
-          const feature = e.features[0];
-          const layerId = layer.id;
-          console.log("Clicked on layer:", layerId);
+    // Add click event listener to specified layers
+    clickableLayers.forEach(layerId => {
+      map.on("click", layerId, function (e) {
+        const feature = e.features[0];
+        console.log("Clicked on layer:", layerId);
 
-          // Display a popup with the feature properties
-          new mapboxgl.Popup()
-            .setLngLat(e.lngLat)
-            .setHTML(`<h3>${layerId}</h3><p>${JSON.stringify(feature.properties)}</p>`)
-            .addTo(map);
-        });
+        // Display a popup with the feature properties
+        new mapboxgl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML(`<h3>${layerId}</h3><p>${JSON.stringify(feature.properties)}</p>`)
+          .addTo(map);
+      });
 
-        // Change the cursor to a pointer when the mouse is over the layer.
-        map.on("mouseenter", layer.id, function () {
+      // Change the cursor to a pointer when the mouse is over the layer.
+      map.on("mouseenter", layerId, function () {
+        if (currentCursor !== "pointer") {
           map.getCanvas().style.cursor = "pointer";
-        });
+          currentCursor = "pointer";
+        }
+      });
 
-        // Change it back to the default cursor when it leaves.
-        map.on("mouseleave", layer.id, function () {
-          map.getCanvas().style.cursor = "";
-        });
+      // Change it back to the default cursor when it leaves.
+      map.on("mouseleave", layerId, function () {
+        if (currentCursor !== "default") {
+          map.getCanvas().style.cursor = "default";
+          currentCursor = "default";
+        }
+      });
+    });
+
+    // Revert cursor to default when not hovering over any clickable layers
+    map.on("mousemove", function (e) {
+      const features = map.queryRenderedFeatures(e.point);
+      if (features.length) {
+        const feature = features[0];
+        if (clickableLayers.includes(feature.layer.id)) {
+          if (currentCursor !== "pointer") {
+            map.getCanvas().style.cursor = "pointer";
+            currentCursor = "pointer";
+          }
+        } else {
+          if (currentCursor !== "default") {
+            map.getCanvas().style.cursor = "default";
+            currentCursor = "default";
+          }
+        }
+      } else {
+        if (currentCursor !== "default") {
+          map.getCanvas().style.cursor = "default";
+          currentCursor = "default";
+        }
       }
     });
   });
