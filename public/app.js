@@ -11,50 +11,43 @@ function initializeMap() {
   });
 
   map.on("load", function () {
-    // Add a layer for place labels
-    map.addLayer({
-      id: 'place-labels',
-      type: 'symbol',
-      source: {
-        type: 'vector',
-        url: 'mapbox://mapbox.mapbox-streets-v8'
-      },
-      'source-layer': 'place_label',
-      layout: {
-        'text-field': ['get', 'name'],
+    console.log("Map loaded");
 
-      },
-    });
+    // Log all layer names to verify the correct layer name
+    const layers = map.getStyle().layers;
+    layers.forEach(layer => console.log("Layer ID:", layer.id));
 
-    // Add click event listener to the place labels layer
-    map.on("click", "place-labels", function (e) {
-      const feature = e.features[0];
-      const placeName = feature.properties.name;
+    // Define street layers to exclude
+    const streetLayers = ["road", "road-label", "bridge", "tunnel"];
 
-      // Check for specific neighborhood names
-      if (placeName === "Hayes Valley" || placeName === "Another Neighborhood") {
-        new mapboxgl.Popup()
-          .setLngLat(e.lngLat)
-          .setHTML(
-            `<h3>${placeName}</h3>
-             <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/US_Navy_090620-N-2798F-033_Sailors_assigned_to_the_aircraft_carrier_USS_Harry_S._Truman_%28CVN_75%29_and_Carrier_Air_Wing_%28CVW%29_3_compete_in_a_Texas_Hold_%27Em_Poker_tournament_aboard_Harry_S._Truman.jpg" alt="${placeName}" style="width:100%;"/>`
-          )
-          .addTo(map);
+    // Add click event listener to all non-street layers
+    layers.forEach(layer => {
+      if (!streetLayers.includes(layer.id)) {
+        map.on("click", layer.id, function (e) {
+          const feature = e.features[0];
+          const layerId = layer.id;
+          console.log("Clicked on layer:", layerId);
+
+          // Display a popup with the feature properties
+          new mapboxgl.Popup()
+            .setLngLat(e.lngLat)
+            .setHTML(`<h3>${layerId}</h3><p>${JSON.stringify(feature.properties)}</p>`)
+            .addTo(map);
+        });
+
+        // Change the cursor to a pointer when the mouse is over the layer.
+        map.on("mouseenter", layer.id, function () {
+          map.getCanvas().style.cursor = "pointer";
+        });
+
+        // Change it back to the default cursor when it leaves.
+        map.on("mouseleave", layer.id, function () {
+          map.getCanvas().style.cursor = "";
+        });
       }
-    });
-
-    // Change the cursor to a pointer when the mouse is over the place labels layer.
-    map.on('mouseenter', 'place-labels', function () {
-      map.getCanvas().style.cursor = 'pointer';
-    });
-
-    // Change it back to the default cursor when it leaves.
-    map.on('mouseleave', 'place-labels', function () {
-      map.getCanvas().style.cursor = '';
     });
   });
 }
-
 
 function loadEvents() {
   fetch("/api/events")
